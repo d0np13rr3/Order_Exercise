@@ -3,6 +3,7 @@ package com.example.order_exercise.dto;
 import com.example.order_exercise.security.Role;
 
 public class CreateCustomerDTO {
+    //Variables
     private final String firstname;
     private final String lastname;
     private final String mail;
@@ -12,7 +13,7 @@ public class CreateCustomerDTO {
     private final String city;
     private final String postcode;
     private final Role role;
-
+    //Constructor
     public CreateCustomerDTO(String firstname, String lastname, String mail, String phone, String number, String street, String city, String postcode, Role role) {
         this.firstname = firstname;
         this.lastname = lastname;
@@ -24,7 +25,7 @@ public class CreateCustomerDTO {
         this.postcode = postcode;
         this.role = role;
     }
-
+    //Methods
     public String getLastname() {
         return lastname;
     }

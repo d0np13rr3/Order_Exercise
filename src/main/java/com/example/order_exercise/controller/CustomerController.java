@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("customers")
+@RequestMapping("/customers")
 public class CustomerController {
     private final CustomerService service;
 
@@ -17,7 +17,7 @@ public class CustomerController {
         this.service = service;
     }
 
-    @GetMapping
+    @GetMapping("/findall")
     public List<CustomerDTO> findAll(){
         return service.findAll();
     }
@@ -27,7 +27,7 @@ public class CustomerController {
         return service.findById(id);
     }
 
-    @PostMapping
+    @PostMapping("/create")
     @ResponseStatus(HttpStatus.CREATED)
     public CustomerDTO create(@RequestBody CreateCustomerDTO newCustomer){
         return service.create(newCustomer);

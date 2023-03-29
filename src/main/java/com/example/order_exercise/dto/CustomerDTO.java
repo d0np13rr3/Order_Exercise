@@ -5,7 +5,7 @@ import com.example.order_exercise.security.Role;
 import java.util.Objects;
 
 public class CustomerDTO {
-
+    //Variables
     private final String firstname;
     private final String lastname;
     private final String mail;
@@ -15,7 +15,7 @@ public class CustomerDTO {
     private final String city;
     private final String postcode;
     private final Role role;
-
+    //Constructor
     public CustomerDTO(String firstname, String lastname, String mail, String phone, String number, String street, String city, String postcode, Role role) {
 
         this.firstname = firstname;
@@ -28,7 +28,7 @@ public class CustomerDTO {
         this.postcode = postcode;
         this.role = role;
     }
-
+    //Methods
     public String getFirstname() {
         return firstname;
     }

@@ -5,6 +5,7 @@ import com.example.order_exercise.dto.CreateCustomerDTO;
 import com.example.order_exercise.dto.CustomerDTO;
 import com.example.order_exercise.mapper.CustomerMapper;
 import com.example.order_exercise.repository.CustomerRepository;
+import com.example.order_exercise.security.Role;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -22,6 +23,7 @@ public class CustomerService {
     public List<CustomerDTO> findAll() {
        return repository.findAll()
                .stream()
+               .filter(x -> x.getRole().equals(Role.CUSTOMER))
                .map(mapper::toDTO)
                .toList();
     }

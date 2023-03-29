@@ -1,7 +1,6 @@
 package com.example.order_exercise.repository;
 
 import com.example.order_exercise.domain.Amount;
-import com.example.order_exercise.domain.Item;
 import com.example.order_exercise.domain.Order;
 import com.example.order_exercise.dto.ItemDTO;
 import org.slf4j.Logger;
@@ -19,7 +18,7 @@ public class OrderRepository {
     public OrderRepository(){
         Amount amount00 = new Amount(5);
         amount00.setInStock(true);
-        ItemDTO dummyItem02 = new ItemDTO("The Dwarves: Triumph", "Novel", 10.0, amount00);
+        ItemDTO dummyItem02 = new ItemDTO("The Dwarves: Triumph", "Novel", 10.0, amount00, 4);
         Order order00 = new Order(dummyItem02, 2);
         repository.put(dummyItem02.getName(), order00);
     }

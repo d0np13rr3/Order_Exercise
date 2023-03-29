@@ -9,11 +9,11 @@ public class ItemDTO {
     private final String description;
     private final Double price;
     private final Amount amount;
+    private final Integer id;
 
     public String getName() {
         return name;
     }
-
     public String getDescription() {
         return description;
     }
@@ -26,11 +26,12 @@ public class ItemDTO {
         return amount;
     }
 
-    public ItemDTO(String name, String description, Double price, Amount amount) {
+    public ItemDTO(String name, String description, Double price, Amount amount, Integer id) {
         this.name = name;
         this.description = description;
         this.price = price;
         this.amount = amount;
+        this.id = id;
     }
 
     @Override
@@ -44,5 +45,9 @@ public class ItemDTO {
     @Override
     public int hashCode() {
         return Objects.hash(name);
+    }
+
+    public Integer getId() {
+        return id;
     }
 }

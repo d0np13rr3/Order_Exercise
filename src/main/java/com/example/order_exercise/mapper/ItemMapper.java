@@ -9,10 +9,10 @@ import org.springframework.stereotype.Component;
 public class ItemMapper {
 
     public ItemDTO toDTO(Item item){
-        return new ItemDTO(item.getName(), item.getDescription(), item.getPrice(), item.getAmount());
+        return new ItemDTO(item.getName(), item.getDescription(), item.getPrice(), item.getAmount(), item.getId());
     }
 
     public Item toDomain(CreateItemDTO itemDTO){
-        return new Item(itemDTO.getName(), itemDTO.getDescription(), itemDTO.getPrice(), itemDTO.getAmount());
+        return new Item(itemDTO.getName(), itemDTO.getDescription(), itemDTO.getPrice(), itemDTO.getAmount(), (Integer) itemDTO.getId());
     }
 }

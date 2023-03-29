@@ -12,6 +12,8 @@ import java.lang.reflect.Array;
 import java.util.Arrays;
 import java.util.List;
 
+import static com.example.order_exercise.security.Feature.*;
+
 @RestController
 @RequestMapping("/orders")
 public class OrderController {
@@ -25,13 +27,13 @@ public class OrderController {
         this.itemService = itemService;
         this.orderService = orderService;
         this.totalOrderService = totalOrderService;
-        this.
+        this.loginService = loginService;
     }
 
     @GetMapping ("/{id}/order/{amountOrdered}")
     //make method in order to add found id in order
     public Order findbyId(@PathVariable int id, @PathVariable int amountOrdered){
-
+        loginService.validateAction(loginService.getRole(), ORDER_BYID);
         return orderService.create(itemService.findById(id), amountOrdered);
     }
     @GetMapping("/findall")

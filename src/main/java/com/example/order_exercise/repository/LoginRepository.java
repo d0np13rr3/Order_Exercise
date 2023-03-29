@@ -6,10 +6,13 @@ import org.springframework.stereotype.Repository;
 @Repository
 public class LoginRepository {
 
-    private Enum roleUser = Role.CUSTOMER;
+    private Role roleUser = Role.DEFAULT;
 
-    public void setEnum(Enum role){
+    public void setEnum(Role role){
         roleUser = role;
     }
 
+    public Role getRole() {
+        return roleUser;
+    }
 }

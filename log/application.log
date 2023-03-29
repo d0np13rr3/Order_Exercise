@@ -1,0 +1,1020 @@
+2023-03-29T08:53:07.723+02:00  INFO 13616 --- [main] c.e.o.OrderExerciseApplication           : Starting OrderExerciseApplication using Java 19.0.2 with PID 13616 (C:\Users\ppauwelb\IdeaProjects\Order_Exercise\target\classes started by ppauwelb in C:\Users\ppauwelb\IdeaProjects\Order_Exercise)
+2023-03-29T08:53:07.730+02:00  INFO 13616 --- [main] c.e.o.OrderExerciseApplication           : No active profile set, falling back to 1 default profile: "default"
+2023-03-29T08:53:09.017+02:00  INFO 13616 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-03-29T08:53:09.029+02:00  INFO 13616 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-29T08:53:09.030+02:00  INFO 13616 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-03-29T08:53:09.116+02:00  INFO 13616 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-29T08:53:09.117+02:00  INFO 13616 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1241 ms
+2023-03-29T08:53:09.170+02:00  WARN 13616 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 item - only for debugging purposesWarhammer: Crimson Fists
+2023-03-29T08:53:09.170+02:00  WARN 13616 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 item - only for debugging purposesBatman: The Long Halloween
+2023-03-29T08:53:09.180+02:00  WARN 13616 --- [main] c.e.o.repository.CustomerRepository      : Admin mail - only for debugging purposespieter.pauwels13@gmail.com
+2023-03-29T08:53:09.181+02:00  WARN 13616 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 mail - only for debugging purposesdummy00@mail.com
+2023-03-29T08:53:09.181+02:00  WARN 13616 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 mail - only for debugging purposesdummy01@mail.com
+2023-03-29T08:53:09.934+02:00  INFO 13616 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-29T08:53:09.942+02:00  INFO 13616 --- [main] c.e.o.OrderExerciseApplication           : Started OrderExerciseApplication in 2.797 seconds (process running for 3.685)
+2023-03-29T08:53:48.276+02:00  INFO 13616 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-29T08:53:48.277+02:00  INFO 13616 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-29T08:53:48.286+02:00  INFO 13616 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2023-03-29T08:53:48.622+02:00  WARN 13616 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.ItemController
+2023-03-29T08:53:48.897+02:00  WARN 13616 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.OrderController
+2023-03-29T08:53:48.927+02:00  INFO 13616 --- [http-nio-8080-exec-4] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 380 ms
+2023-03-29T08:54:42.330+02:00  INFO 10296 --- [main] c.e.o.OrderExerciseApplication           : Starting OrderExerciseApplication using Java 19.0.2 with PID 10296 (C:\Users\ppauwelb\IdeaProjects\Order_Exercise\target\classes started by ppauwelb in C:\Users\ppauwelb\IdeaProjects\Order_Exercise)
+2023-03-29T08:54:42.332+02:00  INFO 10296 --- [main] c.e.o.OrderExerciseApplication           : No active profile set, falling back to 1 default profile: "default"
+2023-03-29T08:54:43.269+02:00  INFO 10296 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-03-29T08:54:43.276+02:00  INFO 10296 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-29T08:54:43.276+02:00  INFO 10296 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-03-29T08:54:43.351+02:00  INFO 10296 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-29T08:54:43.351+02:00  INFO 10296 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 976 ms
+2023-03-29T08:54:43.414+02:00  WARN 10296 --- [main] c.e.o.repository.CustomerRepository      : Admin mail - only for debugging purposes pieter.pauwels13@gmail.com
+2023-03-29T08:54:43.414+02:00  WARN 10296 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 mail - only for debugging purposes dummy00@mail.com
+2023-03-29T08:54:43.414+02:00  WARN 10296 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 mail - only for debugging purposes dummy01@mail.com
+2023-03-29T08:54:43.425+02:00  WARN 10296 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 item - only for debugging purposesWarhammer: Crimson Fists
+2023-03-29T08:54:43.425+02:00  WARN 10296 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 item - only for debugging purposesBatman: The Long Halloween
+2023-03-29T08:54:44.131+02:00  INFO 10296 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-29T08:54:44.138+02:00  INFO 10296 --- [main] c.e.o.OrderExerciseApplication           : Started OrderExerciseApplication in 2.221 seconds (process running for 2.769)
+2023-03-29T08:55:09.582+02:00  INFO 10296 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-29T08:55:09.583+02:00  INFO 10296 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-29T08:55:09.586+02:00  INFO 10296 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-03-29T08:55:09.888+02:00  WARN 10296 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.ItemController
+2023-03-29T08:55:10.191+02:00  WARN 10296 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.CustomerController
+2023-03-29T08:55:10.220+02:00  WARN 10296 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.OrderController
+2023-03-29T08:55:10.265+02:00  INFO 10296 --- [http-nio-8080-exec-4] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 478 ms
+2023-03-29T08:55:23.996+02:00  WARN 10296 --- [http-nio-8080-exec-7] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotAcceptableException: No acceptable representation]
+2023-03-29T08:56:58.383+02:00  INFO 12880 --- [main] c.e.o.OrderExerciseApplication           : Starting OrderExerciseApplication using Java 19.0.2 with PID 12880 (C:\Users\ppauwelb\IdeaProjects\Order_Exercise\target\classes started by ppauwelb in C:\Users\ppauwelb\IdeaProjects\Order_Exercise)
+2023-03-29T08:56:58.385+02:00  INFO 12880 --- [main] c.e.o.OrderExerciseApplication           : No active profile set, falling back to 1 default profile: "default"
+2023-03-29T08:56:59.517+02:00  INFO 12880 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-03-29T08:56:59.526+02:00  INFO 12880 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-29T08:56:59.527+02:00  INFO 12880 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-03-29T08:56:59.604+02:00  INFO 12880 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-29T08:56:59.604+02:00  INFO 12880 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1178 ms
+2023-03-29T08:56:59.657+02:00  WARN 12880 --- [main] c.e.o.repository.CustomerRepository      : Admin mail - only for debugging purposes pieter.pauwels13@gmail.com
+2023-03-29T08:56:59.657+02:00  WARN 12880 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 mail - only for debugging purposes dummy00@mail.com
+2023-03-29T08:56:59.657+02:00  WARN 12880 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 mail - only for debugging purposes dummy01@mail.com
+2023-03-29T08:56:59.665+02:00  WARN 12880 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-29T08:56:59.665+02:00  WARN 12880 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 item - only for debugging purposes Batman: The Long Halloween
+2023-03-29T08:57:00.331+02:00  INFO 12880 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-29T08:57:00.340+02:00  INFO 12880 --- [main] c.e.o.OrderExerciseApplication           : Started OrderExerciseApplication in 2.355 seconds (process running for 3.297)
+2023-03-29T08:57:08.234+02:00  INFO 12880 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-29T08:57:08.234+02:00  INFO 12880 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-29T08:57:08.236+02:00  INFO 12880 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-03-29T08:57:08.571+02:00  WARN 12880 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.ItemController
+2023-03-29T08:57:08.879+02:00  WARN 12880 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.CustomerController
+2023-03-29T08:57:08.899+02:00  WARN 12880 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.OrderController
+2023-03-29T08:57:08.940+02:00  INFO 12880 --- [http-nio-8080-exec-4] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 491 ms
+2023-03-29T08:58:32.620+02:00  INFO 10504 --- [main] c.e.o.OrderExerciseApplication           : Starting OrderExerciseApplication using Java 19.0.2 with PID 10504 (C:\Users\ppauwelb\IdeaProjects\Order_Exercise\target\classes started by ppauwelb in C:\Users\ppauwelb\IdeaProjects\Order_Exercise)
+2023-03-29T08:58:32.623+02:00  INFO 10504 --- [main] c.e.o.OrderExerciseApplication           : No active profile set, falling back to 1 default profile: "default"
+2023-03-29T08:58:33.528+02:00  INFO 10504 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-03-29T08:58:33.536+02:00  INFO 10504 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-29T08:58:33.537+02:00  INFO 10504 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-03-29T08:58:33.614+02:00  INFO 10504 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-29T08:58:33.614+02:00  INFO 10504 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 942 ms
+2023-03-29T08:58:33.663+02:00  WARN 10504 --- [main] c.e.o.repository.CustomerRepository      : Admin mail - only for debugging purposes pieter.pauwels13@gmail.com
+2023-03-29T08:58:33.664+02:00  WARN 10504 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 mail - only for debugging purposes dummy00@mail.com
+2023-03-29T08:58:33.664+02:00  WARN 10504 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 mail - only for debugging purposes dummy01@mail.com
+2023-03-29T08:58:33.671+02:00  WARN 10504 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-29T08:58:33.671+02:00  WARN 10504 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 item - only for debugging purposes Batman: The Long Halloween
+2023-03-29T08:58:34.335+02:00  INFO 10504 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-29T08:58:34.343+02:00  INFO 10504 --- [main] c.e.o.OrderExerciseApplication           : Started OrderExerciseApplication in 2.143 seconds (process running for 2.718)
+2023-03-29T08:58:43.982+02:00  INFO 10504 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-29T08:58:43.984+02:00  INFO 10504 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-29T08:58:43.986+02:00  INFO 10504 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-03-29T08:58:44.332+02:00  WARN 10504 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.ItemController
+2023-03-29T08:58:44.630+02:00  WARN 10504 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.CustomerController
+2023-03-29T08:58:44.656+02:00  WARN 10504 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.OrderController
+2023-03-29T08:58:44.728+02:00  INFO 10504 --- [http-nio-8080-exec-4] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 490 ms
+2023-03-29T09:54:59.094+02:00  INFO 2416 --- [main] c.e.o.OrderExerciseApplication           : Starting OrderExerciseApplication using Java 19.0.2 with PID 2416 (C:\Users\ppauwelb\IdeaProjects\Order_Exercise\target\classes started by ppauwelb in C:\Users\ppauwelb\IdeaProjects\Order_Exercise)
+2023-03-29T09:54:59.097+02:00  INFO 2416 --- [main] c.e.o.OrderExerciseApplication           : No active profile set, falling back to 1 default profile: "default"
+2023-03-29T09:55:00.218+02:00  INFO 2416 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-03-29T09:55:00.229+02:00  INFO 2416 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-29T09:55:00.229+02:00  INFO 2416 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-03-29T09:55:00.308+02:00  INFO 2416 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-29T09:55:00.308+02:00  INFO 2416 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1167 ms
+2023-03-29T09:55:00.351+02:00  WARN 2416 --- [main] c.e.o.repository.CustomerRepository      : Admin mail - only for debugging purposes pieter.pauwels13@gmail.com
+2023-03-29T09:55:00.351+02:00  WARN 2416 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 mail - only for debugging purposes dummy00@mail.com
+2023-03-29T09:55:00.351+02:00  WARN 2416 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 mail - only for debugging purposes dummy01@mail.com
+2023-03-29T09:55:00.359+02:00  WARN 2416 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-29T09:55:00.360+02:00  WARN 2416 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 item - only for debugging purposes Batman: The Long Halloween
+2023-03-29T09:55:00.988+02:00  INFO 2416 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-29T09:55:00.996+02:00  INFO 2416 --- [main] c.e.o.OrderExerciseApplication           : Started OrderExerciseApplication in 2.286 seconds (process running for 3.037)
+2023-03-29T09:55:23.088+02:00  INFO 2416 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-29T09:55:23.088+02:00  INFO 2416 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-29T09:55:23.089+02:00  INFO 2416 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-03-29T09:55:23.464+02:00  WARN 2416 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.ItemController
+2023-03-29T09:55:23.682+02:00  WARN 2416 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.CustomerController
+2023-03-29T09:55:23.704+02:00  WARN 2416 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.OrderController
+2023-03-29T09:55:23.783+02:00  INFO 2416 --- [http-nio-8080-exec-4] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 397 ms
+2023-03-29T09:55:39.220+02:00 ERROR 2416 --- [http-nio-8080-exec-5] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.ClassCastException: class java.util.ImmutableCollections$ListN cannot be cast to class com.example.order_exercise.domain.Order (java.util.ImmutableCollections$ListN is in module java.base of loader 'bootstrap'; com.example.order_exercise.domain.Order is in unnamed module of loader 'app')] with root cause
+
+java.lang.ClassCastException: class java.util.ImmutableCollections$ListN cannot be cast to class com.example.order_exercise.domain.Order (java.util.ImmutableCollections$ListN is in module java.base of loader 'bootstrap'; com.example.order_exercise.domain.Order is in unnamed module of loader 'app')
+	at com.example.order_exercise.controller.OrderController.orderOverview(OrderController.java:39) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:537) ~[tomcat-embed-core-10.1.7.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:631) ~[tomcat-embed-core-10.1.7.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at java.base/java.lang.Thread.run(Thread.java:1589) ~[na:na]
+
+2023-03-29T10:10:32.224+02:00  INFO 4252 --- [main] c.e.o.OrderExerciseApplication           : Starting OrderExerciseApplication using Java 19.0.2 with PID 4252 (C:\Users\ppauwelb\IdeaProjects\Order_Exercise\target\classes started by ppauwelb in C:\Users\ppauwelb\IdeaProjects\Order_Exercise)
+2023-03-29T10:10:32.226+02:00  INFO 4252 --- [main] c.e.o.OrderExerciseApplication           : No active profile set, falling back to 1 default profile: "default"
+2023-03-29T10:10:33.191+02:00  INFO 4252 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-03-29T10:10:33.200+02:00  INFO 4252 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-29T10:10:33.200+02:00  INFO 4252 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-03-29T10:10:33.271+02:00  INFO 4252 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-29T10:10:33.271+02:00  INFO 4252 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 998 ms
+2023-03-29T10:10:33.316+02:00  WARN 4252 --- [main] c.e.o.repository.CustomerRepository      : Admin mail - only for debugging purposes pieter.pauwels13@gmail.com
+2023-03-29T10:10:33.317+02:00  WARN 4252 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 mail - only for debugging purposes dummy00@mail.com
+2023-03-29T10:10:33.317+02:00  WARN 4252 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 mail - only for debugging purposes dummy01@mail.com
+2023-03-29T10:10:33.325+02:00  WARN 4252 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-29T10:10:33.326+02:00  WARN 4252 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 item - only for debugging purposes Batman: The Long Halloween
+2023-03-29T10:10:33.979+02:00  INFO 4252 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-29T10:10:33.987+02:00  INFO 4252 --- [main] c.e.o.OrderExerciseApplication           : Started OrderExerciseApplication in 2.124 seconds (process running for 2.769)
+2023-03-29T10:10:39.254+02:00  INFO 4252 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-29T10:10:39.255+02:00  INFO 4252 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-29T10:10:39.256+02:00  INFO 4252 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-03-29T10:10:39.561+02:00  WARN 4252 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.ItemController
+2023-03-29T10:10:39.675+02:00  WARN 4252 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.CustomerController
+2023-03-29T10:10:39.685+02:00  WARN 4252 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.OrderController
+2023-03-29T10:10:39.723+02:00  INFO 4252 --- [http-nio-8080-exec-4] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 212 ms
+2023-03-29T10:10:45.872+02:00 ERROR 4252 --- [http-nio-8080-exec-5] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.ClassCastException: class [Ljava.lang.Object; cannot be cast to class [Lcom.example.order_exercise.domain.Order; ([Ljava.lang.Object; is in module java.base of loader 'bootstrap'; [Lcom.example.order_exercise.domain.Order; is in unnamed module of loader 'app')] with root cause
+
+java.lang.ClassCastException: class [Ljava.lang.Object; cannot be cast to class [Lcom.example.order_exercise.domain.Order; ([Ljava.lang.Object; is in module java.base of loader 'bootstrap'; [Lcom.example.order_exercise.domain.Order; is in unnamed module of loader 'app')
+	at com.example.order_exercise.controller.OrderController.orderOverview(OrderController.java:40) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:537) ~[tomcat-embed-core-10.1.7.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:631) ~[tomcat-embed-core-10.1.7.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at java.base/java.lang.Thread.run(Thread.java:1589) ~[na:na]
+
+2023-03-29T10:13:05.473+02:00  INFO 16528 --- [main] c.e.o.OrderExerciseApplication           : Starting OrderExerciseApplication using Java 19.0.2 with PID 16528 (C:\Users\ppauwelb\IdeaProjects\Order_Exercise\target\classes started by ppauwelb in C:\Users\ppauwelb\IdeaProjects\Order_Exercise)
+2023-03-29T10:13:05.475+02:00  INFO 16528 --- [main] c.e.o.OrderExerciseApplication           : No active profile set, falling back to 1 default profile: "default"
+2023-03-29T10:13:06.327+02:00  INFO 16528 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-03-29T10:13:06.334+02:00  INFO 16528 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-29T10:13:06.334+02:00  INFO 16528 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-03-29T10:13:06.401+02:00  INFO 16528 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-29T10:13:06.401+02:00  INFO 16528 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 884 ms
+2023-03-29T10:13:06.444+02:00  WARN 16528 --- [main] c.e.o.repository.CustomerRepository      : Admin mail - only for debugging purposes pieter.pauwels13@gmail.com
+2023-03-29T10:13:06.444+02:00  WARN 16528 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 mail - only for debugging purposes dummy00@mail.com
+2023-03-29T10:13:06.444+02:00  WARN 16528 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 mail - only for debugging purposes dummy01@mail.com
+2023-03-29T10:13:06.450+02:00  WARN 16528 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-29T10:13:06.450+02:00  WARN 16528 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 item - only for debugging purposes Batman: The Long Halloween
+2023-03-29T10:13:07.063+02:00  INFO 16528 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-29T10:13:07.070+02:00  INFO 16528 --- [main] c.e.o.OrderExerciseApplication           : Started OrderExerciseApplication in 1.985 seconds (process running for 2.533)
+2023-03-29T10:13:10.978+02:00  INFO 16528 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-29T10:13:10.979+02:00  INFO 16528 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-29T10:13:10.979+02:00  INFO 16528 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-03-29T10:13:11.178+02:00  WARN 16528 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.ItemController
+2023-03-29T10:13:11.303+02:00  WARN 16528 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.CustomerController
+2023-03-29T10:13:11.319+02:00  WARN 16528 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.OrderController
+2023-03-29T10:13:11.366+02:00  INFO 16528 --- [http-nio-8080-exec-4] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 240 ms
+2023-03-29T10:22:09.295+02:00  INFO 14508 --- [main] c.e.o.OrderExerciseApplication           : Starting OrderExerciseApplication using Java 19.0.2 with PID 14508 (C:\Users\ppauwelb\IdeaProjects\Order_Exercise\target\classes started by ppauwelb in C:\Users\ppauwelb\IdeaProjects\Order_Exercise)
+2023-03-29T10:22:09.297+02:00  INFO 14508 --- [main] c.e.o.OrderExerciseApplication           : No active profile set, falling back to 1 default profile: "default"
+2023-03-29T10:22:10.118+02:00  INFO 14508 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-03-29T10:22:10.126+02:00  INFO 14508 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-29T10:22:10.126+02:00  INFO 14508 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-03-29T10:22:10.193+02:00  INFO 14508 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-29T10:22:10.194+02:00  INFO 14508 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 856 ms
+2023-03-29T10:22:10.235+02:00  WARN 14508 --- [main] c.e.o.repository.CustomerRepository      : Admin mail - only for debugging purposes pieter.pauwels13@gmail.com
+2023-03-29T10:22:10.235+02:00  WARN 14508 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 mail - only for debugging purposes dummy00@mail.com
+2023-03-29T10:22:10.235+02:00  WARN 14508 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 mail - only for debugging purposes dummy01@mail.com
+2023-03-29T10:22:10.242+02:00  WARN 14508 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-29T10:22:10.242+02:00  WARN 14508 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 item - only for debugging purposes Batman: The Long Halloween
+2023-03-29T10:22:10.898+02:00  INFO 14508 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-29T10:22:10.904+02:00  INFO 14508 --- [main] c.e.o.OrderExerciseApplication           : Started OrderExerciseApplication in 2.01 seconds (process running for 2.501)
+2023-03-29T10:22:17.498+02:00  INFO 14508 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-29T10:22:17.499+02:00  INFO 14508 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-29T10:22:17.500+02:00  INFO 14508 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-03-29T10:22:17.529+02:00 ERROR 14508 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "java.lang.Double.doubleValue()" because "this.totalPrice" is null] with root cause
+
+java.lang.NullPointerException: Cannot invoke "java.lang.Double.doubleValue()" because "this.totalPrice" is null
+	at com.example.order_exercise.domain.TotalOrder.calculateTotalPrice(TotalOrder.java:18) ~[classes/:na]
+	at com.example.order_exercise.domain.TotalOrder.<init>(TotalOrder.java:11) ~[classes/:na]
+	at com.example.order_exercise.service.TotalOrderService.create(TotalOrderService.java:11) ~[classes/:na]
+	at com.example.order_exercise.controller.OrderController.orderOverview(OrderController.java:48) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:537) ~[tomcat-embed-core-10.1.7.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:631) ~[tomcat-embed-core-10.1.7.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at java.base/java.lang.Thread.run(Thread.java:1589) ~[na:na]
+
+2023-03-29T10:23:46.541+02:00  INFO 4112 --- [main] c.e.o.OrderExerciseApplication           : Starting OrderExerciseApplication using Java 19.0.2 with PID 4112 (C:\Users\ppauwelb\IdeaProjects\Order_Exercise\target\classes started by ppauwelb in C:\Users\ppauwelb\IdeaProjects\Order_Exercise)
+2023-03-29T10:23:46.543+02:00  INFO 4112 --- [main] c.e.o.OrderExerciseApplication           : No active profile set, falling back to 1 default profile: "default"
+2023-03-29T10:23:47.383+02:00  INFO 4112 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-03-29T10:23:47.390+02:00  INFO 4112 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-29T10:23:47.391+02:00  INFO 4112 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-03-29T10:23:47.458+02:00  INFO 4112 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-29T10:23:47.459+02:00  INFO 4112 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 880 ms
+2023-03-29T10:23:47.499+02:00  WARN 4112 --- [main] c.e.o.repository.CustomerRepository      : Admin mail - only for debugging purposes pieter.pauwels13@gmail.com
+2023-03-29T10:23:47.499+02:00  WARN 4112 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 mail - only for debugging purposes dummy00@mail.com
+2023-03-29T10:23:47.499+02:00  WARN 4112 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 mail - only for debugging purposes dummy01@mail.com
+2023-03-29T10:23:47.506+02:00  WARN 4112 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-29T10:23:47.506+02:00  WARN 4112 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 item - only for debugging purposes Batman: The Long Halloween
+2023-03-29T10:23:48.108+02:00  INFO 4112 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-29T10:23:48.115+02:00  INFO 4112 --- [main] c.e.o.OrderExerciseApplication           : Started OrderExerciseApplication in 1.935 seconds (process running for 2.442)
+2023-03-29T10:23:54.268+02:00  INFO 4112 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-29T10:23:54.268+02:00  INFO 4112 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-29T10:23:54.269+02:00  INFO 4112 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-03-29T10:23:54.449+02:00  WARN 4112 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.ItemController
+2023-03-29T10:23:54.586+02:00  WARN 4112 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.CustomerController
+2023-03-29T10:23:54.598+02:00  WARN 4112 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.OrderController
+2023-03-29T10:23:54.636+02:00  INFO 4112 --- [http-nio-8080-exec-4] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 244 ms
+2023-03-29T11:29:33.580+02:00  INFO 14176 --- [main] c.e.o.OrderExerciseApplication           : Starting OrderExerciseApplication using Java 19.0.2 with PID 14176 (C:\Users\ppauwelb\IdeaProjects\Order_Exercise\target\classes started by ppauwelb in C:\Users\ppauwelb\IdeaProjects\Order_Exercise)
+2023-03-29T11:29:33.583+02:00  INFO 14176 --- [main] c.e.o.OrderExerciseApplication           : No active profile set, falling back to 1 default profile: "default"
+2023-03-29T11:29:34.590+02:00  INFO 14176 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-03-29T11:29:34.599+02:00  INFO 14176 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-29T11:29:34.600+02:00  INFO 14176 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-03-29T11:29:34.671+02:00  INFO 14176 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-29T11:29:34.672+02:00  INFO 14176 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1050 ms
+2023-03-29T11:29:34.711+02:00  WARN 14176 --- [main] c.e.o.repository.CustomerRepository      : Admin mail - only for debugging purposes pieter.pauwels13@gmail.com
+2023-03-29T11:29:34.711+02:00  WARN 14176 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 mail - only for debugging purposes dummy00@mail.com
+2023-03-29T11:29:34.712+02:00  WARN 14176 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 mail - only for debugging purposes dummy01@mail.com
+2023-03-29T11:29:34.721+02:00  WARN 14176 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-29T11:29:34.721+02:00  WARN 14176 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 item - only for debugging purposes Batman: The Long Halloween
+2023-03-29T11:29:35.355+02:00  INFO 14176 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-29T11:29:35.363+02:00  INFO 14176 --- [main] c.e.o.OrderExerciseApplication           : Started OrderExerciseApplication in 2.14 seconds (process running for 2.825)
+2023-03-29T11:29:45.215+02:00  INFO 14176 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-29T11:29:45.216+02:00  INFO 14176 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-29T11:29:45.217+02:00  INFO 14176 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-03-29T11:29:45.526+02:00  WARN 14176 --- [http-nio-8080-exec-9] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.ItemController
+2023-03-29T11:29:45.638+02:00  WARN 14176 --- [http-nio-8080-exec-9] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.CustomerController
+2023-03-29T11:29:45.650+02:00  WARN 14176 --- [http-nio-8080-exec-9] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.OrderController
+2023-03-29T11:29:45.686+02:00  INFO 14176 --- [http-nio-8080-exec-9] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 206 ms
+2023-03-29T11:38:25.766+02:00  INFO 18020 --- [main] c.e.o.OrderExerciseApplication           : Starting OrderExerciseApplication using Java 19.0.2 with PID 18020 (C:\Users\ppauwelb\IdeaProjects\Order_Exercise\target\classes started by ppauwelb in C:\Users\ppauwelb\IdeaProjects\Order_Exercise)
+2023-03-29T11:38:25.767+02:00  INFO 18020 --- [main] c.e.o.OrderExerciseApplication           : No active profile set, falling back to 1 default profile: "default"
+2023-03-29T11:38:26.584+02:00  INFO 18020 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-03-29T11:38:26.595+02:00  INFO 18020 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-29T11:38:26.595+02:00  INFO 18020 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-03-29T11:38:26.658+02:00  INFO 18020 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-29T11:38:26.659+02:00  INFO 18020 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 852 ms
+2023-03-29T11:38:26.700+02:00  WARN 18020 --- [main] c.e.o.repository.CustomerRepository      : Admin mail - only for debugging purposes pieter.pauwels13@gmail.com
+2023-03-29T11:38:26.701+02:00  WARN 18020 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 mail - only for debugging purposes dummy00@mail.com
+2023-03-29T11:38:26.701+02:00  WARN 18020 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 mail - only for debugging purposes dummy01@mail.com
+2023-03-29T11:38:26.708+02:00  WARN 18020 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-29T11:38:26.708+02:00  WARN 18020 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 item - only for debugging purposes Batman: The Long Halloween
+2023-03-29T11:38:27.306+02:00  INFO 18020 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-29T11:38:27.313+02:00  INFO 18020 --- [main] c.e.o.OrderExerciseApplication           : Started OrderExerciseApplication in 1.882 seconds (process running for 2.388)
+2023-03-29T11:38:36.012+02:00  INFO 18020 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-29T11:38:36.012+02:00  INFO 18020 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-29T11:38:36.013+02:00  INFO 18020 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-03-29T11:38:36.355+02:00  WARN 18020 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.ItemController
+2023-03-29T11:38:36.504+02:00  WARN 18020 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.CustomerController
+2023-03-29T11:38:36.515+02:00  WARN 18020 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.OrderController
+2023-03-29T11:38:36.557+02:00  INFO 18020 --- [http-nio-8080-exec-4] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 251 ms
+2023-03-29T11:39:06.468+02:00 ERROR 18020 --- [http-nio-8080-exec-6] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: com.example.order_exercise.exceptions.StockNotCorrectException: You are ordering to much, make your wanted total smaller.] with root cause
+
+com.example.order_exercise.exceptions.StockNotCorrectException: You are ordering to much, make your wanted total smaller.
+	at com.example.order_exercise.service.OrderService.create(OrderService.java:42) ~[classes/:na]
+	at com.example.order_exercise.controller.OrderController.findbyId(OrderController.java:32) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:537) ~[tomcat-embed-core-10.1.7.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:631) ~[tomcat-embed-core-10.1.7.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at java.base/java.lang.Thread.run(Thread.java:1589) ~[na:na]
+
+2023-03-29T11:40:52.847+02:00  INFO 12532 --- [main] c.e.o.OrderExerciseApplication           : Starting OrderExerciseApplication using Java 19.0.2 with PID 12532 (C:\Users\ppauwelb\IdeaProjects\Order_Exercise\target\classes started by ppauwelb in C:\Users\ppauwelb\IdeaProjects\Order_Exercise)
+2023-03-29T11:40:52.849+02:00  INFO 12532 --- [main] c.e.o.OrderExerciseApplication           : No active profile set, falling back to 1 default profile: "default"
+2023-03-29T11:40:53.655+02:00  INFO 12532 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-03-29T11:40:53.662+02:00  INFO 12532 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-29T11:40:53.662+02:00  INFO 12532 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-03-29T11:40:53.731+02:00  INFO 12532 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-29T11:40:53.731+02:00  INFO 12532 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 842 ms
+2023-03-29T11:40:53.793+02:00  WARN 12532 --- [main] c.e.o.repository.CustomerRepository      : Admin mail - only for debugging purposes pieter.pauwels13@gmail.com
+2023-03-29T11:40:53.793+02:00  WARN 12532 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 mail - only for debugging purposes dummy00@mail.com
+2023-03-29T11:40:53.793+02:00  WARN 12532 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 mail - only for debugging purposes dummy01@mail.com
+2023-03-29T11:40:53.804+02:00  WARN 12532 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-29T11:40:53.804+02:00  WARN 12532 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 item - only for debugging purposes Batman: The Long Halloween
+2023-03-29T11:40:54.551+02:00  INFO 12532 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-29T11:40:54.560+02:00  INFO 12532 --- [main] c.e.o.OrderExerciseApplication           : Started OrderExerciseApplication in 2.1 seconds (process running for 2.604)
+2023-03-29T11:40:58.802+02:00  INFO 12532 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-29T11:40:58.802+02:00  INFO 12532 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-29T11:40:58.802+02:00  INFO 12532 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-03-29T11:40:59.008+02:00  WARN 12532 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.ItemController
+2023-03-29T11:40:59.135+02:00  WARN 12532 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.CustomerController
+2023-03-29T11:40:59.148+02:00  WARN 12532 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.OrderController
+2023-03-29T11:40:59.187+02:00  INFO 12532 --- [http-nio-8080-exec-4] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 250 ms
+2023-03-29T14:26:26.652+02:00  INFO 13628 --- [main] c.e.o.OrderExerciseApplicationTests      : Starting OrderExerciseApplicationTests using Java 19.0.2 with PID 13628 (started by ppauwelb in C:\Users\ppauwelb\IdeaProjects\Order_Exercise)
+2023-03-29T14:26:26.654+02:00  INFO 13628 --- [main] c.e.o.OrderExerciseApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2023-03-29T14:26:27.440+02:00  WARN 13628 --- [main] c.e.o.repository.CustomerRepository      : Admin mail - only for debugging purposes pieter.pauwels13@gmail.com
+2023-03-29T14:26:27.440+02:00  WARN 13628 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 mail - only for debugging purposes dummy00@mail.com
+2023-03-29T14:26:27.440+02:00  WARN 13628 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 mail - only for debugging purposes dummy01@mail.com
+2023-03-29T14:26:27.443+02:00  WARN 13628 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-29T14:26:27.443+02:00  WARN 13628 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 item - only for debugging purposes Batman: The Long Halloween
+2023-03-29T14:26:28.532+02:00  INFO 13628 --- [main] c.e.o.OrderExerciseApplicationTests      : Started OrderExerciseApplicationTests in 2.14 seconds (process running for 3.335)
+2023-03-29T14:26:28.972+02:00  WARN 13628 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-29T14:26:28.972+02:00  WARN 13628 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 item - only for debugging purposes Batman: The Long Halloween
+2023-03-29T14:26:28.974+02:00  WARN 13628 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-29T14:26:28.974+02:00  WARN 13628 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 item - only for debugging purposes Batman: The Long Halloween
+2023-03-29T14:26:28.975+02:00  WARN 13628 --- [main] c.e.o.repository.CustomerRepository      : Optional[Optional.empty]
+2023-03-29T14:26:28.976+02:00  WARN 13628 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-29T14:26:28.976+02:00  WARN 13628 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 item - only for debugging purposes Batman: The Long Halloween
+2023-03-29T14:26:28.978+02:00  WARN 13628 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-29T14:26:28.978+02:00  WARN 13628 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 item - only for debugging purposes Batman: The Long Halloween
+2023-03-29T14:26:28.979+02:00  WARN 13628 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-29T14:26:28.979+02:00  WARN 13628 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 item - only for debugging purposes Batman: The Long Halloween
+2023-03-29T14:26:28.980+02:00  WARN 13628 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-29T14:26:28.980+02:00  WARN 13628 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 item - only for debugging purposes Batman: The Long Halloween
+2023-03-29T14:26:28.981+02:00  WARN 13628 --- [main] c.e.o.repository.CustomerRepository      : Optional[Optional.empty]
+2023-03-29T14:33:24.344+02:00  INFO 11836 --- [main] c.e.o.OrderExerciseApplicationTests      : Starting OrderExerciseApplicationTests using Java 19.0.2 with PID 11836 (started by ppauwelb in C:\Users\ppauwelb\IdeaProjects\Order_Exercise)
+2023-03-29T14:33:24.346+02:00  INFO 11836 --- [main] c.e.o.OrderExerciseApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2023-03-29T14:33:25.136+02:00  WARN 11836 --- [main] c.e.o.repository.CustomerRepository      : Admin mail - only for debugging purposes pieter.pauwels13@gmail.com
+2023-03-29T14:33:25.137+02:00  WARN 11836 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 mail - only for debugging purposes dummy00@mail.com
+2023-03-29T14:33:25.137+02:00  WARN 11836 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 mail - only for debugging purposes dummy01@mail.com
+2023-03-29T14:33:25.142+02:00  WARN 11836 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-29T14:33:25.143+02:00  WARN 11836 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 item - only for debugging purposes Batman: The Long Halloween
+2023-03-29T14:33:26.177+02:00  INFO 11836 --- [main] c.e.o.OrderExerciseApplicationTests      : Started OrderExerciseApplicationTests in 2.099 seconds (process running for 3.231)
+2023-03-29T14:33:26.661+02:00  WARN 11836 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-29T14:33:26.661+02:00  WARN 11836 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 item - only for debugging purposes Batman: The Long Halloween
+2023-03-29T14:33:26.663+02:00  WARN 11836 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-29T14:33:26.663+02:00  WARN 11836 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 item - only for debugging purposes Batman: The Long Halloween
+2023-03-29T14:33:26.664+02:00  WARN 11836 --- [main] c.e.o.repository.CustomerRepository      : Optional[Optional.empty]
+2023-03-29T14:33:26.665+02:00  WARN 11836 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-29T14:33:26.666+02:00  WARN 11836 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 item - only for debugging purposes Batman: The Long Halloween
+2023-03-29T14:33:26.667+02:00  WARN 11836 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-29T14:33:26.667+02:00  WARN 11836 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 item - only for debugging purposes Batman: The Long Halloween
+2023-03-29T14:33:26.668+02:00  WARN 11836 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-29T14:33:26.668+02:00  WARN 11836 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 item - only for debugging purposes Batman: The Long Halloween
+2023-03-29T14:33:26.669+02:00  WARN 11836 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-29T14:33:26.669+02:00  WARN 11836 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 item - only for debugging purposes Batman: The Long Halloween
+2023-03-29T14:33:26.670+02:00  WARN 11836 --- [main] c.e.o.repository.CustomerRepository      : Optional[Optional.empty]
+2023-03-29T14:36:55.614+02:00  INFO 9668 --- [main] c.e.o.OrderExerciseApplicationTests      : Starting OrderExerciseApplicationTests using Java 19.0.2 with PID 9668 (started by ppauwelb in C:\Users\ppauwelb\IdeaProjects\Order_Exercise)
+2023-03-29T14:36:55.615+02:00  INFO 9668 --- [main] c.e.o.OrderExerciseApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2023-03-29T14:36:56.401+02:00  WARN 9668 --- [main] c.e.o.repository.CustomerRepository      : Admin mail - only for debugging purposes pieter.pauwels13@gmail.com
+2023-03-29T14:36:56.401+02:00  WARN 9668 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 mail - only for debugging purposes dummy00@mail.com
+2023-03-29T14:36:56.401+02:00  WARN 9668 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 mail - only for debugging purposes dummy01@mail.com
+2023-03-29T14:36:56.404+02:00  WARN 9668 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-29T14:36:56.404+02:00  WARN 9668 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 item - only for debugging purposes Batman: The Long Halloween
+2023-03-29T14:36:57.556+02:00  INFO 9668 --- [main] c.e.o.OrderExerciseApplicationTests      : Started OrderExerciseApplicationTests in 2.197 seconds (process running for 3.321)
+2023-03-29T14:36:57.974+02:00  WARN 9668 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-29T14:36:57.975+02:00  WARN 9668 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 item - only for debugging purposes Batman: The Long Halloween
+2023-03-29T14:36:57.977+02:00  WARN 9668 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-29T14:36:57.977+02:00  WARN 9668 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 item - only for debugging purposes Batman: The Long Halloween
+2023-03-29T14:36:57.979+02:00  WARN 9668 --- [main] c.e.o.repository.CustomerRepository      : Optional[Optional.empty]
+2023-03-29T14:36:57.981+02:00  WARN 9668 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-29T14:36:57.981+02:00  WARN 9668 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 item - only for debugging purposes Batman: The Long Halloween
+2023-03-29T14:36:57.982+02:00  WARN 9668 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-29T14:36:57.982+02:00  WARN 9668 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 item - only for debugging purposes Batman: The Long Halloween
+2023-03-29T14:36:57.983+02:00  WARN 9668 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-29T14:36:57.983+02:00  WARN 9668 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 item - only for debugging purposes Batman: The Long Halloween
+2023-03-29T14:36:57.984+02:00  WARN 9668 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-29T14:36:57.985+02:00  WARN 9668 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 item - only for debugging purposes Batman: The Long Halloween
+2023-03-29T14:36:57.986+02:00  WARN 9668 --- [main] c.e.o.repository.CustomerRepository      : Optional[Optional.empty]
+2023-03-29T14:37:09.747+02:00  INFO 12972 --- [main] c.e.o.OrderExerciseApplication           : Starting OrderExerciseApplication using Java 19.0.2 with PID 12972 (C:\Users\ppauwelb\IdeaProjects\Order_Exercise\target\classes started by ppauwelb in C:\Users\ppauwelb\IdeaProjects\Order_Exercise)
+2023-03-29T14:37:09.749+02:00  INFO 12972 --- [main] c.e.o.OrderExerciseApplication           : No active profile set, falling back to 1 default profile: "default"
+2023-03-29T14:37:10.515+02:00  INFO 12972 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-03-29T14:37:10.521+02:00  INFO 12972 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-29T14:37:10.521+02:00  INFO 12972 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-03-29T14:37:10.587+02:00  INFO 12972 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-29T14:37:10.587+02:00  INFO 12972 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 792 ms
+2023-03-29T14:37:10.629+02:00  WARN 12972 --- [main] c.e.o.repository.CustomerRepository      : Admin mail - only for debugging purposes pieter.pauwels13@gmail.com
+2023-03-29T14:37:10.629+02:00  WARN 12972 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 mail - only for debugging purposes dummy00@mail.com
+2023-03-29T14:37:10.629+02:00  WARN 12972 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 mail - only for debugging purposes dummy01@mail.com
+2023-03-29T14:37:10.637+02:00  WARN 12972 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-29T14:37:10.637+02:00  WARN 12972 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 item - only for debugging purposes Batman: The Long Halloween
+2023-03-29T14:37:11.238+02:00  INFO 12972 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-29T14:37:11.244+02:00  INFO 12972 --- [main] c.e.o.OrderExerciseApplication           : Started OrderExerciseApplication in 1.849 seconds (process running for 2.367)
+2023-03-29T14:37:15.822+02:00  INFO 12972 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-29T14:37:15.822+02:00  INFO 12972 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-29T14:37:15.822+02:00  INFO 12972 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-03-29T14:37:16.135+02:00  WARN 12972 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.ItemController
+2023-03-29T14:37:16.258+02:00  WARN 12972 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.CustomerController
+2023-03-29T14:37:16.271+02:00  WARN 12972 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.OrderController
+2023-03-29T14:37:16.308+02:00  INFO 12972 --- [http-nio-8080-exec-4] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 227 ms
+2023-03-29T14:38:10.626+02:00  WARN 12972 --- [http-nio-8080-exec-6] c.e.o.repository.CustomerRepository      : Optional[com.example.order_exercise.domain.Item@ca99f97] error with findbyID
+2023-03-29T14:38:10.627+02:00  WARN 12972 --- [http-nio-8080-exec-6] c.e.o.repository.CustomerRepository      : Optional[Optional.empty]
+2023-03-29T14:38:32.528+02:00  WARN 12972 --- [http-nio-8080-exec-5] c.e.o.repository.CustomerRepository      : Optional[com.example.order_exercise.domain.Item@4a7c1eb] error with findbyID
+2023-03-29T14:38:32.529+02:00  WARN 12972 --- [http-nio-8080-exec-5] c.e.o.repository.CustomerRepository      : Optional[Optional.empty]
+2023-03-29T14:38:32.531+02:00 ERROR 12972 --- [http-nio-8080-exec-5] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: com.example.order_exercise.exceptions.StockNotCorrectException: You are ordering to much, make your wanted total smaller.] with root cause
+
+com.example.order_exercise.exceptions.StockNotCorrectException: You are ordering to much, make your wanted total smaller.
+	at com.example.order_exercise.service.OrderService.create(OrderService.java:51) ~[classes/:na]
+	at com.example.order_exercise.controller.OrderController.findbyId(OrderController.java:32) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:537) ~[tomcat-embed-core-10.1.7.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:631) ~[tomcat-embed-core-10.1.7.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at java.base/java.lang.Thread.run(Thread.java:1589) ~[na:na]
+
+2023-03-29T14:38:49.967+02:00  WARN 12972 --- [http-nio-8080-exec-10] c.e.o.repository.CustomerRepository      : Optional[com.example.order_exercise.domain.Item@4a7c1eb] error with findbyID
+2023-03-29T14:38:49.968+02:00  WARN 12972 --- [http-nio-8080-exec-10] c.e.o.repository.CustomerRepository      : Optional[Optional.empty]
+2023-03-29T14:40:11.505+02:00  WARN 12972 --- [http-nio-8080-exec-4] c.e.o.repository.CustomerRepository      : Optional[com.example.order_exercise.domain.Item@40cab5fb] error with findbyID
+2023-03-29T14:40:11.505+02:00  WARN 12972 --- [http-nio-8080-exec-4] c.e.o.repository.CustomerRepository      : Optional[Optional.empty]
+2023-03-29T14:42:07.765+02:00  INFO 13152 --- [main] c.e.o.OrderExerciseApplication           : Starting OrderExerciseApplication using Java 19.0.2 with PID 13152 (C:\Users\ppauwelb\IdeaProjects\Order_Exercise\target\classes started by ppauwelb in C:\Users\ppauwelb\IdeaProjects\Order_Exercise)
+2023-03-29T14:42:07.768+02:00  INFO 13152 --- [main] c.e.o.OrderExerciseApplication           : No active profile set, falling back to 1 default profile: "default"
+2023-03-29T14:42:08.549+02:00  INFO 13152 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-03-29T14:42:08.556+02:00  INFO 13152 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-29T14:42:08.557+02:00  INFO 13152 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-03-29T14:42:08.622+02:00  INFO 13152 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-29T14:42:08.622+02:00  INFO 13152 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 813 ms
+2023-03-29T14:42:08.664+02:00  WARN 13152 --- [main] c.e.o.repository.CustomerRepository      : Admin mail - only for debugging purposes pieter.pauwels13@gmail.com
+2023-03-29T14:42:08.664+02:00  WARN 13152 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 mail - only for debugging purposes dummy00@mail.com
+2023-03-29T14:42:08.664+02:00  WARN 13152 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 mail - only for debugging purposes dummy01@mail.com
+2023-03-29T14:42:08.672+02:00  WARN 13152 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-29T14:42:08.672+02:00  WARN 13152 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 item - only for debugging purposes Batman: The Long Halloween
+2023-03-29T14:42:09.258+02:00  INFO 13152 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-29T14:42:09.266+02:00  INFO 13152 --- [main] c.e.o.OrderExerciseApplication           : Started OrderExerciseApplication in 1.855 seconds (process running for 2.332)
+2023-03-29T14:42:12.689+02:00  INFO 13152 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-29T14:42:12.690+02:00  INFO 13152 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-29T14:42:12.690+02:00  INFO 13152 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-03-29T14:42:12.872+02:00  WARN 13152 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.ItemController
+2023-03-29T14:42:13.001+02:00  WARN 13152 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.CustomerController
+2023-03-29T14:42:13.015+02:00  WARN 13152 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.OrderController
+2023-03-29T14:42:13.060+02:00  INFO 13152 --- [http-nio-8080-exec-4] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 237 ms
+2023-03-29T14:42:53.821+02:00  WARN 13152 --- [http-nio-8080-exec-6] c.e.o.repository.CustomerRepository      : Optional[com.example.order_exercise.domain.Item@22dd9c4d] error with findbyID
+2023-03-29T14:42:53.822+02:00  WARN 13152 --- [http-nio-8080-exec-6] c.e.o.repository.CustomerRepository      : Optional[Optional.empty]
+2023-03-29T14:43:57.491+02:00  WARN 13152 --- [http-nio-8080-exec-5] c.e.o.repository.CustomerRepository      : Optional[com.example.order_exercise.domain.Item@3c7bc2f] error with findbyID
+2023-03-29T14:43:57.491+02:00  WARN 13152 --- [http-nio-8080-exec-5] c.e.o.repository.CustomerRepository      : Optional[Optional.empty]
+2023-03-29T14:45:24.968+02:00 ERROR 13152 --- [http-nio-8080-exec-10] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: com.example.order_exercise.exceptions.MemberNotUniqueException: Email not unique. Member already exists.] with root cause
+
+com.example.order_exercise.exceptions.MemberNotUniqueException: Email not unique. Member already exists.
+	at com.example.order_exercise.repository.CustomerRepository.checkIfEmailIsUnique(CustomerRepository.java:52) ~[classes/:na]
+	at com.example.order_exercise.repository.CustomerRepository.create(CustomerRepository.java:42) ~[classes/:na]
+	at com.example.order_exercise.service.CustomerService.create(CustomerService.java:37) ~[classes/:na]
+	at com.example.order_exercise.controller.CustomerController.create(CustomerController.java:33) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:563) ~[tomcat-embed-core-10.1.7.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:631) ~[tomcat-embed-core-10.1.7.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at java.base/java.lang.Thread.run(Thread.java:1589) ~[na:na]
+
+2023-03-29T14:53:37.514+02:00  INFO 18364 --- [main] c.e.o.OrderExerciseApplication           : Starting OrderExerciseApplication using Java 19.0.2 with PID 18364 (C:\Users\ppauwelb\IdeaProjects\Order_Exercise\target\classes started by ppauwelb in C:\Users\ppauwelb\IdeaProjects\Order_Exercise)
+2023-03-29T14:53:37.515+02:00  INFO 18364 --- [main] c.e.o.OrderExerciseApplication           : No active profile set, falling back to 1 default profile: "default"
+2023-03-29T14:53:38.367+02:00  INFO 18364 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-03-29T14:53:38.374+02:00  INFO 18364 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-29T14:53:38.374+02:00  INFO 18364 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-03-29T14:53:38.439+02:00  INFO 18364 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-29T14:53:38.439+02:00  INFO 18364 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 884 ms
+2023-03-29T14:53:38.480+02:00  WARN 18364 --- [main] c.e.o.repository.CustomerRepository      : Admin mail - only for debugging purposes pieter.pauwels13@gmail.com
+2023-03-29T14:53:38.480+02:00  WARN 18364 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 mail - only for debugging purposes dummy00@mail.com
+2023-03-29T14:53:38.480+02:00  WARN 18364 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 mail - only for debugging purposes dummy01@mail.com
+2023-03-29T14:53:38.487+02:00  WARN 18364 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-29T14:53:38.487+02:00  WARN 18364 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 item - only for debugging purposes Batman: The Long Halloween
+2023-03-29T14:53:39.101+02:00  INFO 18364 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-29T14:53:39.107+02:00  INFO 18364 --- [main] c.e.o.OrderExerciseApplication           : Started OrderExerciseApplication in 1.94 seconds (process running for 2.452)
+2023-03-29T14:53:55.217+02:00  INFO 18364 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-29T14:53:55.218+02:00  INFO 18364 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-29T14:53:55.219+02:00  INFO 18364 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-03-29T14:53:55.407+02:00  WARN 18364 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.ItemController
+2023-03-29T14:53:55.534+02:00  WARN 18364 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.CustomerController
+2023-03-29T14:53:55.547+02:00  WARN 18364 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.OrderController
+2023-03-29T14:53:55.588+02:00  INFO 18364 --- [http-nio-8080-exec-4] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 236 ms
+2023-03-29T14:55:15.589+02:00  WARN 18364 --- [http-nio-8080-exec-8] c.e.o.repository.CustomerRepository      : Optional[com.example.order_exercise.domain.Item@ca99f97] error with findbyID
+2023-03-29T14:55:15.590+02:00  WARN 18364 --- [http-nio-8080-exec-8] c.e.o.repository.CustomerRepository      : Optional[Optional.empty]
+2023-03-29T14:56:54.458+02:00  INFO 6732 --- [main] c.e.o.OrderExerciseApplication           : Starting OrderExerciseApplication using Java 19.0.2 with PID 6732 (C:\Users\ppauwelb\IdeaProjects\Order_Exercise\target\classes started by ppauwelb in C:\Users\ppauwelb\IdeaProjects\Order_Exercise)
+2023-03-29T14:56:54.460+02:00  INFO 6732 --- [main] c.e.o.OrderExerciseApplication           : No active profile set, falling back to 1 default profile: "default"
+2023-03-29T14:56:55.335+02:00  INFO 6732 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-03-29T14:56:55.345+02:00  INFO 6732 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-29T14:56:55.345+02:00  INFO 6732 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-03-29T14:56:55.415+02:00  INFO 6732 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-29T14:56:55.415+02:00  INFO 6732 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 914 ms
+2023-03-29T14:56:55.457+02:00  WARN 6732 --- [main] c.e.o.repository.CustomerRepository      : Admin mail - only for debugging purposes pieter.pauwels13@gmail.com
+2023-03-29T14:56:55.458+02:00  WARN 6732 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 mail - only for debugging purposes dummy00@mail.com
+2023-03-29T14:56:55.458+02:00  WARN 6732 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 mail - only for debugging purposes dummy01@mail.com
+2023-03-29T14:56:55.464+02:00  WARN 6732 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 item - only for debugging purposes id: 0. Warhammer: Crimson Fists
+2023-03-29T14:56:55.465+02:00  WARN 6732 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 item - only for debugging purposes id: 1. Batman: The Long Halloween
+2023-03-29T14:56:56.098+02:00  INFO 6732 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-29T14:56:56.106+02:00  INFO 6732 --- [main] c.e.o.OrderExerciseApplication           : Started OrderExerciseApplication in 2.028 seconds (process running for 2.575)
+2023-03-29T15:06:07.174+02:00  INFO 18364 --- [main] c.e.o.OrderExerciseApplication           : Starting OrderExerciseApplication using Java 19.0.2 with PID 18364 (C:\Users\ppauwelb\IdeaProjects\Order_Exercise\target\classes started by ppauwelb in C:\Users\ppauwelb\IdeaProjects\Order_Exercise)
+2023-03-29T15:06:07.177+02:00  INFO 18364 --- [main] c.e.o.OrderExerciseApplication           : No active profile set, falling back to 1 default profile: "default"
+2023-03-29T15:06:08.044+02:00  INFO 18364 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-03-29T15:06:08.055+02:00  INFO 18364 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-29T15:06:08.056+02:00  INFO 18364 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-03-29T15:06:08.117+02:00  INFO 18364 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-29T15:06:08.117+02:00  INFO 18364 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 901 ms
+2023-03-29T15:06:08.154+02:00  WARN 18364 --- [main] c.e.o.repository.CustomerRepository      : Admin mail - only for debugging purposes pieter.pauwels13@gmail.com
+2023-03-29T15:06:08.155+02:00  WARN 18364 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 mail - only for debugging purposes dummy00@mail.com
+2023-03-29T15:06:08.155+02:00  WARN 18364 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 mail - only for debugging purposes dummy01@mail.com
+2023-03-29T15:06:08.162+02:00  WARN 18364 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-29T15:06:08.162+02:00  WARN 18364 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 item - only for debugging purposes Batman: The Long Halloween
+2023-03-29T15:06:08.723+02:00  INFO 18364 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-29T15:06:08.732+02:00  INFO 18364 --- [main] c.e.o.OrderExerciseApplication           : Started OrderExerciseApplication in 1.862 seconds (process running for 2.49)
+2023-03-29T15:06:25.153+02:00  INFO 18364 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-29T15:06:25.153+02:00  INFO 18364 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-29T15:06:25.154+02:00  INFO 18364 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-03-29T15:06:25.519+02:00  WARN 18364 --- [http-nio-8080-exec-6] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.ItemController
+2023-03-29T15:06:25.639+02:00  WARN 18364 --- [http-nio-8080-exec-6] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.CustomerController
+2023-03-29T15:06:25.653+02:00  WARN 18364 --- [http-nio-8080-exec-6] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.OrderController
+2023-03-29T15:06:25.704+02:00  INFO 18364 --- [http-nio-8080-exec-6] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 243 ms
+2023-03-29T15:07:27.953+02:00  INFO 16084 --- [main] c.e.o.OrderExerciseApplication           : Starting OrderExerciseApplication using Java 19.0.2 with PID 16084 (C:\Users\ppauwelb\IdeaProjects\Order_Exercise\target\classes started by ppauwelb in C:\Users\ppauwelb\IdeaProjects\Order_Exercise)
+2023-03-29T15:07:27.955+02:00  INFO 16084 --- [main] c.e.o.OrderExerciseApplication           : No active profile set, falling back to 1 default profile: "default"
+2023-03-29T15:07:28.739+02:00  INFO 16084 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-03-29T15:07:28.751+02:00  INFO 16084 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-29T15:07:28.751+02:00  INFO 16084 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-03-29T15:07:28.812+02:00  INFO 16084 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-29T15:07:28.812+02:00  INFO 16084 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 817 ms
+2023-03-29T15:07:28.851+02:00  WARN 16084 --- [main] c.e.o.repository.CustomerRepository      : Admin mail - only for debugging purposes pieter.pauwels13@gmail.com
+2023-03-29T15:07:28.851+02:00  WARN 16084 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 mail - only for debugging purposes dummy00@mail.com
+2023-03-29T15:07:28.851+02:00  WARN 16084 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 mail - only for debugging purposes dummy01@mail.com
+2023-03-29T15:07:28.857+02:00  WARN 16084 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-29T15:07:28.857+02:00  WARN 16084 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 item - only for debugging purposes Batman: The Long Halloween
+2023-03-29T15:07:29.401+02:00  INFO 16084 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-29T15:07:29.407+02:00  INFO 16084 --- [main] c.e.o.OrderExerciseApplication           : Started OrderExerciseApplication in 1.791 seconds (process running for 2.299)
+2023-03-29T15:07:33.198+02:00  INFO 16084 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-29T15:07:33.198+02:00  INFO 16084 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-29T15:07:33.199+02:00  INFO 16084 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-03-29T15:07:33.400+02:00  WARN 16084 --- [http-nio-8080-exec-5] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.ItemController
+2023-03-29T15:07:33.512+02:00  WARN 16084 --- [http-nio-8080-exec-5] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.CustomerController
+2023-03-29T15:07:33.524+02:00  WARN 16084 --- [http-nio-8080-exec-5] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.OrderController
+2023-03-29T15:07:33.559+02:00  INFO 16084 --- [http-nio-8080-exec-5] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 212 ms
+2023-03-29T15:13:51.866+02:00  INFO 14752 --- [main] c.e.o.OrderExerciseApplication           : Starting OrderExerciseApplication using Java 19.0.2 with PID 14752 (C:\Users\ppauwelb\IdeaProjects\Order_Exercise\target\classes started by ppauwelb in C:\Users\ppauwelb\IdeaProjects\Order_Exercise)
+2023-03-29T15:13:51.868+02:00  INFO 14752 --- [main] c.e.o.OrderExerciseApplication           : No active profile set, falling back to 1 default profile: "default"
+2023-03-29T15:13:52.614+02:00  INFO 14752 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-03-29T15:13:52.621+02:00  INFO 14752 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-29T15:13:52.622+02:00  INFO 14752 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-03-29T15:13:52.686+02:00  INFO 14752 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-29T15:13:52.686+02:00  INFO 14752 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 782 ms
+2023-03-29T15:13:52.726+02:00  WARN 14752 --- [main] c.e.o.repository.CustomerRepository      : Admin mail - only for debugging purposes pieter.pauwels13@gmail.com
+2023-03-29T15:13:52.726+02:00  WARN 14752 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 mail - only for debugging purposes dummy00@mail.com
+2023-03-29T15:13:52.726+02:00  WARN 14752 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 mail - only for debugging purposes dummy01@mail.com
+2023-03-29T15:13:52.732+02:00  WARN 14752 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-29T15:13:52.732+02:00  WARN 14752 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 item - only for debugging purposes Batman: The Long Halloween
+2023-03-29T15:13:53.292+02:00  INFO 14752 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-29T15:13:53.299+02:00  INFO 14752 --- [main] c.e.o.OrderExerciseApplication           : Started OrderExerciseApplication in 1.753 seconds (process running for 2.228)
+2023-03-29T15:13:57.572+02:00  INFO 14752 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-29T15:13:57.573+02:00  INFO 14752 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-29T15:13:57.574+02:00  INFO 14752 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-03-29T15:13:57.751+02:00  WARN 14752 --- [http-nio-8080-exec-2] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.ItemController
+2023-03-29T15:13:57.878+02:00  WARN 14752 --- [http-nio-8080-exec-2] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.CustomerController
+2023-03-29T15:13:57.888+02:00  WARN 14752 --- [http-nio-8080-exec-2] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.OrderController
+2023-03-29T15:13:57.923+02:00  INFO 14752 --- [http-nio-8080-exec-2] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 224 ms
+2023-03-29T15:15:39.744+02:00  INFO 2604 --- [main] c.e.o.OrderExerciseApplication           : Starting OrderExerciseApplication using Java 19.0.2 with PID 2604 (C:\Users\ppauwelb\IdeaProjects\Order_Exercise\target\classes started by ppauwelb in C:\Users\ppauwelb\IdeaProjects\Order_Exercise)
+2023-03-29T15:15:39.747+02:00  INFO 2604 --- [main] c.e.o.OrderExerciseApplication           : No active profile set, falling back to 1 default profile: "default"
+2023-03-29T15:15:40.587+02:00  INFO 2604 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-03-29T15:15:40.594+02:00  INFO 2604 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-29T15:15:40.594+02:00  INFO 2604 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-03-29T15:15:40.656+02:00  INFO 2604 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-29T15:15:40.656+02:00  INFO 2604 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 864 ms
+2023-03-29T15:15:40.696+02:00  WARN 2604 --- [main] c.e.o.repository.CustomerRepository      : Admin mail - only for debugging purposes pieter.pauwels13@gmail.com
+2023-03-29T15:15:40.696+02:00  WARN 2604 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 mail - only for debugging purposes dummy00@mail.com
+2023-03-29T15:15:40.696+02:00  WARN 2604 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 mail - only for debugging purposes dummy01@mail.com
+2023-03-29T15:15:40.704+02:00  WARN 2604 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-29T15:15:40.704+02:00  WARN 2604 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 item - only for debugging purposes Batman: The Long Halloween
+2023-03-29T15:15:41.299+02:00  INFO 2604 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-29T15:15:41.306+02:00  INFO 2604 --- [main] c.e.o.OrderExerciseApplication           : Started OrderExerciseApplication in 1.929 seconds (process running for 2.543)
+2023-03-29T15:15:46.225+02:00  INFO 2604 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-29T15:15:46.225+02:00  INFO 2604 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-29T15:15:46.226+02:00  INFO 2604 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-03-29T15:15:46.391+02:00  WARN 2604 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.ItemController
+2023-03-29T15:15:46.516+02:00  WARN 2604 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.CustomerController
+2023-03-29T15:15:46.526+02:00  WARN 2604 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.OrderController
+2023-03-29T15:15:46.561+02:00  INFO 2604 --- [http-nio-8080-exec-4] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 223 ms
+2023-03-29T15:16:29.094+02:00  INFO 6236 --- [main] c.e.o.OrderExerciseApplication           : Starting OrderExerciseApplication using Java 19.0.2 with PID 6236 (C:\Users\ppauwelb\IdeaProjects\Order_Exercise\target\classes started by ppauwelb in C:\Users\ppauwelb\IdeaProjects\Order_Exercise)
+2023-03-29T15:16:29.096+02:00  INFO 6236 --- [main] c.e.o.OrderExerciseApplication           : No active profile set, falling back to 1 default profile: "default"
+2023-03-29T15:16:29.844+02:00  INFO 6236 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-03-29T15:16:29.851+02:00  INFO 6236 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-29T15:16:29.851+02:00  INFO 6236 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-03-29T15:16:29.915+02:00  INFO 6236 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-29T15:16:29.916+02:00  INFO 6236 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 785 ms
+2023-03-29T15:16:29.955+02:00  WARN 6236 --- [main] c.e.o.repository.CustomerRepository      : Admin mail - only for debugging purposes pieter.pauwels13@gmail.com
+2023-03-29T15:16:29.955+02:00  WARN 6236 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 mail - only for debugging purposes dummy00@mail.com
+2023-03-29T15:16:29.955+02:00  WARN 6236 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 mail - only for debugging purposes dummy01@mail.com
+2023-03-29T15:16:29.963+02:00  WARN 6236 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-29T15:16:29.963+02:00  WARN 6236 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 item - only for debugging purposes Batman: The Long Halloween
+2023-03-29T15:16:30.510+02:00  INFO 6236 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-29T15:16:30.517+02:00  INFO 6236 --- [main] c.e.o.OrderExerciseApplication           : Started OrderExerciseApplication in 1.784 seconds (process running for 2.282)
+2023-03-29T15:16:33.608+02:00  INFO 6236 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-29T15:16:33.609+02:00  INFO 6236 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-29T15:16:33.610+02:00  INFO 6236 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-03-29T15:16:33.771+02:00  WARN 6236 --- [http-nio-8080-exec-5] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.ItemController
+2023-03-29T15:16:33.902+02:00  WARN 6236 --- [http-nio-8080-exec-5] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.CustomerController
+2023-03-29T15:16:33.915+02:00  WARN 6236 --- [http-nio-8080-exec-5] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.OrderController
+2023-03-29T15:16:33.957+02:00  INFO 6236 --- [http-nio-8080-exec-5] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 239 ms
+2023-03-29T15:16:41.243+02:00  INFO 16088 --- [main] c.e.o.OrderExerciseApplication           : Starting OrderExerciseApplication using Java 19.0.2 with PID 16088 (C:\Users\ppauwelb\IdeaProjects\Order_Exercise\target\classes started by ppauwelb in C:\Users\ppauwelb\IdeaProjects\Order_Exercise)
+2023-03-29T15:16:41.244+02:00  INFO 16088 --- [main] c.e.o.OrderExerciseApplication           : No active profile set, falling back to 1 default profile: "default"
+2023-03-29T15:16:41.978+02:00  INFO 16088 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-03-29T15:16:41.991+02:00  INFO 16088 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-29T15:16:41.992+02:00  INFO 16088 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-03-29T15:16:42.058+02:00  INFO 16088 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-29T15:16:42.059+02:00  INFO 16088 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 775 ms
+2023-03-29T15:16:42.099+02:00  WARN 16088 --- [main] c.e.o.repository.CustomerRepository      : Admin mail - only for debugging purposes pieter.pauwels13@gmail.com
+2023-03-29T15:16:42.099+02:00  WARN 16088 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 mail - only for debugging purposes dummy00@mail.com
+2023-03-29T15:16:42.099+02:00  WARN 16088 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 mail - only for debugging purposes dummy01@mail.com
+2023-03-29T15:16:42.107+02:00  WARN 16088 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-29T15:16:42.107+02:00  WARN 16088 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 item - only for debugging purposes Batman: The Long Halloween
+2023-03-29T15:16:42.715+02:00  INFO 16088 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-29T15:16:42.724+02:00  INFO 16088 --- [main] c.e.o.OrderExerciseApplication           : Started OrderExerciseApplication in 1.811 seconds (process running for 2.31)
+2023-03-29T15:16:44.863+02:00  INFO 16088 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-29T15:16:44.863+02:00  INFO 16088 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-29T15:16:44.864+02:00  INFO 16088 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-03-29T15:16:45.015+02:00  WARN 16088 --- [http-nio-8080-exec-5] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.ItemController
+2023-03-29T15:16:45.168+02:00  WARN 16088 --- [http-nio-8080-exec-5] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.CustomerController
+2023-03-29T15:16:45.183+02:00  WARN 16088 --- [http-nio-8080-exec-5] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.OrderController
+2023-03-29T15:16:45.228+02:00  INFO 16088 --- [http-nio-8080-exec-5] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 259 ms
+2023-03-29T15:17:08.907+02:00  INFO 14596 --- [main] c.e.o.OrderExerciseApplicationTests      : Starting OrderExerciseApplicationTests using Java 19.0.2 with PID 14596 (started by ppauwelb in C:\Users\ppauwelb\IdeaProjects\Order_Exercise)
+2023-03-29T15:17:08.909+02:00  INFO 14596 --- [main] c.e.o.OrderExerciseApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2023-03-29T15:17:09.639+02:00  WARN 14596 --- [main] c.e.o.repository.CustomerRepository      : Admin mail - only for debugging purposes pieter.pauwels13@gmail.com
+2023-03-29T15:17:09.639+02:00  WARN 14596 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 mail - only for debugging purposes dummy00@mail.com
+2023-03-29T15:17:09.639+02:00  WARN 14596 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 mail - only for debugging purposes dummy01@mail.com
+2023-03-29T15:17:09.642+02:00  WARN 14596 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-29T15:17:09.642+02:00  WARN 14596 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 item - only for debugging purposes Batman: The Long Halloween
+2023-03-29T15:17:10.597+02:00  INFO 14596 --- [main] c.e.o.OrderExerciseApplicationTests      : Started OrderExerciseApplicationTests in 1.945 seconds (process running for 3.096)
+2023-03-29T15:17:10.991+02:00  WARN 14596 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-29T15:17:10.991+02:00  WARN 14596 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 item - only for debugging purposes Batman: The Long Halloween
+2023-03-29T15:17:10.993+02:00  WARN 14596 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-29T15:17:10.993+02:00  WARN 14596 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 item - only for debugging purposes Batman: The Long Halloween
+2023-03-29T15:17:10.995+02:00  WARN 14596 --- [main] c.e.o.repository.CustomerRepository      : Optional[Optional.empty]
+2023-03-29T15:17:10.996+02:00  WARN 14596 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-29T15:17:10.996+02:00  WARN 14596 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 item - only for debugging purposes Batman: The Long Halloween
+2023-03-29T15:17:10.997+02:00  WARN 14596 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-29T15:17:10.997+02:00  WARN 14596 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 item - only for debugging purposes Batman: The Long Halloween
+2023-03-29T15:17:10.998+02:00  WARN 14596 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-29T15:17:10.998+02:00  WARN 14596 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 item - only for debugging purposes Batman: The Long Halloween
+2023-03-29T15:17:10.999+02:00  WARN 14596 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-29T15:17:11.000+02:00  WARN 14596 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 item - only for debugging purposes Batman: The Long Halloween
+2023-03-29T15:17:11.000+02:00  WARN 14596 --- [main] c.e.o.repository.CustomerRepository      : Optional[Optional.empty]
+2023-03-29T16:32:01.168+02:00  INFO 10976 --- [main] c.e.o.OrderExerciseApplicationTests      : Starting OrderExerciseApplicationTests using Java 19.0.2 with PID 10976 (started by ppauwelb in C:\Users\ppauwelb\IdeaProjects\Order_Exercise)
+2023-03-29T16:32:01.169+02:00  INFO 10976 --- [main] c.e.o.OrderExerciseApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2023-03-29T16:32:01.894+02:00  WARN 10976 --- [main] c.e.o.repository.CustomerRepository      : Admin mail - only for debugging purposes pieter.pauwels13@gmail.com
+2023-03-29T16:32:01.894+02:00  WARN 10976 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 mail - only for debugging purposes dummy00@mail.com
+2023-03-29T16:32:01.895+02:00  WARN 10976 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 mail - only for debugging purposes dummy01@mail.com
+2023-03-29T16:32:01.898+02:00  WARN 10976 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-29T16:32:01.898+02:00  WARN 10976 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 item - only for debugging purposes Batman: The Long Halloween
+2023-03-29T16:32:02.893+02:00  INFO 10976 --- [main] c.e.o.OrderExerciseApplicationTests      : Started OrderExerciseApplicationTests in 1.962 seconds (process running for 3.071)
+2023-03-29T16:32:03.289+02:00  WARN 10976 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-29T16:32:03.290+02:00  WARN 10976 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 item - only for debugging purposes Batman: The Long Halloween
+2023-03-29T16:32:03.291+02:00  WARN 10976 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-29T16:32:03.292+02:00  WARN 10976 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 item - only for debugging purposes Batman: The Long Halloween
+2023-03-29T16:32:03.293+02:00  WARN 10976 --- [main] c.e.o.repository.CustomerRepository      : Optional[Optional.empty]
+2023-03-29T16:32:03.294+02:00  WARN 10976 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-29T16:32:03.294+02:00  WARN 10976 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 item - only for debugging purposes Batman: The Long Halloween
+2023-03-29T16:32:03.295+02:00  WARN 10976 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-29T16:32:03.295+02:00  WARN 10976 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 item - only for debugging purposes Batman: The Long Halloween
+2023-03-29T16:32:03.296+02:00  WARN 10976 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-29T16:32:03.296+02:00  WARN 10976 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 item - only for debugging purposes Batman: The Long Halloween
+2023-03-29T16:32:03.297+02:00  WARN 10976 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-29T16:32:03.297+02:00  WARN 10976 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 item - only for debugging purposes Batman: The Long Halloween
+2023-03-29T16:32:03.298+02:00  WARN 10976 --- [main] c.e.o.repository.CustomerRepository      : Optional[Optional.empty]
+2023-03-29T16:32:09.720+02:00  INFO 13024 --- [main] c.e.o.OrderExerciseApplication           : Starting OrderExerciseApplication using Java 19.0.2 with PID 13024 (C:\Users\ppauwelb\IdeaProjects\Order_Exercise\target\classes started by ppauwelb in C:\Users\ppauwelb\IdeaProjects\Order_Exercise)
+2023-03-29T16:32:09.723+02:00  INFO 13024 --- [main] c.e.o.OrderExerciseApplication           : No active profile set, falling back to 1 default profile: "default"
+2023-03-29T16:32:10.483+02:00  INFO 13024 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-03-29T16:32:10.496+02:00  INFO 13024 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-29T16:32:10.496+02:00  INFO 13024 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-03-29T16:32:10.559+02:00  INFO 13024 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-29T16:32:10.559+02:00  INFO 13024 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 795 ms
+2023-03-29T16:32:10.600+02:00  WARN 13024 --- [main] c.e.o.repository.CustomerRepository      : Admin mail - only for debugging purposes pieter.pauwels13@gmail.com
+2023-03-29T16:32:10.600+02:00  WARN 13024 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 mail - only for debugging purposes dummy00@mail.com
+2023-03-29T16:32:10.600+02:00  WARN 13024 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 mail - only for debugging purposes dummy01@mail.com
+2023-03-29T16:32:10.606+02:00  WARN 13024 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-29T16:32:10.607+02:00  WARN 13024 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 item - only for debugging purposes Batman: The Long Halloween
+2023-03-29T16:32:11.163+02:00  INFO 13024 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-29T16:32:11.169+02:00  INFO 13024 --- [main] c.e.o.OrderExerciseApplication           : Started OrderExerciseApplication in 1.78 seconds (process running for 2.271)
+2023-03-29T16:38:31.320+02:00  INFO 2084 --- [main] c.e.o.OrderExerciseApplication           : Starting OrderExerciseApplication using Java 19.0.2 with PID 2084 (C:\Users\ppauwelb\IdeaProjects\Order_Exercise\target\classes started by ppauwelb in C:\Users\ppauwelb\IdeaProjects\Order_Exercise)
+2023-03-29T16:38:31.322+02:00  INFO 2084 --- [main] c.e.o.OrderExerciseApplication           : No active profile set, falling back to 1 default profile: "default"
+2023-03-29T16:38:32.085+02:00  INFO 2084 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-03-29T16:38:32.091+02:00  INFO 2084 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-29T16:38:32.092+02:00  INFO 2084 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-03-29T16:38:32.160+02:00  INFO 2084 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-29T16:38:32.160+02:00  INFO 2084 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 802 ms
+2023-03-29T16:38:32.201+02:00  WARN 2084 --- [main] c.e.o.repository.CustomerRepository      : Admin mail - only for debugging purposes pieter.pauwels13@gmail.com
+2023-03-29T16:38:32.202+02:00  WARN 2084 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 mail - only for debugging purposes dummy00@mail.com
+2023-03-29T16:38:32.202+02:00  WARN 2084 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 mail - only for debugging purposes dummy01@mail.com
+2023-03-29T16:38:32.208+02:00  WARN 2084 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-29T16:38:32.209+02:00  WARN 2084 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 item - only for debugging purposes Batman: The Long Halloween
+2023-03-29T16:38:32.744+02:00  INFO 2084 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-29T16:38:32.754+02:00  INFO 2084 --- [main] c.e.o.OrderExerciseApplication           : Started OrderExerciseApplication in 1.77 seconds (process running for 2.23)
+2023-03-29T16:38:44.013+02:00  INFO 2084 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-29T16:38:44.014+02:00  INFO 2084 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-29T16:38:44.015+02:00  INFO 2084 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-03-29T16:38:44.278+02:00  WARN 2084 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.ItemController
+2023-03-29T16:38:44.386+02:00  WARN 2084 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.CustomerController
+2023-03-29T16:38:44.396+02:00  WARN 2084 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.OrderController
+2023-03-29T16:38:44.414+02:00  WARN 2084 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.LoginController
+2023-03-29T16:38:44.432+02:00  INFO 2084 --- [http-nio-8080-exec-4] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 206 ms
+2023-03-29T16:39:07.311+02:00 ERROR 2084 --- [http-nio-8080-exec-5] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "com.example.order_exercise.domain.Customer.getFirstname()" because "customer" is null] with root cause
+
+java.lang.NullPointerException: Cannot invoke "com.example.order_exercise.domain.Customer.getFirstname()" because "customer" is null
+	at com.example.order_exercise.mapper.CustomerMapper.toDTO(CustomerMapper.java:11) ~[classes/:na]
+	at com.example.order_exercise.service.CustomerService.findById(CustomerService.java:32) ~[classes/:na]
+	at com.example.order_exercise.controller.LoginController.findbyId(LoginController.java:27) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:537) ~[tomcat-embed-core-10.1.7.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:631) ~[tomcat-embed-core-10.1.7.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at java.base/java.lang.Thread.run(Thread.java:1589) ~[na:na]
+
+2023-03-29T16:40:01.987+02:00  INFO 2084 --- [http-nio-8080-exec-8] c.e.o.repository.CustomerRepository      : Valid command
+2023-03-29T16:40:01.988+02:00  WARN 2084 --- [http-nio-8080-exec-8] c.e.o.repository.CustomerRepository      : Optional[com.example.order_exercise.domain.Item@3f5978b7] error with findbyID
+2023-03-29T16:40:01.988+02:00  WARN 2084 --- [http-nio-8080-exec-8] c.e.o.repository.CustomerRepository      : Optional[Optional.empty]
+2023-03-29T16:43:12.524+02:00  INFO 5400 --- [main] c.e.o.OrderExerciseApplication           : Starting OrderExerciseApplication using Java 19.0.2 with PID 5400 (C:\Users\ppauwelb\IdeaProjects\Order_Exercise\target\classes started by ppauwelb in C:\Users\ppauwelb\IdeaProjects\Order_Exercise)
+2023-03-29T16:43:12.526+02:00  INFO 5400 --- [main] c.e.o.OrderExerciseApplication           : No active profile set, falling back to 1 default profile: "default"
+2023-03-29T16:43:13.260+02:00  INFO 5400 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-03-29T16:43:13.267+02:00  INFO 5400 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-29T16:43:13.268+02:00  INFO 5400 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-03-29T16:43:13.342+02:00  INFO 5400 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-29T16:43:13.342+02:00  INFO 5400 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 778 ms
+2023-03-29T16:43:13.389+02:00  WARN 5400 --- [main] c.e.o.repository.CustomerRepository      : Admin mail - only for debugging purposes pieter.pauwels13@gmail.com
+2023-03-29T16:43:13.389+02:00  WARN 5400 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 mail - only for debugging purposes dummy00@mail.com
+2023-03-29T16:43:13.389+02:00  WARN 5400 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 mail - only for debugging purposes dummy01@mail.com
+2023-03-29T16:43:13.397+02:00  WARN 5400 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-29T16:43:13.398+02:00  WARN 5400 --- [main] c.e.o.repository.CustomerRepository      : Dummy00 item - only for debugging purposes Batman: The Long Halloween
+2023-03-29T16:43:13.950+02:00  INFO 5400 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-29T16:43:13.957+02:00  INFO 5400 --- [main] c.e.o.OrderExerciseApplication           : Started OrderExerciseApplication in 1.753 seconds (process running for 2.247)
+2023-03-29T16:43:21.576+02:00  INFO 5400 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-29T16:43:21.576+02:00  INFO 5400 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-29T16:43:21.577+02:00  INFO 5400 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-03-29T16:43:21.901+02:00  WARN 5400 --- [http-nio-8080-exec-6] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.ItemController
+2023-03-29T16:43:22.013+02:00  WARN 5400 --- [http-nio-8080-exec-6] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.CustomerController
+2023-03-29T16:43:22.024+02:00  WARN 5400 --- [http-nio-8080-exec-6] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.OrderController
+2023-03-29T16:43:22.053+02:00  WARN 5400 --- [http-nio-8080-exec-6] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.LoginController
+2023-03-29T16:43:22.100+02:00  INFO 5400 --- [http-nio-8080-exec-6] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 265 ms
+2023-03-29T16:44:34.202+02:00  INFO 5400 --- [http-nio-8080-exec-4] c.e.o.repository.CustomerRepository      : Valid command
+2023-03-29T16:44:34.202+02:00  WARN 5400 --- [http-nio-8080-exec-4] c.e.o.repository.CustomerRepository      : Optional[com.example.order_exercise.domain.Item@299ac2e3] error with findbyID
+2023-03-29T16:44:34.203+02:00  WARN 5400 --- [http-nio-8080-exec-4] c.e.o.repository.CustomerRepository      : Optional[Optional.empty]

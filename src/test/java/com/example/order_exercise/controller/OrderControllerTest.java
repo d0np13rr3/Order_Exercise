@@ -7,8 +7,10 @@ import com.example.order_exercise.exceptions.ItemNotFoundException;
 import com.example.order_exercise.exceptions.StockNotCorrectException;
 import com.example.order_exercise.mapper.ItemMapper;
 import com.example.order_exercise.repository.ItemRepository;
+import com.example.order_exercise.repository.LoginRepository;
 import com.example.order_exercise.repository.OrderRepository;
 import com.example.order_exercise.service.ItemService;
+import com.example.order_exercise.service.LoginService;
 import com.example.order_exercise.service.OrderService;
 import com.example.order_exercise.service.TotalOrderService;
 import org.junit.jupiter.api.BeforeEach;
@@ -29,7 +31,7 @@ class OrderControllerTest {
 
     @BeforeEach
     void setup(){
-        controller = new OrderController(new ItemService(new ItemMapper(), new ItemRepository()), orderService, new TotalOrderService());
+        controller = new OrderController(new ItemService(new ItemMapper(), new ItemRepository()), orderService, new TotalOrderService(), new LoginService(new LoginRepository()));
     }
 
     @Test

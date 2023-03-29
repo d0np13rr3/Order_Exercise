@@ -20,17 +20,26 @@ public class LoginService {
         this.loginRepository = loginRepository;
     }
 
-    public void validateAction(Customer customer, Feature feature){
-        if(customer == null){
-            logger.error("Unknonw user");
+    public void validateAction(Role role, Feature feature){
+        if(role == null){
+            logger.error("Unknown user");
             throw new UnknownUserException();
         }
-
+        if(!role.containsFeature(feature)){
+            logger.error("Not a valid command");
+            throw new UnknownUserException();
+        }else{
+            logger.info("Valid command");
+        }
 
     }
 
     public void setRole(Role roleUser) {
         loginRepository.setEnum(roleUser);
 
+    }
+
+    public Role getRole() {
+        return loginRepository.getRole();
     }
 }

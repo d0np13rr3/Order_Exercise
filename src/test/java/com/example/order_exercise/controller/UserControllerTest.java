@@ -22,15 +22,18 @@ class UserControllerTest {
 
     private UserController controller;
 
+    private LoginRepository loginRepository = new LoginRepository();
+    private LoginService loginService = new LoginService(loginRepository);
+
     @BeforeEach
     void setUp(){
-        controller = new UserController(new UserService(new UserRepository(), new UserMapper()), new LoginService(new LoginRepository()));
+        controller = new UserController(new UserService(new UserRepository(), new UserMapper()), loginService);
     }
 
     @Test
     @DisplayName("Did we find all customers?")
     void findCustomers(){
-
+        loginService.setRole(Role.ADMIN);
         List<UserDTO> answer = controller.findAll();
         assertThat(answer).hasSize(2);
     }
@@ -38,6 +41,7 @@ class UserControllerTest {
     @Test
     @DisplayName("Dic I find member by ID?")
     void findMember(){
+        loginService.setRole(Role.ADMIN);
         UserDTO answer = controller.findbyId("dummy00@mail.com");
 
         assertThat(answer.getFirstname()).isEqualTo("du");
@@ -47,6 +51,7 @@ class UserControllerTest {
     @Test
     @DisplayName("Is error thrown when existing mail given?")
     public void testWrongID() {
+        loginService.setRole(Role.ADMIN);
         CreateUserDTO customerTest = new CreateUserDTO("du", "mmy", "dummy00@mail.com","","","","","", Role.CUSTOMER);
 
         Throwable exception = assertThrows(MemberNotUniqueException.class, () ->

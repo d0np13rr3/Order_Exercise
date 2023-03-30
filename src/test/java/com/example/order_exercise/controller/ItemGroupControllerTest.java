@@ -9,6 +9,7 @@ import com.example.order_exercise.mapper.ItemMapper;
 import com.example.order_exercise.repository.ItemRepository;
 import com.example.order_exercise.repository.LoginRepository;
 import com.example.order_exercise.repository.ItemGroupRepository;
+import com.example.order_exercise.security.Role;
 import com.example.order_exercise.service.ItemGroupService;
 import com.example.order_exercise.service.ItemService;
 import com.example.order_exercise.service.LoginService;
@@ -29,14 +30,18 @@ class ItemGroupControllerTest {
     private ItemRepository itemRepository = new ItemRepository();
     private ItemGroupService itemGroupService = new ItemGroupService(itemGroupRepository, itemRepository, new ItemMapper());
 
+    private LoginRepository loginRepository = new LoginRepository();
+    private LoginService loginService = new LoginService(loginRepository);
+
     @BeforeEach
     void setup(){
-        controller = new ItemGroupController(new ItemService(new ItemMapper(), new ItemRepository()), itemGroupService, new OrderService(), new LoginService(new LoginRepository()));
+        controller = new ItemGroupController(new ItemService(new ItemMapper(), new ItemRepository()), itemGroupService, new OrderService(), loginService);
     }
 
     @Test
     @DisplayName("Did we find all orders?")
     void findAllOrders(){
+        loginService.setRole(Role.CUSTOMER);
         List<ItemGroup> answer = controller.findAll();
         assertThat(answer).hasSize(1);
     }
@@ -44,6 +49,7 @@ class ItemGroupControllerTest {
     @Test
     @DisplayName("Did order creation fail @ no Item Present?")
     void failingOrderNotThere(){
+        loginService.setRole(Role.CUSTOMER);
         Amount amount00 = new Amount(1);
         ItemDTO dummyItem02 = new ItemDTO("The Dwarves: Triumph", "Novel", 10.0, amount00, 4);
 
@@ -55,6 +61,7 @@ class ItemGroupControllerTest {
     @Test
     @DisplayName("Did order creation fail @ to much ordered?")
     void failingOrderToMuch(){
+        loginService.setRole(Role.CUSTOMER);
         Amount amount00 = new Amount(1);
         ItemDTO dummyItem02 = new ItemDTO("Warhammer: Crimson Fists", "Novel", 15.0,amount00, 0);
 

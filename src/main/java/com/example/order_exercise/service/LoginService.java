@@ -1,5 +1,6 @@
 package com.example.order_exercise.service;
 
+import com.example.order_exercise.exceptions.InvalidCommandException;
 import com.example.order_exercise.exceptions.UnknownUserException;
 import com.example.order_exercise.repository.UserRepository;
 import com.example.order_exercise.repository.LoginRepository;
@@ -26,7 +27,7 @@ public class LoginService {
         }
         if(!role.containsFeature(feature)){
             logger.error("Not a valid command");
-            throw new UnknownUserException();
+            throw new InvalidCommandException();
         }else{
             logger.info("Valid command");
         }

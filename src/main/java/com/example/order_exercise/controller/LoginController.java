@@ -6,6 +6,7 @@ import com.example.order_exercise.service.UserService;
 import com.example.order_exercise.service.LoginService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
@@ -30,7 +31,7 @@ public class LoginController {
     }
 
     @ExceptionHandler(NullPointerException.class)
-
+    @ResponseStatus(code = HttpStatus.UNAUTHORIZED)
     public void handleException(NullPointerException ex){
         logger.error("No such user in database.");
 

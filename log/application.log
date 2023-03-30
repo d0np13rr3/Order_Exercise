@@ -1139,3 +1139,313 @@ com.example.order_exercise.exceptions.UnknownUserException: Unknown user, abort.
 2023-03-30T09:31:31.177+02:00 ERROR 2816 --- [http-nio-8080-exec-8] c.e.o.repository.UserRepository          : No such user in database.
 2023-03-30T09:33:29.194+02:00 ERROR 2816 --- [http-nio-8080-exec-5] c.e.o.repository.UserRepository          : No such user in database.
 2023-03-30T09:45:07.710+02:00 ERROR 2816 --- [http-nio-8080-exec-7] c.e.o.repository.UserRepository          : No such user in database.
+2023-03-30T10:16:25.991+02:00  INFO 12656 --- [main] c.e.o.ItemGroupExerciseApplicationTests  : Starting ItemGroupExerciseApplicationTests using Java 19.0.2 with PID 12656 (started by ppauwelb in C:\Users\ppauwelb\IdeaProjects\Order_Exercise)
+2023-03-30T10:16:25.992+02:00  INFO 12656 --- [main] c.e.o.ItemGroupExerciseApplicationTests  : No active profile set, falling back to 1 default profile: "default"
+2023-03-30T10:16:27.074+02:00  WARN 12656 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-30T10:16:27.075+02:00  WARN 12656 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Batman: The Long Halloween
+2023-03-30T10:16:27.088+02:00  WARN 12656 --- [main] c.e.o.repository.UserRepository          : Admin mail - only for debugging purposes pieter@mail.com
+2023-03-30T10:16:27.088+02:00  WARN 12656 --- [main] c.e.o.repository.UserRepository          : Dummy00 mail - only for debugging purposes dummy00@mail.com
+2023-03-30T10:16:27.089+02:00  WARN 12656 --- [main] c.e.o.repository.UserRepository          : Dummy00 mail - only for debugging purposes dummy01@mail.com
+2023-03-30T10:16:28.326+02:00  INFO 12656 --- [main] c.e.o.ItemGroupExerciseApplicationTests  : Started ItemGroupExerciseApplicationTests in 2.758 seconds (process running for 4.343)
+2023-03-30T10:16:28.859+02:00  WARN 12656 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-30T10:16:28.859+02:00  WARN 12656 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Batman: The Long Halloween
+2023-03-30T10:16:28.859+02:00 ERROR 12656 --- [main] c.e.o.repository.UserRepository          : Not a valid command
+2023-03-30T10:16:28.875+02:00  WARN 12656 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-30T10:16:28.876+02:00  WARN 12656 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Batman: The Long Halloween
+2023-03-30T10:16:28.881+02:00 ERROR 12656 --- [main] c.e.o.repository.UserRepository          : Not a valid command
+2023-03-30T10:16:28.891+02:00  WARN 12656 --- [main] c.e.o.repository.UserRepository          : Admin mail - only for debugging purposes pieter@mail.com
+2023-03-30T10:16:28.892+02:00  WARN 12656 --- [main] c.e.o.repository.UserRepository          : Dummy00 mail - only for debugging purposes dummy00@mail.com
+2023-03-30T10:16:28.892+02:00  WARN 12656 --- [main] c.e.o.repository.UserRepository          : Dummy00 mail - only for debugging purposes dummy01@mail.com
+2023-03-30T10:16:28.892+02:00 ERROR 12656 --- [main] c.e.o.repository.UserRepository          : Not a valid command
+2023-03-30T10:16:28.897+02:00  WARN 12656 --- [main] c.e.o.repository.UserRepository          : Admin mail - only for debugging purposes pieter@mail.com
+2023-03-30T10:16:28.898+02:00  WARN 12656 --- [main] c.e.o.repository.UserRepository          : Dummy00 mail - only for debugging purposes dummy00@mail.com
+2023-03-30T10:16:28.898+02:00  WARN 12656 --- [main] c.e.o.repository.UserRepository          : Dummy00 mail - only for debugging purposes dummy01@mail.com
+2023-03-30T10:16:28.899+02:00 ERROR 12656 --- [main] c.e.o.repository.UserRepository          : Not a valid command
+2023-03-30T10:16:28.904+02:00  WARN 12656 --- [main] c.e.o.repository.UserRepository          : Admin mail - only for debugging purposes pieter@mail.com
+2023-03-30T10:16:28.905+02:00  WARN 12656 --- [main] c.e.o.repository.UserRepository          : Dummy00 mail - only for debugging purposes dummy00@mail.com
+2023-03-30T10:16:28.906+02:00  WARN 12656 --- [main] c.e.o.repository.UserRepository          : Dummy00 mail - only for debugging purposes dummy01@mail.com
+2023-03-30T10:16:28.906+02:00 ERROR 12656 --- [main] c.e.o.repository.UserRepository          : Not a valid command
+2023-03-30T10:16:28.912+02:00  WARN 12656 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-30T10:16:28.913+02:00  WARN 12656 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Batman: The Long Halloween
+2023-03-30T10:16:28.915+02:00  WARN 12656 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-30T10:16:28.915+02:00  WARN 12656 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Batman: The Long Halloween
+2023-03-30T10:16:28.917+02:00  WARN 12656 --- [main] c.e.o.repository.UserRepository          : Optional[Optional.empty]
+2023-03-30T10:16:28.918+02:00  WARN 12656 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-30T10:16:28.918+02:00  WARN 12656 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Batman: The Long Halloween
+2023-03-30T10:16:28.920+02:00  WARN 12656 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-30T10:16:28.920+02:00  WARN 12656 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Batman: The Long Halloween
+2023-03-30T10:16:28.920+02:00 ERROR 12656 --- [main] c.e.o.repository.UserRepository          : Not a valid command
+2023-03-30T10:16:28.927+02:00  WARN 12656 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-30T10:16:28.928+02:00  WARN 12656 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Batman: The Long Halloween
+2023-03-30T10:16:28.929+02:00  WARN 12656 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-30T10:16:28.929+02:00  WARN 12656 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Batman: The Long Halloween
+2023-03-30T10:16:28.930+02:00  WARN 12656 --- [main] c.e.o.repository.UserRepository          : Optional[Optional.empty]
+2023-03-30T10:25:47.150+02:00  INFO 9132 --- [main] c.e.o.ItemGroupExerciseApplicationTests  : Starting ItemGroupExerciseApplicationTests using Java 19.0.2 with PID 9132 (started by ppauwelb in C:\Users\ppauwelb\IdeaProjects\Order_Exercise)
+2023-03-30T10:25:47.151+02:00  INFO 9132 --- [main] c.e.o.ItemGroupExerciseApplicationTests  : No active profile set, falling back to 1 default profile: "default"
+2023-03-30T10:25:47.991+02:00  WARN 9132 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-30T10:25:47.991+02:00  WARN 9132 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Batman: The Long Halloween
+2023-03-30T10:25:48.002+02:00  WARN 9132 --- [main] c.e.o.repository.UserRepository          : Admin mail - only for debugging purposes pieter@mail.com
+2023-03-30T10:25:48.002+02:00  WARN 9132 --- [main] c.e.o.repository.UserRepository          : Dummy00 mail - only for debugging purposes dummy00@mail.com
+2023-03-30T10:25:48.002+02:00  WARN 9132 --- [main] c.e.o.repository.UserRepository          : Dummy00 mail - only for debugging purposes dummy01@mail.com
+2023-03-30T10:25:49.221+02:00  INFO 9132 --- [main] c.e.o.ItemGroupExerciseApplicationTests  : Started ItemGroupExerciseApplicationTests in 2.442 seconds (process running for 3.623)
+2023-03-30T10:25:49.707+02:00  WARN 9132 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-30T10:25:49.707+02:00  WARN 9132 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Batman: The Long Halloween
+2023-03-30T10:25:49.707+02:00  INFO 9132 --- [main] c.e.o.repository.UserRepository          : Valid command
+2023-03-30T10:25:49.756+02:00  WARN 9132 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-30T10:25:49.757+02:00  WARN 9132 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Batman: The Long Halloween
+2023-03-30T10:25:49.761+02:00 ERROR 9132 --- [main] c.e.o.repository.UserRepository          : Not a valid command
+2023-03-30T10:25:49.765+02:00  WARN 9132 --- [main] c.e.o.repository.UserRepository          : Admin mail - only for debugging purposes pieter@mail.com
+2023-03-30T10:25:49.765+02:00  WARN 9132 --- [main] c.e.o.repository.UserRepository          : Dummy00 mail - only for debugging purposes dummy00@mail.com
+2023-03-30T10:25:49.765+02:00  WARN 9132 --- [main] c.e.o.repository.UserRepository          : Dummy00 mail - only for debugging purposes dummy01@mail.com
+2023-03-30T10:25:49.765+02:00  INFO 9132 --- [main] c.e.o.repository.UserRepository          : Valid command
+2023-03-30T10:25:49.771+02:00  WARN 9132 --- [main] c.e.o.repository.UserRepository          : Admin mail - only for debugging purposes pieter@mail.com
+2023-03-30T10:25:49.772+02:00  WARN 9132 --- [main] c.e.o.repository.UserRepository          : Dummy00 mail - only for debugging purposes dummy00@mail.com
+2023-03-30T10:25:49.772+02:00  WARN 9132 --- [main] c.e.o.repository.UserRepository          : Dummy00 mail - only for debugging purposes dummy01@mail.com
+2023-03-30T10:25:49.772+02:00  INFO 9132 --- [main] c.e.o.repository.UserRepository          : Valid command
+2023-03-30T10:25:49.774+02:00  WARN 9132 --- [main] c.e.o.repository.UserRepository          : Admin mail - only for debugging purposes pieter@mail.com
+2023-03-30T10:25:49.775+02:00  WARN 9132 --- [main] c.e.o.repository.UserRepository          : Dummy00 mail - only for debugging purposes dummy00@mail.com
+2023-03-30T10:25:49.775+02:00  WARN 9132 --- [main] c.e.o.repository.UserRepository          : Dummy00 mail - only for debugging purposes dummy01@mail.com
+2023-03-30T10:25:49.775+02:00  INFO 9132 --- [main] c.e.o.repository.UserRepository          : Valid command
+2023-03-30T10:25:49.778+02:00  WARN 9132 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-30T10:25:49.778+02:00  WARN 9132 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Batman: The Long Halloween
+2023-03-30T10:25:49.779+02:00  WARN 9132 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-30T10:25:49.779+02:00  WARN 9132 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Batman: The Long Halloween
+2023-03-30T10:25:49.781+02:00  WARN 9132 --- [main] c.e.o.repository.UserRepository          : Optional[Optional.empty]
+2023-03-30T10:25:49.782+02:00  WARN 9132 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-30T10:25:49.782+02:00  WARN 9132 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Batman: The Long Halloween
+2023-03-30T10:25:49.783+02:00  WARN 9132 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-30T10:25:49.783+02:00  WARN 9132 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Batman: The Long Halloween
+2023-03-30T10:25:49.783+02:00  INFO 9132 --- [main] c.e.o.repository.UserRepository          : Valid command
+2023-03-30T10:25:49.784+02:00  WARN 9132 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-30T10:25:49.784+02:00  WARN 9132 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Batman: The Long Halloween
+2023-03-30T10:25:49.786+02:00  WARN 9132 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-30T10:25:49.786+02:00  WARN 9132 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Batman: The Long Halloween
+2023-03-30T10:25:49.787+02:00  WARN 9132 --- [main] c.e.o.repository.UserRepository          : Optional[Optional.empty]
+2023-03-30T10:32:25.077+02:00  INFO 11772 --- [main] c.e.o.ItemGroupExerciseApplicationTests  : Starting ItemGroupExerciseApplicationTests using Java 19.0.2 with PID 11772 (started by ppauwelb in C:\Users\ppauwelb\IdeaProjects\Order_Exercise)
+2023-03-30T10:32:25.080+02:00  INFO 11772 --- [main] c.e.o.ItemGroupExerciseApplicationTests  : No active profile set, falling back to 1 default profile: "default"
+2023-03-30T10:32:26.438+02:00  WARN 11772 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-30T10:32:26.438+02:00  WARN 11772 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Batman: The Long Halloween
+2023-03-30T10:32:26.453+02:00  WARN 11772 --- [main] c.e.o.repository.UserRepository          : Admin mail - only for debugging purposes pieter@mail.com
+2023-03-30T10:32:26.453+02:00  WARN 11772 --- [main] c.e.o.repository.UserRepository          : Dummy00 mail - only for debugging purposes dummy00@mail.com
+2023-03-30T10:32:26.454+02:00  WARN 11772 --- [main] c.e.o.repository.UserRepository          : Dummy00 mail - only for debugging purposes dummy01@mail.com
+2023-03-30T10:32:28.304+02:00  INFO 11772 --- [main] c.e.o.ItemGroupExerciseApplicationTests  : Started ItemGroupExerciseApplicationTests in 3.835 seconds (process running for 5.641)
+2023-03-30T10:32:29.029+02:00  WARN 11772 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-30T10:32:29.029+02:00  WARN 11772 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Batman: The Long Halloween
+2023-03-30T10:32:29.030+02:00  INFO 11772 --- [main] c.e.o.repository.UserRepository          : Valid command
+2023-03-30T10:32:29.129+02:00  WARN 11772 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-30T10:32:29.129+02:00  WARN 11772 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Batman: The Long Halloween
+2023-03-30T10:32:29.134+02:00 ERROR 11772 --- [main] c.e.o.repository.UserRepository          : Not a valid command
+2023-03-30T10:32:29.139+02:00  WARN 11772 --- [main] c.e.o.repository.UserRepository          : Admin mail - only for debugging purposes pieter@mail.com
+2023-03-30T10:32:29.141+02:00  WARN 11772 --- [main] c.e.o.repository.UserRepository          : Dummy00 mail - only for debugging purposes dummy00@mail.com
+2023-03-30T10:32:29.141+02:00  WARN 11772 --- [main] c.e.o.repository.UserRepository          : Dummy00 mail - only for debugging purposes dummy01@mail.com
+2023-03-30T10:32:29.141+02:00  INFO 11772 --- [main] c.e.o.repository.UserRepository          : Valid command
+2023-03-30T10:32:29.146+02:00  WARN 11772 --- [main] c.e.o.repository.UserRepository          : Admin mail - only for debugging purposes pieter@mail.com
+2023-03-30T10:32:29.146+02:00  WARN 11772 --- [main] c.e.o.repository.UserRepository          : Dummy00 mail - only for debugging purposes dummy00@mail.com
+2023-03-30T10:32:29.146+02:00  WARN 11772 --- [main] c.e.o.repository.UserRepository          : Dummy00 mail - only for debugging purposes dummy01@mail.com
+2023-03-30T10:32:29.147+02:00  INFO 11772 --- [main] c.e.o.repository.UserRepository          : Valid command
+2023-03-30T10:32:29.149+02:00  WARN 11772 --- [main] c.e.o.repository.UserRepository          : Admin mail - only for debugging purposes pieter@mail.com
+2023-03-30T10:32:29.150+02:00  WARN 11772 --- [main] c.e.o.repository.UserRepository          : Dummy00 mail - only for debugging purposes dummy00@mail.com
+2023-03-30T10:32:29.150+02:00  WARN 11772 --- [main] c.e.o.repository.UserRepository          : Dummy00 mail - only for debugging purposes dummy01@mail.com
+2023-03-30T10:32:29.150+02:00  INFO 11772 --- [main] c.e.o.repository.UserRepository          : Valid command
+2023-03-30T10:32:29.154+02:00  WARN 11772 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-30T10:32:29.155+02:00  WARN 11772 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Batman: The Long Halloween
+2023-03-30T10:32:29.156+02:00  WARN 11772 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-30T10:32:29.157+02:00  WARN 11772 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Batman: The Long Halloween
+2023-03-30T10:32:29.158+02:00  WARN 11772 --- [main] c.e.o.repository.UserRepository          : Optional[Optional.empty]
+2023-03-30T10:32:29.160+02:00  WARN 11772 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-30T10:32:29.160+02:00  WARN 11772 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Batman: The Long Halloween
+2023-03-30T10:32:29.162+02:00  WARN 11772 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-30T10:32:29.162+02:00  WARN 11772 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Batman: The Long Halloween
+2023-03-30T10:32:29.163+02:00  INFO 11772 --- [main] c.e.o.repository.UserRepository          : Valid command
+2023-03-30T10:32:29.164+02:00  WARN 11772 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-30T10:32:29.165+02:00  WARN 11772 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Batman: The Long Halloween
+2023-03-30T10:32:29.167+02:00  WARN 11772 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-30T10:32:29.167+02:00  WARN 11772 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Batman: The Long Halloween
+2023-03-30T10:32:29.168+02:00  WARN 11772 --- [main] c.e.o.repository.UserRepository          : Optional[Optional.empty]
+2023-03-30T10:32:41.274+02:00  INFO 10668 --- [main] c.e.o.OrderExerciseApplication           : Starting OrderExerciseApplication using Java 19.0.2 with PID 10668 (C:\Users\ppauwelb\IdeaProjects\Order_Exercise\target\classes started by ppauwelb in C:\Users\ppauwelb\IdeaProjects\Order_Exercise)
+2023-03-30T10:32:41.277+02:00  INFO 10668 --- [main] c.e.o.OrderExerciseApplication           : No active profile set, falling back to 1 default profile: "default"
+2023-03-30T10:32:42.862+02:00  INFO 10668 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-03-30T10:32:42.882+02:00  INFO 10668 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-30T10:32:42.883+02:00  INFO 10668 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-03-30T10:32:43.186+02:00  INFO 10668 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-30T10:32:43.187+02:00  INFO 10668 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1850 ms
+2023-03-30T10:32:43.263+02:00  WARN 10668 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-30T10:32:43.264+02:00  WARN 10668 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Batman: The Long Halloween
+2023-03-30T10:32:43.291+02:00  WARN 10668 --- [main] c.e.o.repository.UserRepository          : Admin mail - only for debugging purposes pieter@mail.com
+2023-03-30T10:32:43.292+02:00  WARN 10668 --- [main] c.e.o.repository.UserRepository          : Dummy00 mail - only for debugging purposes dummy00@mail.com
+2023-03-30T10:32:43.292+02:00  WARN 10668 --- [main] c.e.o.repository.UserRepository          : Dummy00 mail - only for debugging purposes dummy01@mail.com
+2023-03-30T10:32:44.455+02:00  INFO 10668 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-30T10:32:44.467+02:00  INFO 10668 --- [main] c.e.o.OrderExerciseApplication           : Started OrderExerciseApplication in 3.791 seconds (process running for 4.666)
+2023-03-30T10:32:48.819+02:00  INFO 10668 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-30T10:32:48.820+02:00  INFO 10668 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-30T10:32:48.823+02:00  INFO 10668 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2023-03-30T10:32:49.492+02:00  WARN 10668 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.UserController
+2023-03-30T10:32:49.784+02:00  WARN 10668 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.ItemController
+2023-03-30T10:32:49.865+02:00  WARN 10668 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.ItemGroupController
+2023-03-30T10:32:49.899+02:00  WARN 10668 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.LoginController
+2023-03-30T10:32:49.925+02:00  INFO 10668 --- [http-nio-8080-exec-4] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 536 ms
+2023-03-30T10:33:02.806+02:00 ERROR 10668 --- [http-nio-8080-exec-5] c.e.o.repository.UserRepository          : No such user in database.
+2023-03-30T10:49:39.783+02:00  INFO 13328 --- [main] c.e.o.OrderExerciseApplication           : Starting OrderExerciseApplication using Java 19.0.2 with PID 13328 (C:\Users\ppauwelb\IdeaProjects\Order_Exercise\target\classes started by ppauwelb in C:\Users\ppauwelb\IdeaProjects\Order_Exercise)
+2023-03-30T10:49:39.786+02:00  INFO 13328 --- [main] c.e.o.OrderExerciseApplication           : No active profile set, falling back to 1 default profile: "default"
+2023-03-30T10:49:40.786+02:00  INFO 13328 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-03-30T10:49:40.793+02:00  INFO 13328 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-30T10:49:40.793+02:00  INFO 13328 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-03-30T10:49:40.872+02:00  INFO 13328 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-30T10:49:40.872+02:00  INFO 13328 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1033 ms
+2023-03-30T10:49:40.928+02:00  WARN 13328 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-30T10:49:40.928+02:00  WARN 13328 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Batman: The Long Halloween
+2023-03-30T10:49:40.945+02:00  WARN 13328 --- [main] c.e.o.repository.UserRepository          : Admin mail - only for debugging purposes pieter@mail.com
+2023-03-30T10:49:40.945+02:00  WARN 13328 --- [main] c.e.o.repository.UserRepository          : Dummy00 mail - only for debugging purposes dummy00@mail.com
+2023-03-30T10:49:40.945+02:00  WARN 13328 --- [main] c.e.o.repository.UserRepository          : Dummy00 mail - only for debugging purposes dummy01@mail.com
+2023-03-30T10:49:41.607+02:00  INFO 13328 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-30T10:49:41.613+02:00  INFO 13328 --- [main] c.e.o.OrderExerciseApplication           : Started OrderExerciseApplication in 2.253 seconds (process running for 2.847)
+2023-03-30T10:50:09.971+02:00  INFO 13328 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-30T10:50:09.972+02:00  INFO 13328 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-30T10:50:09.973+02:00  INFO 13328 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-03-30T10:50:10.140+02:00  WARN 13328 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.UserController
+2023-03-30T10:50:10.246+02:00  WARN 13328 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.ItemController
+2023-03-30T10:50:10.285+02:00  WARN 13328 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.ItemGroupController
+2023-03-30T10:50:10.304+02:00  WARN 13328 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.LoginController
+2023-03-30T10:50:10.317+02:00  INFO 13328 --- [http-nio-8080-exec-4] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 226 ms
+2023-03-30T10:50:49.817+02:00 ERROR 13328 --- [http-nio-8080-exec-6] c.e.o.repository.UserRepository          : Not a valid command
+2023-03-30T10:50:49.819+02:00 ERROR 13328 --- [http-nio-8080-exec-6] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: com.example.order_exercise.exceptions.InvalidCommandException: Invalid command, try something you are allowed to do.] with root cause
+
+com.example.order_exercise.exceptions.InvalidCommandException: Invalid command, try something you are allowed to do.
+	at com.example.order_exercise.service.LoginService.validateAction(LoginService.java:30) ~[classes/:na]
+	at com.example.order_exercise.controller.ItemController.findAll(ItemController.java:40) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:537) ~[tomcat-embed-core-10.1.7.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:631) ~[tomcat-embed-core-10.1.7.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at java.base/java.lang.Thread.run(Thread.java:1589) ~[na:na]
+
+2023-03-30T10:53:37.072+02:00  INFO 12220 --- [main] c.e.o.OrderExerciseApplication           : Starting OrderExerciseApplication using Java 19.0.2 with PID 12220 (C:\Users\ppauwelb\IdeaProjects\Order_Exercise\target\classes started by ppauwelb in C:\Users\ppauwelb\IdeaProjects\Order_Exercise)
+2023-03-30T10:53:37.075+02:00  INFO 12220 --- [main] c.e.o.OrderExerciseApplication           : No active profile set, falling back to 1 default profile: "default"
+2023-03-30T10:53:37.882+02:00  INFO 12220 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-03-30T10:53:37.890+02:00  INFO 12220 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-30T10:53:37.890+02:00  INFO 12220 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-03-30T10:53:37.954+02:00  INFO 12220 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-30T10:53:37.954+02:00  INFO 12220 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 839 ms
+2023-03-30T10:53:37.993+02:00  WARN 12220 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-30T10:53:37.993+02:00  WARN 12220 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Batman: The Long Halloween
+2023-03-30T10:53:38.009+02:00  WARN 12220 --- [main] c.e.o.repository.UserRepository          : Admin mail - only for debugging purposes pieter@mail.com
+2023-03-30T10:53:38.009+02:00  WARN 12220 --- [main] c.e.o.repository.UserRepository          : Dummy00 mail - only for debugging purposes dummy00@mail.com
+2023-03-30T10:53:38.009+02:00  WARN 12220 --- [main] c.e.o.repository.UserRepository          : Dummy00 mail - only for debugging purposes dummy01@mail.com
+2023-03-30T10:53:38.602+02:00  INFO 12220 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-30T10:53:38.611+02:00  INFO 12220 --- [main] c.e.o.OrderExerciseApplication           : Started OrderExerciseApplication in 1.868 seconds (process running for 2.366)
+2023-03-30T10:53:57.249+02:00  INFO 12220 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-30T10:53:57.249+02:00  INFO 12220 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-30T10:53:57.250+02:00  INFO 12220 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-03-30T10:53:57.565+02:00  WARN 12220 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.UserController
+2023-03-30T10:53:57.659+02:00  WARN 12220 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.ItemController
+2023-03-30T10:53:57.696+02:00  WARN 12220 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.ItemGroupController
+2023-03-30T10:53:57.715+02:00  WARN 12220 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.LoginController
+2023-03-30T10:53:57.729+02:00  INFO 12220 --- [http-nio-8080-exec-4] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 218 ms
+2023-03-30T10:54:21.919+02:00 ERROR 12220 --- [http-nio-8080-exec-5] c.e.o.repository.UserRepository          : Not a valid command
+2023-03-30T10:59:10.686+02:00  INFO 20388 --- [main] c.e.o.OrderExerciseApplication           : Starting OrderExerciseApplication using Java 19.0.2 with PID 20388 (C:\Users\ppauwelb\IdeaProjects\Order_Exercise\target\classes started by ppauwelb in C:\Users\ppauwelb\IdeaProjects\Order_Exercise)
+2023-03-30T10:59:10.689+02:00  INFO 20388 --- [main] c.e.o.OrderExerciseApplication           : No active profile set, falling back to 1 default profile: "default"
+2023-03-30T10:59:11.562+02:00  INFO 20388 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-03-30T10:59:11.570+02:00  INFO 20388 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-30T10:59:11.570+02:00  INFO 20388 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-03-30T10:59:11.640+02:00  INFO 20388 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-30T10:59:11.641+02:00  INFO 20388 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 911 ms
+2023-03-30T10:59:11.682+02:00  WARN 20388 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-30T10:59:11.682+02:00  WARN 20388 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Batman: The Long Halloween
+2023-03-30T10:59:11.697+02:00  WARN 20388 --- [main] c.e.o.repository.UserRepository          : Admin mail - only for debugging purposes pieter@mail.com
+2023-03-30T10:59:11.697+02:00  WARN 20388 --- [main] c.e.o.repository.UserRepository          : Dummy00 mail - only for debugging purposes dummy00@mail.com
+2023-03-30T10:59:11.697+02:00  WARN 20388 --- [main] c.e.o.repository.UserRepository          : Dummy00 mail - only for debugging purposes dummy01@mail.com
+2023-03-30T10:59:12.309+02:00  INFO 20388 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-30T10:59:12.317+02:00  INFO 20388 --- [main] c.e.o.OrderExerciseApplication           : Started OrderExerciseApplication in 1.996 seconds (process running for 2.517)
+2023-03-30T10:59:17.679+02:00  INFO 20388 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-30T10:59:17.680+02:00  INFO 20388 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-30T10:59:17.681+02:00  INFO 20388 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-03-30T10:59:17.857+02:00  WARN 20388 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.UserController
+2023-03-30T10:59:17.959+02:00  WARN 20388 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.ItemController
+2023-03-30T10:59:18.003+02:00  WARN 20388 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.ItemGroupController
+2023-03-30T10:59:18.021+02:00  WARN 20388 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.LoginController
+2023-03-30T10:59:18.037+02:00  INFO 20388 --- [http-nio-8080-exec-4] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 242 ms
+2023-03-30T10:59:33.883+02:00 ERROR 20388 --- [http-nio-8080-exec-8] c.e.o.repository.UserRepository          : No such user in database.
+2023-03-30T11:00:05.082+02:00  INFO 19280 --- [main] c.e.o.ItemGroupExerciseApplicationTests  : Starting ItemGroupExerciseApplicationTests using Java 19.0.2 with PID 19280 (started by ppauwelb in C:\Users\ppauwelb\IdeaProjects\Order_Exercise)
+2023-03-30T11:00:05.083+02:00  INFO 19280 --- [main] c.e.o.ItemGroupExerciseApplicationTests  : No active profile set, falling back to 1 default profile: "default"
+2023-03-30T11:00:05.847+02:00  WARN 19280 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-30T11:00:05.847+02:00  WARN 19280 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Batman: The Long Halloween
+2023-03-30T11:00:05.859+02:00  WARN 19280 --- [main] c.e.o.repository.UserRepository          : Admin mail - only for debugging purposes pieter@mail.com
+2023-03-30T11:00:05.860+02:00  WARN 19280 --- [main] c.e.o.repository.UserRepository          : Dummy00 mail - only for debugging purposes dummy00@mail.com
+2023-03-30T11:00:05.860+02:00  WARN 19280 --- [main] c.e.o.repository.UserRepository          : Dummy00 mail - only for debugging purposes dummy01@mail.com
+2023-03-30T11:00:06.937+02:00  INFO 19280 --- [main] c.e.o.ItemGroupExerciseApplicationTests  : Started ItemGroupExerciseApplicationTests in 2.134 seconds (process running for 3.175)
+2023-03-30T11:00:07.385+02:00  WARN 19280 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-30T11:00:07.385+02:00  WARN 19280 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Batman: The Long Halloween
+2023-03-30T11:00:07.385+02:00  INFO 19280 --- [main] c.e.o.repository.UserRepository          : Valid command
+2023-03-30T11:00:07.435+02:00  WARN 19280 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-30T11:00:07.435+02:00  WARN 19280 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Batman: The Long Halloween
+2023-03-30T11:00:07.438+02:00 ERROR 19280 --- [main] c.e.o.repository.UserRepository          : Not a valid command
+2023-03-30T11:00:07.447+02:00  WARN 19280 --- [main] c.e.o.repository.UserRepository          : Admin mail - only for debugging purposes pieter@mail.com
+2023-03-30T11:00:07.448+02:00  WARN 19280 --- [main] c.e.o.repository.UserRepository          : Dummy00 mail - only for debugging purposes dummy00@mail.com
+2023-03-30T11:00:07.448+02:00  WARN 19280 --- [main] c.e.o.repository.UserRepository          : Dummy00 mail - only for debugging purposes dummy01@mail.com
+2023-03-30T11:00:07.448+02:00  INFO 19280 --- [main] c.e.o.repository.UserRepository          : Valid command
+2023-03-30T11:00:07.452+02:00  WARN 19280 --- [main] c.e.o.repository.UserRepository          : Admin mail - only for debugging purposes pieter@mail.com
+2023-03-30T11:00:07.453+02:00  WARN 19280 --- [main] c.e.o.repository.UserRepository          : Dummy00 mail - only for debugging purposes dummy00@mail.com
+2023-03-30T11:00:07.453+02:00  WARN 19280 --- [main] c.e.o.repository.UserRepository          : Dummy00 mail - only for debugging purposes dummy01@mail.com
+2023-03-30T11:00:07.453+02:00  INFO 19280 --- [main] c.e.o.repository.UserRepository          : Valid command
+2023-03-30T11:00:07.455+02:00  WARN 19280 --- [main] c.e.o.repository.UserRepository          : Admin mail - only for debugging purposes pieter@mail.com
+2023-03-30T11:00:07.455+02:00  WARN 19280 --- [main] c.e.o.repository.UserRepository          : Dummy00 mail - only for debugging purposes dummy00@mail.com
+2023-03-30T11:00:07.455+02:00  WARN 19280 --- [main] c.e.o.repository.UserRepository          : Dummy00 mail - only for debugging purposes dummy01@mail.com
+2023-03-30T11:00:07.456+02:00  INFO 19280 --- [main] c.e.o.repository.UserRepository          : Valid command
+2023-03-30T11:00:07.459+02:00  WARN 19280 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-30T11:00:07.459+02:00  WARN 19280 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Batman: The Long Halloween
+2023-03-30T11:00:07.460+02:00  WARN 19280 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-30T11:00:07.460+02:00  WARN 19280 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Batman: The Long Halloween
+2023-03-30T11:00:07.461+02:00  WARN 19280 --- [main] c.e.o.repository.UserRepository          : Optional[Optional.empty]
+2023-03-30T11:00:07.462+02:00  WARN 19280 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-30T11:00:07.462+02:00  WARN 19280 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Batman: The Long Halloween
+2023-03-30T11:00:07.462+02:00  WARN 19280 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-30T11:00:07.463+02:00  WARN 19280 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Batman: The Long Halloween
+2023-03-30T11:00:07.463+02:00  INFO 19280 --- [main] c.e.o.repository.UserRepository          : Valid command
+2023-03-30T11:00:07.463+02:00  WARN 19280 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-30T11:00:07.464+02:00  WARN 19280 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Batman: The Long Halloween
+2023-03-30T11:00:07.464+02:00  WARN 19280 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-30T11:00:07.464+02:00  WARN 19280 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Batman: The Long Halloween
+2023-03-30T11:00:07.465+02:00  WARN 19280 --- [main] c.e.o.repository.UserRepository          : Optional[Optional.empty]

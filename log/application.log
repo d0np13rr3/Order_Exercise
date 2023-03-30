@@ -1533,3 +1533,131 @@ com.example.order_exercise.exceptions.InvalidCommandException: Invalid command, 
 2023-03-30T11:10:33.981+02:00  WARN 15120 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
 2023-03-30T11:10:33.981+02:00  WARN 15120 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Batman: The Long Halloween
 2023-03-30T11:10:33.982+02:00  WARN 15120 --- [main] c.e.o.repository.UserRepository          : Optional[Optional.empty]
+2023-03-30T11:40:56.596+02:00  INFO 14912 --- [main] c.e.o.repository.UserRepositoryTest      : Starting UserRepositoryTest using Java 19.0.2 with PID 14912 (started by ppauwelb in C:\Users\ppauwelb\IdeaProjects\Order_Exercise)
+2023-03-30T11:40:56.599+02:00  INFO 14912 --- [main] c.e.o.repository.UserRepositoryTest      : No active profile set, falling back to 1 default profile: "default"
+2023-03-30T11:40:58.291+02:00  INFO 14912 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-03-30T11:40:58.305+02:00  INFO 14912 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-30T11:40:58.306+02:00  INFO 14912 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-03-30T11:40:58.430+02:00  INFO 14912 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-30T11:40:58.430+02:00  INFO 14912 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1490 ms
+2023-03-30T11:40:58.511+02:00  WARN 14912 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-30T11:40:58.512+02:00  WARN 14912 --- [main] c.e.o.repository.UserRepository          : Dummy01 item - only for debugging purposes Batman: The Long Halloween
+2023-03-30T11:40:58.512+02:00  WARN 14912 --- [main] c.e.o.repository.UserRepository          : Dummy02 item - only for debugging purposes The Dwarves: Triumph
+2023-03-30T11:40:58.542+02:00  WARN 14912 --- [main] c.e.o.repository.UserRepository          : Admin mail - only for debugging purposes pieter@mail.com
+2023-03-30T11:40:58.543+02:00  WARN 14912 --- [main] c.e.o.repository.UserRepository          : Dummy00 mail - only for debugging purposes dummy00@mail.com
+2023-03-30T11:40:58.543+02:00  WARN 14912 --- [main] c.e.o.repository.UserRepository          : Dummy00 mail - only for debugging purposes dummy01@mail.com
+2023-03-30T11:41:00.090+02:00  INFO 14912 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 53740 (http) with context path ''
+2023-03-30T11:41:00.104+02:00  INFO 14912 --- [main] c.e.o.repository.UserRepositoryTest      : Started UserRepositoryTest in 3.964 seconds (process running for 5.425)
+2023-03-30T11:41:01.691+02:00  INFO 14912 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-30T11:41:01.692+02:00  INFO 14912 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-30T11:41:01.693+02:00  INFO 14912 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-03-30T11:41:01.732+02:00 ERROR 14912 --- [http-nio-auto-1-exec-1] c.e.o.repository.UserRepository          : Not a valid command
+2023-03-30T11:41:01.970+02:00  INFO 14912 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-03-30T11:41:01.971+02:00  INFO 14912 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-03-30T11:43:07.075+02:00  INFO 14916 --- [main] c.e.o.repository.UserRepositoryTest      : Starting UserRepositoryTest using Java 19.0.2 with PID 14916 (started by ppauwelb in C:\Users\ppauwelb\IdeaProjects\Order_Exercise)
+2023-03-30T11:43:07.077+02:00  INFO 14916 --- [main] c.e.o.repository.UserRepositoryTest      : No active profile set, falling back to 1 default profile: "default"
+2023-03-30T11:43:08.391+02:00  INFO 14916 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-03-30T11:43:08.400+02:00  INFO 14916 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-30T11:43:08.401+02:00  INFO 14916 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-03-30T11:43:08.515+02:00  INFO 14916 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-30T11:43:08.516+02:00  INFO 14916 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1174 ms
+2023-03-30T11:43:08.573+02:00  WARN 14916 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-30T11:43:08.574+02:00  WARN 14916 --- [main] c.e.o.repository.UserRepository          : Dummy01 item - only for debugging purposes Batman: The Long Halloween
+2023-03-30T11:43:08.574+02:00  WARN 14916 --- [main] c.e.o.repository.UserRepository          : Dummy02 item - only for debugging purposes The Dwarves: Triumph
+2023-03-30T11:43:08.590+02:00  WARN 14916 --- [main] c.e.o.repository.UserRepository          : Admin mail - only for debugging purposes pieter@mail.com
+2023-03-30T11:43:08.590+02:00  WARN 14916 --- [main] c.e.o.repository.UserRepository          : Dummy00 mail - only for debugging purposes dummy00@mail.com
+2023-03-30T11:43:08.590+02:00  WARN 14916 --- [main] c.e.o.repository.UserRepository          : Dummy00 mail - only for debugging purposes dummy01@mail.com
+2023-03-30T11:43:09.895+02:00  INFO 14916 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 53757 (http) with context path ''
+2023-03-30T11:43:09.905+02:00  INFO 14916 --- [main] c.e.o.repository.UserRepositoryTest      : Started UserRepositoryTest in 3.145 seconds (process running for 4.212)
+2023-03-30T11:43:11.175+02:00  INFO 14916 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-30T11:43:11.176+02:00  INFO 14916 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-30T11:43:11.176+02:00  INFO 14916 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-03-30T11:43:11.201+02:00  INFO 14916 --- [http-nio-auto-1-exec-1] c.e.o.repository.UserRepository          : Valid command
+2023-03-30T11:43:11.484+02:00  INFO 14916 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-03-30T11:43:11.486+02:00  INFO 14916 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-03-30T11:46:35.570+02:00  INFO 21032 --- [main] c.e.o.repository.UserRepositoryTest      : Starting UserRepositoryTest using Java 19.0.2 with PID 21032 (started by ppauwelb in C:\Users\ppauwelb\IdeaProjects\Order_Exercise)
+2023-03-30T11:46:35.571+02:00  INFO 21032 --- [main] c.e.o.repository.UserRepositoryTest      : No active profile set, falling back to 1 default profile: "default"
+2023-03-30T11:46:36.775+02:00  INFO 21032 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-03-30T11:46:36.784+02:00  INFO 21032 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-30T11:46:36.784+02:00  INFO 21032 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-03-30T11:46:36.883+02:00  INFO 21032 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-30T11:46:36.883+02:00  INFO 21032 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1091 ms
+2023-03-30T11:46:36.942+02:00  WARN 21032 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-30T11:46:36.942+02:00  WARN 21032 --- [main] c.e.o.repository.UserRepository          : Dummy01 item - only for debugging purposes Batman: The Long Halloween
+2023-03-30T11:46:36.942+02:00  WARN 21032 --- [main] c.e.o.repository.UserRepository          : Dummy02 item - only for debugging purposes The Dwarves: Triumph
+2023-03-30T11:46:36.958+02:00  WARN 21032 --- [main] c.e.o.repository.UserRepository          : Admin mail - only for debugging purposes pieter@mail.com
+2023-03-30T11:46:36.959+02:00  WARN 21032 --- [main] c.e.o.repository.UserRepository          : Dummy00 mail - only for debugging purposes dummy00@mail.com
+2023-03-30T11:46:36.960+02:00  WARN 21032 --- [main] c.e.o.repository.UserRepository          : Dummy00 mail - only for debugging purposes dummy01@mail.com
+2023-03-30T11:46:38.077+02:00  INFO 21032 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 53802 (http) with context path ''
+2023-03-30T11:46:38.087+02:00  INFO 21032 --- [main] c.e.o.repository.UserRepositoryTest      : Started UserRepositoryTest in 2.844 seconds (process running for 3.823)
+2023-03-30T11:46:39.250+02:00  INFO 21032 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-30T11:46:39.250+02:00  INFO 21032 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-30T11:46:39.251+02:00  INFO 21032 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-03-30T11:46:39.279+02:00  INFO 21032 --- [http-nio-auto-1-exec-1] c.e.o.repository.UserRepository          : Valid command
+2023-03-30T11:46:39.543+02:00  INFO 21032 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-03-30T11:46:39.544+02:00  INFO 21032 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-03-30T12:00:50.723+02:00  INFO 17404 --- [main] c.e.o.repository.ItemRepositoryTest      : Starting ItemRepositoryTest using Java 19.0.2 with PID 17404 (started by ppauwelb in C:\Users\ppauwelb\IdeaProjects\Order_Exercise)
+2023-03-30T12:00:50.725+02:00  INFO 17404 --- [main] c.e.o.repository.ItemRepositoryTest      : No active profile set, falling back to 1 default profile: "default"
+2023-03-30T12:00:52.198+02:00  INFO 17404 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-03-30T12:00:52.214+02:00  INFO 17404 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-30T12:00:52.215+02:00  INFO 17404 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-03-30T12:00:52.368+02:00  INFO 17404 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-30T12:00:52.368+02:00  INFO 17404 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1339 ms
+2023-03-30T12:00:52.485+02:00  WARN 17404 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-30T12:00:52.485+02:00  WARN 17404 --- [main] c.e.o.repository.UserRepository          : Dummy01 item - only for debugging purposes Batman: The Long Halloween
+2023-03-30T12:00:52.486+02:00  WARN 17404 --- [main] c.e.o.repository.UserRepository          : Dummy02 item - only for debugging purposes The Dwarves: Triumph
+2023-03-30T12:00:52.517+02:00  WARN 17404 --- [main] c.e.o.repository.UserRepository          : Admin mail - only for debugging purposes pieter@mail.com
+2023-03-30T12:00:52.518+02:00  WARN 17404 --- [main] c.e.o.repository.UserRepository          : Dummy00 mail - only for debugging purposes dummy00@mail.com
+2023-03-30T12:00:52.518+02:00  WARN 17404 --- [main] c.e.o.repository.UserRepository          : Dummy00 mail - only for debugging purposes dummy01@mail.com
+2023-03-30T12:00:53.857+02:00  INFO 17404 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 53945 (http) with context path ''
+2023-03-30T12:00:53.865+02:00  INFO 17404 --- [main] c.e.o.repository.ItemRepositoryTest      : Started ItemRepositoryTest in 3.628 seconds (process running for 4.786)
+2023-03-30T12:00:55.118+02:00  INFO 17404 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-30T12:00:55.118+02:00  INFO 17404 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-30T12:00:55.119+02:00  INFO 17404 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-03-30T12:00:55.144+02:00  INFO 17404 --- [http-nio-auto-1-exec-1] c.e.o.repository.UserRepository          : Valid command
+2023-03-30T12:00:55.279+02:00  INFO 17404 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-03-30T12:00:55.281+02:00  INFO 17404 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-03-30T12:01:39.837+02:00  INFO 1492 --- [main] c.e.o.repository.ItemRepositoryTest      : Starting ItemRepositoryTest using Java 19.0.2 with PID 1492 (started by ppauwelb in C:\Users\ppauwelb\IdeaProjects\Order_Exercise)
+2023-03-30T12:01:39.839+02:00  INFO 1492 --- [main] c.e.o.repository.ItemRepositoryTest      : No active profile set, falling back to 1 default profile: "default"
+2023-03-30T12:01:41.216+02:00  INFO 1492 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-03-30T12:01:41.225+02:00  INFO 1492 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-30T12:01:41.225+02:00  INFO 1492 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-03-30T12:01:41.334+02:00  INFO 1492 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-30T12:01:41.334+02:00  INFO 1492 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1283 ms
+2023-03-30T12:01:41.400+02:00  WARN 1492 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-30T12:01:41.401+02:00  WARN 1492 --- [main] c.e.o.repository.UserRepository          : Dummy01 item - only for debugging purposes Batman: The Long Halloween
+2023-03-30T12:01:41.401+02:00  WARN 1492 --- [main] c.e.o.repository.UserRepository          : Dummy02 item - only for debugging purposes The Dwarves: Triumph
+2023-03-30T12:01:41.419+02:00  WARN 1492 --- [main] c.e.o.repository.UserRepository          : Admin mail - only for debugging purposes pieter@mail.com
+2023-03-30T12:01:41.419+02:00  WARN 1492 --- [main] c.e.o.repository.UserRepository          : Dummy00 mail - only for debugging purposes dummy00@mail.com
+2023-03-30T12:01:41.419+02:00  WARN 1492 --- [main] c.e.o.repository.UserRepository          : Dummy00 mail - only for debugging purposes dummy01@mail.com
+2023-03-30T12:01:42.799+02:00  INFO 1492 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 53953 (http) with context path ''
+2023-03-30T12:01:42.809+02:00  INFO 1492 --- [main] c.e.o.repository.ItemRepositoryTest      : Started ItemRepositoryTest in 3.31 seconds (process running for 4.296)
+2023-03-30T12:01:44.129+02:00  INFO 1492 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-30T12:01:44.129+02:00  INFO 1492 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-30T12:01:44.130+02:00  INFO 1492 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-03-30T12:01:44.158+02:00  INFO 1492 --- [http-nio-auto-1-exec-1] c.e.o.repository.UserRepository          : Valid command
+2023-03-30T12:01:44.158+02:00  WARN 1492 --- [http-nio-auto-1-exec-1] c.e.o.repository.UserRepository          : Optional[com.example.order_exercise.domain.Item@3b155245] error with findbyID
+2023-03-30T12:01:44.322+02:00  INFO 1492 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-03-30T12:01:44.323+02:00  INFO 1492 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-03-30T12:04:52.720+02:00  INFO 15340 --- [main] c.e.o.repository.ItemRepositoryTest      : Starting ItemRepositoryTest using Java 19.0.2 with PID 15340 (started by ppauwelb in C:\Users\ppauwelb\IdeaProjects\Order_Exercise)
+2023-03-30T12:04:52.722+02:00  INFO 15340 --- [main] c.e.o.repository.ItemRepositoryTest      : No active profile set, falling back to 1 default profile: "default"
+2023-03-30T12:04:53.965+02:00  INFO 15340 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-03-30T12:04:53.975+02:00  INFO 15340 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-30T12:04:53.975+02:00  INFO 15340 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-03-30T12:04:54.071+02:00  INFO 15340 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-30T12:04:54.071+02:00  INFO 15340 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1099 ms
+2023-03-30T12:04:54.128+02:00  WARN 15340 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-30T12:04:54.129+02:00  WARN 15340 --- [main] c.e.o.repository.UserRepository          : Dummy01 item - only for debugging purposes Batman: The Long Halloween
+2023-03-30T12:04:54.129+02:00  WARN 15340 --- [main] c.e.o.repository.UserRepository          : Dummy02 item - only for debugging purposes The Dwarves: Triumph
+2023-03-30T12:04:54.147+02:00  WARN 15340 --- [main] c.e.o.repository.UserRepository          : Admin mail - only for debugging purposes pieter@mail.com
+2023-03-30T12:04:54.147+02:00  WARN 15340 --- [main] c.e.o.repository.UserRepository          : Dummy00 mail - only for debugging purposes dummy00@mail.com
+2023-03-30T12:04:54.147+02:00  WARN 15340 --- [main] c.e.o.repository.UserRepository          : Dummy00 mail - only for debugging purposes dummy01@mail.com
+2023-03-30T12:04:55.253+02:00  INFO 15340 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 54005 (http) with context path ''
+2023-03-30T12:04:55.266+02:00  INFO 15340 --- [main] c.e.o.repository.ItemRepositoryTest      : Started ItemRepositoryTest in 2.928 seconds (process running for 4.13)
+2023-03-30T12:04:56.753+02:00  INFO 15340 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-30T12:04:56.754+02:00  INFO 15340 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-30T12:04:56.755+02:00  INFO 15340 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-03-30T12:04:56.782+02:00  INFO 15340 --- [http-nio-auto-1-exec-1] c.e.o.repository.UserRepository          : Valid command
+2023-03-30T12:04:56.782+02:00  WARN 15340 --- [http-nio-auto-1-exec-1] c.e.o.repository.UserRepository          : Optional.empty error with findbyID
+2023-03-30T12:04:56.919+02:00  INFO 15340 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-03-30T12:04:56.920+02:00  INFO 15340 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'

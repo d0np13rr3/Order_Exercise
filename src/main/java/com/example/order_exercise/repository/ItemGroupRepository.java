@@ -18,7 +18,7 @@ public class ItemGroupRepository {
     public ItemGroupRepository(){
         Amount amount00 = new Amount(5);
         amount00.setInStock(true);
-        ItemDTO dummyItem02 = new ItemDTO("The Dwarves: Triumph", "Novel", 10.0, amount00, 4);
+        ItemDTO dummyItem02 = new ItemDTO("The Dwarves: Triumph", "Novel", 10.0, amount00, 2);
         ItemGroup itemGroup00 = new ItemGroup(dummyItem02, 2);
         repository.put(dummyItem02.getName(), itemGroup00);
     }

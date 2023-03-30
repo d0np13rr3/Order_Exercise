@@ -25,12 +25,16 @@ public class ItemRepository {
         amount01.setInStock(true);
         Item dummyItem00 = new Item("Warhammer: Crimson Fists", "Novel", 15.0, amount00);
         Item dummyItem01 = new Item("Batman: The Long Halloween", "Graphic Novel", 25.0, amount01);
+        Item dummyItem02 = new Item("The Dwarves: Triumph", "Novel", 10.0, amount00);
         logger.warn("Dummy00 item - only for debugging purposes " + dummyItem00.getName());
-        logger.warn("Dummy00 item - only for debugging purposes " + dummyItem01.getName());
+        logger.warn("Dummy01 item - only for debugging purposes " + dummyItem01.getName());
+        logger.warn("Dummy02 item - only for debugging purposes " + dummyItem02.getName());
         dummyItem00.setId(0);
         dummyItem01.setId(1);
+        dummyItem01.setId(2);
         repository.put(0, dummyItem00);
         repository.put(1, dummyItem01);
+        repository.put(1, dummyItem02);
     }
 
     public static ArrayList<Integer> getIdOfRepository(){
@@ -78,11 +82,10 @@ public class ItemRepository {
             if(item00.equals(item)){
                 item00.setAmount(amount);
             }
-
-
-
         }
-
+    }
+    public void deleteItemsInItemRepository(){
+        repository.clear();
     }
 
 

@@ -6,8 +6,13 @@ import com.example.order_exercise.service.UserService;
 import com.example.order_exercise.service.LoginService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
+import java.util.stream.Collectors;
 
 @RestController
 @RequestMapping("/login")
@@ -32,9 +37,8 @@ public class LoginController {
 
     @ExceptionHandler(NullPointerException.class)
     @ResponseStatus(code = HttpStatus.UNAUTHORIZED)
-    public void handleException(NullPointerException ex){
-        logger.error("No such user in database.");
-
+    public ResponseEntity<String> handleContentNotAllowedException(NullPointerException cnae) {
+        return new ResponseEntity<>("No user found", HttpStatus.UNAUTHORIZED);
     }
 
 }

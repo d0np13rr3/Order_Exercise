@@ -45,9 +45,9 @@ class ItemControllerTest {
     @DisplayName("Is error thrown when wrong id given?")
     public void testWrongID() {
         loginService.setRole(Role.ADMIN);
-        Throwable exception = assertThrows(InvalidCommandException.class, () ->
+        Throwable exception = assertThrows(IdNotFoundException.class, () ->
             controller.findItemByID(5));
-        assertEquals("Invalid command, try something you are allowed to do.", exception.getMessage());
+        assertEquals("Id not found. Try an existing id.", exception.getMessage());
     }
 
 

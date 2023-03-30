@@ -1449,3 +1449,87 @@ com.example.order_exercise.exceptions.InvalidCommandException: Invalid command, 
 2023-03-30T11:00:07.464+02:00  WARN 19280 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
 2023-03-30T11:00:07.464+02:00  WARN 19280 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Batman: The Long Halloween
 2023-03-30T11:00:07.465+02:00  WARN 19280 --- [main] c.e.o.repository.UserRepository          : Optional[Optional.empty]
+2023-03-30T11:09:10.556+02:00  INFO 5444 --- [main] c.e.o.ItemGroupExerciseApplicationTests  : Starting ItemGroupExerciseApplicationTests using Java 19.0.2 with PID 5444 (started by ppauwelb in C:\Users\ppauwelb\IdeaProjects\Order_Exercise)
+2023-03-30T11:09:10.558+02:00  INFO 5444 --- [main] c.e.o.ItemGroupExerciseApplicationTests  : No active profile set, falling back to 1 default profile: "default"
+2023-03-30T11:09:11.358+02:00  WARN 5444 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-30T11:09:11.358+02:00  WARN 5444 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Batman: The Long Halloween
+2023-03-30T11:09:11.369+02:00  WARN 5444 --- [main] c.e.o.repository.UserRepository          : Admin mail - only for debugging purposes pieter@mail.com
+2023-03-30T11:09:11.369+02:00  WARN 5444 --- [main] c.e.o.repository.UserRepository          : Dummy00 mail - only for debugging purposes dummy00@mail.com
+2023-03-30T11:09:11.369+02:00  WARN 5444 --- [main] c.e.o.repository.UserRepository          : Dummy00 mail - only for debugging purposes dummy01@mail.com
+2023-03-30T11:09:12.450+02:00  INFO 5444 --- [main] c.e.o.ItemGroupExerciseApplicationTests  : Started ItemGroupExerciseApplicationTests in 2.173 seconds (process running for 3.242)
+2023-03-30T11:09:12.883+02:00  WARN 5444 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-30T11:09:12.883+02:00  WARN 5444 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Batman: The Long Halloween
+2023-03-30T11:09:12.884+02:00  INFO 5444 --- [main] c.e.o.repository.UserRepository          : Valid command
+2023-03-30T11:09:12.950+02:00  WARN 5444 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-30T11:09:12.950+02:00  WARN 5444 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Batman: The Long Halloween
+2023-03-30T11:09:12.953+02:00  INFO 5444 --- [main] c.e.o.repository.UserRepository          : Valid command
+2023-03-30T11:09:12.953+02:00  WARN 5444 --- [main] c.e.o.repository.UserRepository          : Optional.empty error with findbyID
+2023-03-30T11:09:12.966+02:00  WARN 5444 --- [main] c.e.o.repository.UserRepository          : Admin mail - only for debugging purposes pieter@mail.com
+2023-03-30T11:09:12.966+02:00  WARN 5444 --- [main] c.e.o.repository.UserRepository          : Dummy00 mail - only for debugging purposes dummy00@mail.com
+2023-03-30T11:09:12.966+02:00  WARN 5444 --- [main] c.e.o.repository.UserRepository          : Dummy00 mail - only for debugging purposes dummy01@mail.com
+2023-03-30T11:09:12.966+02:00  INFO 5444 --- [main] c.e.o.repository.UserRepository          : Valid command
+2023-03-30T11:09:12.970+02:00  WARN 5444 --- [main] c.e.o.repository.UserRepository          : Admin mail - only for debugging purposes pieter@mail.com
+2023-03-30T11:09:12.971+02:00  WARN 5444 --- [main] c.e.o.repository.UserRepository          : Dummy00 mail - only for debugging purposes dummy00@mail.com
+2023-03-30T11:09:12.971+02:00  WARN 5444 --- [main] c.e.o.repository.UserRepository          : Dummy00 mail - only for debugging purposes dummy01@mail.com
+2023-03-30T11:09:12.971+02:00  INFO 5444 --- [main] c.e.o.repository.UserRepository          : Valid command
+2023-03-30T11:09:12.974+02:00  WARN 5444 --- [main] c.e.o.repository.UserRepository          : Admin mail - only for debugging purposes pieter@mail.com
+2023-03-30T11:09:12.974+02:00  WARN 5444 --- [main] c.e.o.repository.UserRepository          : Dummy00 mail - only for debugging purposes dummy00@mail.com
+2023-03-30T11:09:12.974+02:00  WARN 5444 --- [main] c.e.o.repository.UserRepository          : Dummy00 mail - only for debugging purposes dummy01@mail.com
+2023-03-30T11:09:12.974+02:00  INFO 5444 --- [main] c.e.o.repository.UserRepository          : Valid command
+2023-03-30T11:09:12.977+02:00  WARN 5444 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-30T11:09:12.977+02:00  WARN 5444 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Batman: The Long Halloween
+2023-03-30T11:09:12.978+02:00  WARN 5444 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-30T11:09:12.979+02:00  WARN 5444 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Batman: The Long Halloween
+2023-03-30T11:09:12.980+02:00  WARN 5444 --- [main] c.e.o.repository.UserRepository          : Optional[Optional.empty]
+2023-03-30T11:09:12.981+02:00  WARN 5444 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-30T11:09:12.981+02:00  WARN 5444 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Batman: The Long Halloween
+2023-03-30T11:09:12.982+02:00  WARN 5444 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-30T11:09:12.982+02:00  WARN 5444 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Batman: The Long Halloween
+2023-03-30T11:09:12.982+02:00  INFO 5444 --- [main] c.e.o.repository.UserRepository          : Valid command
+2023-03-30T11:09:12.983+02:00  WARN 5444 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-30T11:09:12.983+02:00  WARN 5444 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Batman: The Long Halloween
+2023-03-30T11:09:12.984+02:00  WARN 5444 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-30T11:09:12.985+02:00  WARN 5444 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Batman: The Long Halloween
+2023-03-30T11:09:12.985+02:00  WARN 5444 --- [main] c.e.o.repository.UserRepository          : Optional[Optional.empty]
+2023-03-30T11:10:31.604+02:00  INFO 15120 --- [main] c.e.o.ItemGroupExerciseApplicationTests  : Starting ItemGroupExerciseApplicationTests using Java 19.0.2 with PID 15120 (started by ppauwelb in C:\Users\ppauwelb\IdeaProjects\Order_Exercise)
+2023-03-30T11:10:31.605+02:00  INFO 15120 --- [main] c.e.o.ItemGroupExerciseApplicationTests  : No active profile set, falling back to 1 default profile: "default"
+2023-03-30T11:10:32.381+02:00  WARN 15120 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-30T11:10:32.381+02:00  WARN 15120 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Batman: The Long Halloween
+2023-03-30T11:10:32.390+02:00  WARN 15120 --- [main] c.e.o.repository.UserRepository          : Admin mail - only for debugging purposes pieter@mail.com
+2023-03-30T11:10:32.390+02:00  WARN 15120 --- [main] c.e.o.repository.UserRepository          : Dummy00 mail - only for debugging purposes dummy00@mail.com
+2023-03-30T11:10:32.390+02:00  WARN 15120 --- [main] c.e.o.repository.UserRepository          : Dummy00 mail - only for debugging purposes dummy01@mail.com
+2023-03-30T11:10:33.475+02:00  INFO 15120 --- [main] c.e.o.ItemGroupExerciseApplicationTests  : Started ItemGroupExerciseApplicationTests in 2.171 seconds (process running for 3.204)
+2023-03-30T11:10:33.897+02:00  WARN 15120 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-30T11:10:33.897+02:00  WARN 15120 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Batman: The Long Halloween
+2023-03-30T11:10:33.898+02:00  INFO 15120 --- [main] c.e.o.repository.UserRepository          : Valid command
+2023-03-30T11:10:33.957+02:00  WARN 15120 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-30T11:10:33.958+02:00  WARN 15120 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Batman: The Long Halloween
+2023-03-30T11:10:33.960+02:00  INFO 15120 --- [main] c.e.o.repository.UserRepository          : Valid command
+2023-03-30T11:10:33.961+02:00  WARN 15120 --- [main] c.e.o.repository.UserRepository          : Optional.empty error with findbyID
+2023-03-30T11:10:33.964+02:00  WARN 15120 --- [main] c.e.o.repository.UserRepository          : Admin mail - only for debugging purposes pieter@mail.com
+2023-03-30T11:10:33.964+02:00  WARN 15120 --- [main] c.e.o.repository.UserRepository          : Dummy00 mail - only for debugging purposes dummy00@mail.com
+2023-03-30T11:10:33.964+02:00  WARN 15120 --- [main] c.e.o.repository.UserRepository          : Dummy00 mail - only for debugging purposes dummy01@mail.com
+2023-03-30T11:10:33.965+02:00  INFO 15120 --- [main] c.e.o.repository.UserRepository          : Valid command
+2023-03-30T11:10:33.969+02:00  WARN 15120 --- [main] c.e.o.repository.UserRepository          : Admin mail - only for debugging purposes pieter@mail.com
+2023-03-30T11:10:33.969+02:00  WARN 15120 --- [main] c.e.o.repository.UserRepository          : Dummy00 mail - only for debugging purposes dummy00@mail.com
+2023-03-30T11:10:33.969+02:00  WARN 15120 --- [main] c.e.o.repository.UserRepository          : Dummy00 mail - only for debugging purposes dummy01@mail.com
+2023-03-30T11:10:33.969+02:00  INFO 15120 --- [main] c.e.o.repository.UserRepository          : Valid command
+2023-03-30T11:10:33.971+02:00  WARN 15120 --- [main] c.e.o.repository.UserRepository          : Admin mail - only for debugging purposes pieter@mail.com
+2023-03-30T11:10:33.971+02:00  WARN 15120 --- [main] c.e.o.repository.UserRepository          : Dummy00 mail - only for debugging purposes dummy00@mail.com
+2023-03-30T11:10:33.971+02:00  WARN 15120 --- [main] c.e.o.repository.UserRepository          : Dummy00 mail - only for debugging purposes dummy01@mail.com
+2023-03-30T11:10:33.972+02:00  INFO 15120 --- [main] c.e.o.repository.UserRepository          : Valid command
+2023-03-30T11:10:33.975+02:00  WARN 15120 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-30T11:10:33.975+02:00  WARN 15120 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Batman: The Long Halloween
+2023-03-30T11:10:33.976+02:00  WARN 15120 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-30T11:10:33.976+02:00  WARN 15120 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Batman: The Long Halloween
+2023-03-30T11:10:33.977+02:00  WARN 15120 --- [main] c.e.o.repository.UserRepository          : Optional[Optional.empty]
+2023-03-30T11:10:33.978+02:00  WARN 15120 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-30T11:10:33.978+02:00  WARN 15120 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Batman: The Long Halloween
+2023-03-30T11:10:33.979+02:00  WARN 15120 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-30T11:10:33.980+02:00  WARN 15120 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Batman: The Long Halloween
+2023-03-30T11:10:33.980+02:00  INFO 15120 --- [main] c.e.o.repository.UserRepository          : Valid command
+2023-03-30T11:10:33.980+02:00  WARN 15120 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-30T11:10:33.980+02:00  WARN 15120 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Batman: The Long Halloween
+2023-03-30T11:10:33.981+02:00  WARN 15120 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-30T11:10:33.981+02:00  WARN 15120 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Batman: The Long Halloween
+2023-03-30T11:10:33.982+02:00  WARN 15120 --- [main] c.e.o.repository.UserRepository          : Optional[Optional.empty]

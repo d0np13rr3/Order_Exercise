@@ -9,14 +9,13 @@ public class CreateItemDTO {
     private final String description;
     private final Double price;
     private final Amount amount;
-    private final Integer id;
 
-    public CreateItemDTO(String name, String description, Double price, Amount amount, Integer id) {
+    public CreateItemDTO(String name, String description, Double price, Amount amount) {
         this.name = name;
         this.description = description;
         this.price = price;
         this.amount = amount;
-        this.id = id;
+
     }
     public String getName() {
         return name;
@@ -44,8 +43,4 @@ public class CreateItemDTO {
         return Objects.hash(name);
     }
 
-
-    public Object getId() {
-        return id;
-    }
 }

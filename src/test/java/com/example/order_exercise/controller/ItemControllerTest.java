@@ -37,7 +37,7 @@ class ItemControllerTest {
     void findItems(){
         loginService.setRole(Role.ADMIN);
         List<ItemDTO> answer = controller.findAll();
-        assertThat(answer).hasSize(2);
+        assertThat(answer).hasSize(3);
     }
 
 

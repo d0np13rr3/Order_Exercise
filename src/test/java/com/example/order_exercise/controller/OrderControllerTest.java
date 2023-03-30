@@ -23,9 +23,9 @@ import java.util.List;
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.api.Assertions.*;
 
-class ItemGroupControllerTest {
+class OrderControllerTest {
 
-    private ItemGroupController controller;
+    private OrderController controller;
     private ItemGroupRepository itemGroupRepository = new ItemGroupRepository();
     private ItemRepository itemRepository = new ItemRepository();
     private ItemGroupService itemGroupService = new ItemGroupService(itemGroupRepository, itemRepository, new ItemMapper());
@@ -35,7 +35,7 @@ class ItemGroupControllerTest {
 
     @BeforeEach
     void setup(){
-        controller = new ItemGroupController(new ItemService(new ItemMapper(), new ItemRepository()), itemGroupService, new OrderService(), loginService);
+        controller = new OrderController(new ItemService(new ItemMapper(), new ItemRepository()), itemGroupService, new OrderService(), loginService);
     }
 
     @Test

@@ -15,14 +15,14 @@ import static com.example.order_exercise.security.Feature.*;
 
 @RestController
 @RequestMapping("/orders")
-public class ItemGroupController {
+public class OrderController {
 
     private final ItemService itemService;
     private final ItemGroupService itemGroupService;
     private final OrderService orderService;
     private final LoginService loginService;
 
-    public ItemGroupController(ItemService itemService, ItemGroupService itemGroupService, OrderService orderService, LoginService loginService) {
+    public OrderController(ItemService itemService, ItemGroupService itemGroupService, OrderService orderService, LoginService loginService) {
         this.itemService = itemService;
         this.itemGroupService = itemGroupService;
         this.orderService = orderService;

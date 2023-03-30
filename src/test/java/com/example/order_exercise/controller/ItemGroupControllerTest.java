@@ -51,7 +51,7 @@ class ItemGroupControllerTest {
     void failingOrderNotThere(){
         loginService.setRole(Role.CUSTOMER);
         Amount amount00 = new Amount(1);
-        ItemDTO dummyItem02 = new ItemDTO("The Dwarves: Triumph", "Novel", 10.0, amount00, 4);
+        ItemDTO dummyItem02 = new ItemDTO("The Dwarves: Chasm", "Novel", 10.0, amount00, 4);
 
         Throwable exception = assertThrows(ItemNotFoundException.class, () ->
                 itemGroupService.create(dummyItem02, 10));

@@ -1661,3 +1661,101 @@ com.example.order_exercise.exceptions.InvalidCommandException: Invalid command, 
 2023-03-30T12:04:56.782+02:00  WARN 15340 --- [http-nio-auto-1-exec-1] c.e.o.repository.UserRepository          : Optional.empty error with findbyID
 2023-03-30T12:04:56.919+02:00  INFO 15340 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
 2023-03-30T12:04:56.920+02:00  INFO 15340 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-03-30T12:07:04.057+02:00  INFO 860 --- [main] c.e.o.ItemGroupExerciseApplicationTests  : Starting ItemGroupExerciseApplicationTests using Java 19.0.2 with PID 860 (started by ppauwelb in C:\Users\ppauwelb\IdeaProjects\Order_Exercise)
+2023-03-30T12:07:04.059+02:00  INFO 860 --- [main] c.e.o.ItemGroupExerciseApplicationTests  : No active profile set, falling back to 1 default profile: "default"
+2023-03-30T12:07:05.235+02:00  WARN 860 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-30T12:07:05.235+02:00  WARN 860 --- [main] c.e.o.repository.UserRepository          : Dummy01 item - only for debugging purposes Batman: The Long Halloween
+2023-03-30T12:07:05.235+02:00  WARN 860 --- [main] c.e.o.repository.UserRepository          : Dummy02 item - only for debugging purposes The Dwarves: Triumph
+2023-03-30T12:07:05.249+02:00  WARN 860 --- [main] c.e.o.repository.UserRepository          : Admin mail - only for debugging purposes pieter@mail.com
+2023-03-30T12:07:05.250+02:00  WARN 860 --- [main] c.e.o.repository.UserRepository          : Dummy00 mail - only for debugging purposes dummy00@mail.com
+2023-03-30T12:07:05.250+02:00  WARN 860 --- [main] c.e.o.repository.UserRepository          : Dummy00 mail - only for debugging purposes dummy01@mail.com
+2023-03-30T12:07:06.416+02:00  INFO 860 --- [main] c.e.o.ItemGroupExerciseApplicationTests  : Started ItemGroupExerciseApplicationTests in 2.72 seconds (process running for 4.075)
+2023-03-30T12:07:06.876+02:00  WARN 860 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-30T12:07:06.876+02:00  WARN 860 --- [main] c.e.o.repository.UserRepository          : Dummy01 item - only for debugging purposes Batman: The Long Halloween
+2023-03-30T12:07:06.876+02:00  WARN 860 --- [main] c.e.o.repository.UserRepository          : Dummy02 item - only for debugging purposes The Dwarves: Triumph
+2023-03-30T12:07:06.877+02:00  INFO 860 --- [main] c.e.o.repository.UserRepository          : Valid command
+2023-03-30T12:07:06.936+02:00  WARN 860 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-30T12:07:06.936+02:00  WARN 860 --- [main] c.e.o.repository.UserRepository          : Dummy01 item - only for debugging purposes Batman: The Long Halloween
+2023-03-30T12:07:06.936+02:00  WARN 860 --- [main] c.e.o.repository.UserRepository          : Dummy02 item - only for debugging purposes The Dwarves: Triumph
+2023-03-30T12:07:06.939+02:00  INFO 860 --- [main] c.e.o.repository.UserRepository          : Valid command
+2023-03-30T12:07:06.940+02:00  WARN 860 --- [main] c.e.o.repository.UserRepository          : Optional.empty error with findbyID
+2023-03-30T12:07:06.944+02:00  WARN 860 --- [main] c.e.o.repository.UserRepository          : Admin mail - only for debugging purposes pieter@mail.com
+2023-03-30T12:07:06.944+02:00  WARN 860 --- [main] c.e.o.repository.UserRepository          : Dummy00 mail - only for debugging purposes dummy00@mail.com
+2023-03-30T12:07:06.944+02:00  WARN 860 --- [main] c.e.o.repository.UserRepository          : Dummy00 mail - only for debugging purposes dummy01@mail.com
+2023-03-30T12:07:06.944+02:00  INFO 860 --- [main] c.e.o.repository.UserRepository          : Valid command
+2023-03-30T12:07:06.948+02:00  WARN 860 --- [main] c.e.o.repository.UserRepository          : Admin mail - only for debugging purposes pieter@mail.com
+2023-03-30T12:07:06.948+02:00  WARN 860 --- [main] c.e.o.repository.UserRepository          : Dummy00 mail - only for debugging purposes dummy00@mail.com
+2023-03-30T12:07:06.948+02:00  WARN 860 --- [main] c.e.o.repository.UserRepository          : Dummy00 mail - only for debugging purposes dummy01@mail.com
+2023-03-30T12:07:06.949+02:00  INFO 860 --- [main] c.e.o.repository.UserRepository          : Valid command
+2023-03-30T12:07:06.950+02:00  WARN 860 --- [main] c.e.o.repository.UserRepository          : Admin mail - only for debugging purposes pieter@mail.com
+2023-03-30T12:07:06.951+02:00  WARN 860 --- [main] c.e.o.repository.UserRepository          : Dummy00 mail - only for debugging purposes dummy00@mail.com
+2023-03-30T12:07:06.951+02:00  WARN 860 --- [main] c.e.o.repository.UserRepository          : Dummy00 mail - only for debugging purposes dummy01@mail.com
+2023-03-30T12:07:06.951+02:00  INFO 860 --- [main] c.e.o.repository.UserRepository          : Valid command
+2023-03-30T12:07:06.954+02:00  WARN 860 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-30T12:07:06.954+02:00  WARN 860 --- [main] c.e.o.repository.UserRepository          : Dummy01 item - only for debugging purposes Batman: The Long Halloween
+2023-03-30T12:07:06.954+02:00  WARN 860 --- [main] c.e.o.repository.UserRepository          : Dummy02 item - only for debugging purposes The Dwarves: Triumph
+2023-03-30T12:07:06.955+02:00  WARN 860 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-30T12:07:06.955+02:00  WARN 860 --- [main] c.e.o.repository.UserRepository          : Dummy01 item - only for debugging purposes Batman: The Long Halloween
+2023-03-30T12:07:06.955+02:00  WARN 860 --- [main] c.e.o.repository.UserRepository          : Dummy02 item - only for debugging purposes The Dwarves: Triumph
+2023-03-30T12:07:06.957+02:00  WARN 860 --- [main] c.e.o.repository.UserRepository          : Optional[Optional.empty]
+2023-03-30T12:07:06.964+02:00  WARN 860 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-30T12:07:06.964+02:00  WARN 860 --- [main] c.e.o.repository.UserRepository          : Dummy01 item - only for debugging purposes Batman: The Long Halloween
+2023-03-30T12:07:06.964+02:00  WARN 860 --- [main] c.e.o.repository.UserRepository          : Dummy02 item - only for debugging purposes The Dwarves: Triumph
+2023-03-30T12:07:06.965+02:00  WARN 860 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-30T12:07:06.965+02:00  WARN 860 --- [main] c.e.o.repository.UserRepository          : Dummy01 item - only for debugging purposes Batman: The Long Halloween
+2023-03-30T12:07:06.965+02:00  WARN 860 --- [main] c.e.o.repository.UserRepository          : Dummy02 item - only for debugging purposes The Dwarves: Triumph
+2023-03-30T12:07:06.966+02:00  INFO 860 --- [main] c.e.o.repository.UserRepository          : Valid command
+2023-03-30T12:07:06.966+02:00  WARN 860 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-30T12:07:06.966+02:00  WARN 860 --- [main] c.e.o.repository.UserRepository          : Dummy01 item - only for debugging purposes Batman: The Long Halloween
+2023-03-30T12:07:06.966+02:00  WARN 860 --- [main] c.e.o.repository.UserRepository          : Dummy02 item - only for debugging purposes The Dwarves: Triumph
+2023-03-30T12:07:06.967+02:00  WARN 860 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-30T12:07:06.968+02:00  WARN 860 --- [main] c.e.o.repository.UserRepository          : Dummy01 item - only for debugging purposes Batman: The Long Halloween
+2023-03-30T12:07:06.968+02:00  WARN 860 --- [main] c.e.o.repository.UserRepository          : Dummy02 item - only for debugging purposes The Dwarves: Triumph
+2023-03-30T12:07:06.969+02:00  WARN 860 --- [main] c.e.o.repository.UserRepository          : Optional[Optional.empty]
+2023-03-30T12:07:06.973+02:00  INFO 860 --- [main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.example.order_exercise.repository.ItemRepositoryTest]: ItemRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-03-30T12:07:06.986+02:00  INFO 860 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.example.order_exercise.OrderExerciseApplication for test class com.example.order_exercise.repository.ItemRepositoryTest
+2023-03-30T12:07:07.024+02:00  INFO 860 --- [main] c.e.o.repository.ItemRepositoryTest      : Starting ItemRepositoryTest using Java 19.0.2 with PID 860 (started by ppauwelb in C:\Users\ppauwelb\IdeaProjects\Order_Exercise)
+2023-03-30T12:07:07.025+02:00  INFO 860 --- [main] c.e.o.repository.ItemRepositoryTest      : No active profile set, falling back to 1 default profile: "default"
+2023-03-30T12:07:07.493+02:00  INFO 860 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-03-30T12:07:07.504+02:00  INFO 860 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-30T12:07:07.504+02:00  INFO 860 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-03-30T12:07:07.639+02:00  INFO 860 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-30T12:07:07.639+02:00  INFO 860 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 612 ms
+2023-03-30T12:07:07.681+02:00  WARN 860 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-30T12:07:07.681+02:00  WARN 860 --- [main] c.e.o.repository.UserRepository          : Dummy01 item - only for debugging purposes Batman: The Long Halloween
+2023-03-30T12:07:07.682+02:00  WARN 860 --- [main] c.e.o.repository.UserRepository          : Dummy02 item - only for debugging purposes The Dwarves: Triumph
+2023-03-30T12:07:07.684+02:00  WARN 860 --- [main] c.e.o.repository.UserRepository          : Admin mail - only for debugging purposes pieter@mail.com
+2023-03-30T12:07:07.684+02:00  WARN 860 --- [main] c.e.o.repository.UserRepository          : Dummy00 mail - only for debugging purposes dummy00@mail.com
+2023-03-30T12:07:07.684+02:00  WARN 860 --- [main] c.e.o.repository.UserRepository          : Dummy00 mail - only for debugging purposes dummy01@mail.com
+2023-03-30T12:07:08.368+02:00  INFO 860 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 54032 (http) with context path ''
+2023-03-30T12:07:08.374+02:00  INFO 860 --- [main] c.e.o.repository.ItemRepositoryTest      : Started ItemRepositoryTest in 1.383 seconds (process running for 6.034)
+2023-03-30T12:07:09.489+02:00  INFO 860 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-30T12:07:09.489+02:00  INFO 860 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-30T12:07:09.490+02:00  INFO 860 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-03-30T12:07:09.524+02:00  INFO 860 --- [http-nio-auto-1-exec-1] c.e.o.repository.UserRepository          : Valid command
+2023-03-30T12:07:09.524+02:00  WARN 860 --- [http-nio-auto-1-exec-1] c.e.o.repository.UserRepository          : Optional.empty error with findbyID
+2023-03-30T12:07:09.695+02:00  INFO 860 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-03-30T12:07:09.696+02:00  INFO 860 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-03-30T12:07:09.712+02:00  INFO 860 --- [main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.example.order_exercise.repository.UserRepositoryTest]: UserRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-03-30T12:07:09.714+02:00  INFO 860 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.example.order_exercise.OrderExerciseApplication for test class com.example.order_exercise.repository.UserRepositoryTest
+2023-03-30T12:07:09.759+02:00  INFO 860 --- [main] c.e.o.repository.UserRepositoryTest      : Starting UserRepositoryTest using Java 19.0.2 with PID 860 (started by ppauwelb in C:\Users\ppauwelb\IdeaProjects\Order_Exercise)
+2023-03-30T12:07:09.760+02:00  INFO 860 --- [main] c.e.o.repository.UserRepositoryTest      : No active profile set, falling back to 1 default profile: "default"
+2023-03-30T12:07:09.993+02:00  INFO 860 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-03-30T12:07:09.995+02:00  INFO 860 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-30T12:07:09.996+02:00  INFO 860 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-03-30T12:07:10.025+02:00  INFO 860 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-30T12:07:10.025+02:00  INFO 860 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 262 ms
+2023-03-30T12:07:10.032+02:00  WARN 860 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-30T12:07:10.032+02:00  WARN 860 --- [main] c.e.o.repository.UserRepository          : Dummy01 item - only for debugging purposes Batman: The Long Halloween
+2023-03-30T12:07:10.032+02:00  WARN 860 --- [main] c.e.o.repository.UserRepository          : Dummy02 item - only for debugging purposes The Dwarves: Triumph
+2023-03-30T12:07:10.035+02:00  WARN 860 --- [main] c.e.o.repository.UserRepository          : Admin mail - only for debugging purposes pieter@mail.com
+2023-03-30T12:07:10.035+02:00  WARN 860 --- [main] c.e.o.repository.UserRepository          : Dummy00 mail - only for debugging purposes dummy00@mail.com
+2023-03-30T12:07:10.035+02:00  WARN 860 --- [main] c.e.o.repository.UserRepository          : Dummy00 mail - only for debugging purposes dummy01@mail.com
+2023-03-30T12:07:10.576+02:00  INFO 860 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 54035 (http) with context path ''
+2023-03-30T12:07:10.580+02:00  INFO 860 --- [main] c.e.o.repository.UserRepositoryTest      : Started UserRepositoryTest in 0.861 seconds (process running for 8.241)
+2023-03-30T12:07:10.643+02:00  INFO 860 --- [http-nio-auto-2-exec-4] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-30T12:07:10.643+02:00  INFO 860 --- [http-nio-auto-2-exec-4] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-30T12:07:10.644+02:00  INFO 860 --- [http-nio-auto-2-exec-4] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-03-30T12:07:10.647+02:00  INFO 860 --- [http-nio-auto-2-exec-4] c.e.o.repository.UserRepository          : Valid command
+2023-03-30T12:07:10.784+02:00  INFO 860 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-03-30T12:07:10.785+02:00  INFO 860 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'

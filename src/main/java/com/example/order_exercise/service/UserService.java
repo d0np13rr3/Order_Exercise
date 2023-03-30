@@ -3,6 +3,7 @@ package com.example.order_exercise.service;
 import com.example.order_exercise.domain.User;
 import com.example.order_exercise.dto.CreateUserDTO;
 import com.example.order_exercise.dto.UserDTO;
+import com.example.order_exercise.exceptions.UnknownUserException;
 import com.example.order_exercise.mapper.UserMapper;
 import com.example.order_exercise.repository.UserRepository;
 import com.example.order_exercise.security.Role;
@@ -29,7 +30,10 @@ public class UserService {
     }
 
     public UserDTO findById(String id) {
-        return mapper.toDTO(repository.findByEmail(id));
+        if(!repository.findByEmail(id).isPresent()){
+            throw new UnknownUserException();
+        }
+        return mapper.toDTO(repository.findByEmail(id).get());
     }
 
     public UserDTO create(CreateUserDTO newCustomer) {

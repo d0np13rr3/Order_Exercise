@@ -9,6 +9,7 @@ import org.springframework.stereotype.Repository;
 
 import java.util.Collection;
 import java.util.HashMap;
+import java.util.Optional;
 
 @Repository
 public class UserRepository {
@@ -42,9 +43,9 @@ public class UserRepository {
         repository.put(user.getMail(), user);
         return user;
     }
-    public User findByEmail(String mail){
-
-        return repository.get(mail);
+    public Optional<User> findByEmail(String mail){
+        Optional<User> optionalUser = Optional.ofNullable(repository.get(mail));
+        return optionalUser;
     }
     private void checkIfEmailIsUnique(User newCustomer) {
         if (this.repository.values().stream().map(User::getMail).anyMatch(email -> email.equals(newCustomer.getMail()))){

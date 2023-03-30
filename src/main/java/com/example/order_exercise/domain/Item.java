@@ -5,9 +5,6 @@ public class Item {
     private final String description;
     private final Double price;
     private Amount amount;
-
-
-
     private int id;
 
     public Item(String name, String description, Double price, Amount amount, Integer id) {

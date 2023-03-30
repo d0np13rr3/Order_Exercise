@@ -31,10 +31,10 @@ public class ItemRepository {
         logger.warn("Dummy02 item - only for debugging purposes " + dummyItem02.getName());
         dummyItem00.setId(0);
         dummyItem01.setId(1);
-        dummyItem01.setId(2);
+        dummyItem02.setId(2);
         repository.put(0, dummyItem00);
         repository.put(1, dummyItem01);
-        repository.put(1, dummyItem02);
+        repository.put(2, dummyItem02);
     }
 
     public static ArrayList<Integer> getIdOfRepository(){

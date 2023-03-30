@@ -16,7 +16,7 @@
 2023-03-29T08:53:48.277+02:00  INFO 13616 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2023-03-29T08:53:48.286+02:00  INFO 13616 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
 2023-03-29T08:53:48.622+02:00  WARN 13616 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.ItemController
-2023-03-29T08:53:48.897+02:00  WARN 13616 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.OrderController
+2023-03-29T08:53:48.897+02:00  WARN 13616 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.ItemGroupController
 2023-03-29T08:53:48.927+02:00  INFO 13616 --- [http-nio-8080-exec-4] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 380 ms
 2023-03-29T08:54:42.330+02:00  INFO 10296 --- [main] c.e.o.OrderExerciseApplication           : Starting OrderExerciseApplication using Java 19.0.2 with PID 10296 (C:\Users\ppauwelb\IdeaProjects\Order_Exercise\target\classes started by ppauwelb in C:\Users\ppauwelb\IdeaProjects\Order_Exercise)
 2023-03-29T08:54:42.332+02:00  INFO 10296 --- [main] c.e.o.OrderExerciseApplication           : No active profile set, falling back to 1 default profile: "default"
@@ -36,8 +36,8 @@
 2023-03-29T08:55:09.583+02:00  INFO 10296 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2023-03-29T08:55:09.586+02:00  INFO 10296 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
 2023-03-29T08:55:09.888+02:00  WARN 10296 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.ItemController
-2023-03-29T08:55:10.191+02:00  WARN 10296 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.CustomerController
-2023-03-29T08:55:10.220+02:00  WARN 10296 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.OrderController
+2023-03-29T08:55:10.191+02:00  WARN 10296 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.UserController
+2023-03-29T08:55:10.220+02:00  WARN 10296 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.ItemGroupController
 2023-03-29T08:55:10.265+02:00  INFO 10296 --- [http-nio-8080-exec-4] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 478 ms
 2023-03-29T08:55:23.996+02:00  WARN 10296 --- [http-nio-8080-exec-7] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotAcceptableException: No acceptable representation]
 2023-03-29T08:56:58.383+02:00  INFO 12880 --- [main] c.e.o.OrderExerciseApplication           : Starting OrderExerciseApplication using Java 19.0.2 with PID 12880 (C:\Users\ppauwelb\IdeaProjects\Order_Exercise\target\classes started by ppauwelb in C:\Users\ppauwelb\IdeaProjects\Order_Exercise)
@@ -58,8 +58,8 @@
 2023-03-29T08:57:08.234+02:00  INFO 12880 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2023-03-29T08:57:08.236+02:00  INFO 12880 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
 2023-03-29T08:57:08.571+02:00  WARN 12880 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.ItemController
-2023-03-29T08:57:08.879+02:00  WARN 12880 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.CustomerController
-2023-03-29T08:57:08.899+02:00  WARN 12880 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.OrderController
+2023-03-29T08:57:08.879+02:00  WARN 12880 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.UserController
+2023-03-29T08:57:08.899+02:00  WARN 12880 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.ItemGroupController
 2023-03-29T08:57:08.940+02:00  INFO 12880 --- [http-nio-8080-exec-4] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 491 ms
 2023-03-29T08:58:32.620+02:00  INFO 10504 --- [main] c.e.o.OrderExerciseApplication           : Starting OrderExerciseApplication using Java 19.0.2 with PID 10504 (C:\Users\ppauwelb\IdeaProjects\Order_Exercise\target\classes started by ppauwelb in C:\Users\ppauwelb\IdeaProjects\Order_Exercise)
 2023-03-29T08:58:32.623+02:00  INFO 10504 --- [main] c.e.o.OrderExerciseApplication           : No active profile set, falling back to 1 default profile: "default"
@@ -79,8 +79,8 @@
 2023-03-29T08:58:43.984+02:00  INFO 10504 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2023-03-29T08:58:43.986+02:00  INFO 10504 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
 2023-03-29T08:58:44.332+02:00  WARN 10504 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.ItemController
-2023-03-29T08:58:44.630+02:00  WARN 10504 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.CustomerController
-2023-03-29T08:58:44.656+02:00  WARN 10504 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.OrderController
+2023-03-29T08:58:44.630+02:00  WARN 10504 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.UserController
+2023-03-29T08:58:44.656+02:00  WARN 10504 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.ItemGroupController
 2023-03-29T08:58:44.728+02:00  INFO 10504 --- [http-nio-8080-exec-4] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 490 ms
 2023-03-29T09:54:59.094+02:00  INFO 2416 --- [main] c.e.o.OrderExerciseApplication           : Starting OrderExerciseApplication using Java 19.0.2 with PID 2416 (C:\Users\ppauwelb\IdeaProjects\Order_Exercise\target\classes started by ppauwelb in C:\Users\ppauwelb\IdeaProjects\Order_Exercise)
 2023-03-29T09:54:59.097+02:00  INFO 2416 --- [main] c.e.o.OrderExerciseApplication           : No active profile set, falling back to 1 default profile: "default"
@@ -100,13 +100,13 @@
 2023-03-29T09:55:23.088+02:00  INFO 2416 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2023-03-29T09:55:23.089+02:00  INFO 2416 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
 2023-03-29T09:55:23.464+02:00  WARN 2416 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.ItemController
-2023-03-29T09:55:23.682+02:00  WARN 2416 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.CustomerController
-2023-03-29T09:55:23.704+02:00  WARN 2416 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.OrderController
+2023-03-29T09:55:23.682+02:00  WARN 2416 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.UserController
+2023-03-29T09:55:23.704+02:00  WARN 2416 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.ItemGroupController
 2023-03-29T09:55:23.783+02:00  INFO 2416 --- [http-nio-8080-exec-4] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 397 ms
-2023-03-29T09:55:39.220+02:00 ERROR 2416 --- [http-nio-8080-exec-5] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.ClassCastException: class java.util.ImmutableCollections$ListN cannot be cast to class com.example.order_exercise.domain.Order (java.util.ImmutableCollections$ListN is in module java.base of loader 'bootstrap'; com.example.order_exercise.domain.Order is in unnamed module of loader 'app')] with root cause
+2023-03-29T09:55:39.220+02:00 ERROR 2416 --- [http-nio-8080-exec-5] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.ClassCastException: class java.util.ImmutableCollections$ListN cannot be cast to class com.example.order_exercise.domain.ItemGroup (java.util.ImmutableCollections$ListN is in module java.base of loader 'bootstrap'; com.example.order_exercise.domain.ItemGroup is in unnamed module of loader 'app')] with root cause
 
-java.lang.ClassCastException: class java.util.ImmutableCollections$ListN cannot be cast to class com.example.order_exercise.domain.Order (java.util.ImmutableCollections$ListN is in module java.base of loader 'bootstrap'; com.example.order_exercise.domain.Order is in unnamed module of loader 'app')
-	at com.example.order_exercise.controller.OrderController.orderOverview(OrderController.java:39) ~[classes/:na]
+java.lang.ClassCastException: class java.util.ImmutableCollections$ListN cannot be cast to class com.example.order_exercise.domain.ItemGroup (java.util.ImmutableCollections$ListN is in module java.base of loader 'bootstrap'; com.example.order_exercise.domain.ItemGroup is in unnamed module of loader 'app')
+	at com.example.order_exercise.controller.ItemGroupController.orderOverview(OrderController.java:39) ~[classes/:na]
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578) ~[na:na]
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207) ~[spring-web-6.0.7.jar:6.0.7]
@@ -174,13 +174,13 @@ java.lang.ClassCastException: class java.util.ImmutableCollections$ListN cannot 
 2023-03-29T10:10:39.255+02:00  INFO 4252 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2023-03-29T10:10:39.256+02:00  INFO 4252 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
 2023-03-29T10:10:39.561+02:00  WARN 4252 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.ItemController
-2023-03-29T10:10:39.675+02:00  WARN 4252 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.CustomerController
-2023-03-29T10:10:39.685+02:00  WARN 4252 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.OrderController
+2023-03-29T10:10:39.675+02:00  WARN 4252 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.UserController
+2023-03-29T10:10:39.685+02:00  WARN 4252 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.ItemGroupController
 2023-03-29T10:10:39.723+02:00  INFO 4252 --- [http-nio-8080-exec-4] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 212 ms
 2023-03-29T10:10:45.872+02:00 ERROR 4252 --- [http-nio-8080-exec-5] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.ClassCastException: class [Ljava.lang.Object; cannot be cast to class [Lcom.example.order_exercise.domain.Order; ([Ljava.lang.Object; is in module java.base of loader 'bootstrap'; [Lcom.example.order_exercise.domain.Order; is in unnamed module of loader 'app')] with root cause
 
 java.lang.ClassCastException: class [Ljava.lang.Object; cannot be cast to class [Lcom.example.order_exercise.domain.Order; ([Ljava.lang.Object; is in module java.base of loader 'bootstrap'; [Lcom.example.order_exercise.domain.Order; is in unnamed module of loader 'app')
-	at com.example.order_exercise.controller.OrderController.orderOverview(OrderController.java:40) ~[classes/:na]
+	at com.example.order_exercise.controller.ItemGroupController.orderOverview(OrderController.java:40) ~[classes/:na]
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578) ~[na:na]
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207) ~[spring-web-6.0.7.jar:6.0.7]
@@ -248,8 +248,8 @@ java.lang.ClassCastException: class [Ljava.lang.Object; cannot be cast to class 
 2023-03-29T10:13:10.979+02:00  INFO 16528 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2023-03-29T10:13:10.979+02:00  INFO 16528 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
 2023-03-29T10:13:11.178+02:00  WARN 16528 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.ItemController
-2023-03-29T10:13:11.303+02:00  WARN 16528 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.CustomerController
-2023-03-29T10:13:11.319+02:00  WARN 16528 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.OrderController
+2023-03-29T10:13:11.303+02:00  WARN 16528 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.UserController
+2023-03-29T10:13:11.319+02:00  WARN 16528 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.ItemGroupController
 2023-03-29T10:13:11.366+02:00  INFO 16528 --- [http-nio-8080-exec-4] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 240 ms
 2023-03-29T10:22:09.295+02:00  INFO 14508 --- [main] c.e.o.OrderExerciseApplication           : Starting OrderExerciseApplication using Java 19.0.2 with PID 14508 (C:\Users\ppauwelb\IdeaProjects\Order_Exercise\target\classes started by ppauwelb in C:\Users\ppauwelb\IdeaProjects\Order_Exercise)
 2023-03-29T10:22:09.297+02:00  INFO 14508 --- [main] c.e.o.OrderExerciseApplication           : No active profile set, falling back to 1 default profile: "default"
@@ -271,10 +271,10 @@ java.lang.ClassCastException: class [Ljava.lang.Object; cannot be cast to class 
 2023-03-29T10:22:17.529+02:00 ERROR 14508 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "java.lang.Double.doubleValue()" because "this.totalPrice" is null] with root cause
 
 java.lang.NullPointerException: Cannot invoke "java.lang.Double.doubleValue()" because "this.totalPrice" is null
-	at com.example.order_exercise.domain.TotalOrder.calculateTotalPrice(TotalOrder.java:18) ~[classes/:na]
-	at com.example.order_exercise.domain.TotalOrder.<init>(TotalOrder.java:11) ~[classes/:na]
-	at com.example.order_exercise.service.TotalOrderService.create(TotalOrderService.java:11) ~[classes/:na]
-	at com.example.order_exercise.controller.OrderController.orderOverview(OrderController.java:48) ~[classes/:na]
+	at com.example.order_exercise.domain.Order.calculateTotalPrice(TotalOrder.java:18) ~[classes/:na]
+	at com.example.order_exercise.domain.Order.<init>(TotalOrder.java:11) ~[classes/:na]
+	at com.example.order_exercise.service.OrderService.create(TotalOrderService.java:11) ~[classes/:na]
+	at com.example.order_exercise.controller.ItemGroupController.orderOverview(OrderController.java:48) ~[classes/:na]
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578) ~[na:na]
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207) ~[spring-web-6.0.7.jar:6.0.7]
@@ -342,8 +342,8 @@ java.lang.NullPointerException: Cannot invoke "java.lang.Double.doubleValue()" b
 2023-03-29T10:23:54.268+02:00  INFO 4112 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2023-03-29T10:23:54.269+02:00  INFO 4112 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
 2023-03-29T10:23:54.449+02:00  WARN 4112 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.ItemController
-2023-03-29T10:23:54.586+02:00  WARN 4112 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.CustomerController
-2023-03-29T10:23:54.598+02:00  WARN 4112 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.OrderController
+2023-03-29T10:23:54.586+02:00  WARN 4112 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.UserController
+2023-03-29T10:23:54.598+02:00  WARN 4112 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.ItemGroupController
 2023-03-29T10:23:54.636+02:00  INFO 4112 --- [http-nio-8080-exec-4] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 244 ms
 2023-03-29T11:29:33.580+02:00  INFO 14176 --- [main] c.e.o.OrderExerciseApplication           : Starting OrderExerciseApplication using Java 19.0.2 with PID 14176 (C:\Users\ppauwelb\IdeaProjects\Order_Exercise\target\classes started by ppauwelb in C:\Users\ppauwelb\IdeaProjects\Order_Exercise)
 2023-03-29T11:29:33.583+02:00  INFO 14176 --- [main] c.e.o.OrderExerciseApplication           : No active profile set, falling back to 1 default profile: "default"
@@ -363,8 +363,8 @@ java.lang.NullPointerException: Cannot invoke "java.lang.Double.doubleValue()" b
 2023-03-29T11:29:45.216+02:00  INFO 14176 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2023-03-29T11:29:45.217+02:00  INFO 14176 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
 2023-03-29T11:29:45.526+02:00  WARN 14176 --- [http-nio-8080-exec-9] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.ItemController
-2023-03-29T11:29:45.638+02:00  WARN 14176 --- [http-nio-8080-exec-9] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.CustomerController
-2023-03-29T11:29:45.650+02:00  WARN 14176 --- [http-nio-8080-exec-9] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.OrderController
+2023-03-29T11:29:45.638+02:00  WARN 14176 --- [http-nio-8080-exec-9] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.UserController
+2023-03-29T11:29:45.650+02:00  WARN 14176 --- [http-nio-8080-exec-9] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.ItemGroupController
 2023-03-29T11:29:45.686+02:00  INFO 14176 --- [http-nio-8080-exec-9] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 206 ms
 2023-03-29T11:38:25.766+02:00  INFO 18020 --- [main] c.e.o.OrderExerciseApplication           : Starting OrderExerciseApplication using Java 19.0.2 with PID 18020 (C:\Users\ppauwelb\IdeaProjects\Order_Exercise\target\classes started by ppauwelb in C:\Users\ppauwelb\IdeaProjects\Order_Exercise)
 2023-03-29T11:38:25.767+02:00  INFO 18020 --- [main] c.e.o.OrderExerciseApplication           : No active profile set, falling back to 1 default profile: "default"
@@ -384,14 +384,14 @@ java.lang.NullPointerException: Cannot invoke "java.lang.Double.doubleValue()" b
 2023-03-29T11:38:36.012+02:00  INFO 18020 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2023-03-29T11:38:36.013+02:00  INFO 18020 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
 2023-03-29T11:38:36.355+02:00  WARN 18020 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.ItemController
-2023-03-29T11:38:36.504+02:00  WARN 18020 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.CustomerController
-2023-03-29T11:38:36.515+02:00  WARN 18020 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.OrderController
+2023-03-29T11:38:36.504+02:00  WARN 18020 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.UserController
+2023-03-29T11:38:36.515+02:00  WARN 18020 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.ItemGroupController
 2023-03-29T11:38:36.557+02:00  INFO 18020 --- [http-nio-8080-exec-4] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 251 ms
 2023-03-29T11:39:06.468+02:00 ERROR 18020 --- [http-nio-8080-exec-6] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: com.example.order_exercise.exceptions.StockNotCorrectException: You are ordering to much, make your wanted total smaller.] with root cause
 
 com.example.order_exercise.exceptions.StockNotCorrectException: You are ordering to much, make your wanted total smaller.
-	at com.example.order_exercise.service.OrderService.create(OrderService.java:42) ~[classes/:na]
-	at com.example.order_exercise.controller.OrderController.findbyId(OrderController.java:32) ~[classes/:na]
+	at com.example.order_exercise.service.ItemGroupService.create(OrderService.java:42) ~[classes/:na]
+	at com.example.order_exercise.controller.ItemGroupController.findbyId(OrderController.java:32) ~[classes/:na]
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578) ~[na:na]
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207) ~[spring-web-6.0.7.jar:6.0.7]
@@ -459,8 +459,8 @@ com.example.order_exercise.exceptions.StockNotCorrectException: You are ordering
 2023-03-29T11:40:58.802+02:00  INFO 12532 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2023-03-29T11:40:58.802+02:00  INFO 12532 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
 2023-03-29T11:40:59.008+02:00  WARN 12532 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.ItemController
-2023-03-29T11:40:59.135+02:00  WARN 12532 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.CustomerController
-2023-03-29T11:40:59.148+02:00  WARN 12532 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.OrderController
+2023-03-29T11:40:59.135+02:00  WARN 12532 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.UserController
+2023-03-29T11:40:59.148+02:00  WARN 12532 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.ItemGroupController
 2023-03-29T11:40:59.187+02:00  INFO 12532 --- [http-nio-8080-exec-4] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 250 ms
 2023-03-29T14:26:26.652+02:00  INFO 13628 --- [main] c.e.o.OrderExerciseApplicationTests      : Starting OrderExerciseApplicationTests using Java 19.0.2 with PID 13628 (started by ppauwelb in C:\Users\ppauwelb\IdeaProjects\Order_Exercise)
 2023-03-29T14:26:26.654+02:00  INFO 13628 --- [main] c.e.o.OrderExerciseApplicationTests      : No active profile set, falling back to 1 default profile: "default"
@@ -546,8 +546,8 @@ com.example.order_exercise.exceptions.StockNotCorrectException: You are ordering
 2023-03-29T14:37:15.822+02:00  INFO 12972 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2023-03-29T14:37:15.822+02:00  INFO 12972 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
 2023-03-29T14:37:16.135+02:00  WARN 12972 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.ItemController
-2023-03-29T14:37:16.258+02:00  WARN 12972 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.CustomerController
-2023-03-29T14:37:16.271+02:00  WARN 12972 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.OrderController
+2023-03-29T14:37:16.258+02:00  WARN 12972 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.UserController
+2023-03-29T14:37:16.271+02:00  WARN 12972 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.ItemGroupController
 2023-03-29T14:37:16.308+02:00  INFO 12972 --- [http-nio-8080-exec-4] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 227 ms
 2023-03-29T14:38:10.626+02:00  WARN 12972 --- [http-nio-8080-exec-6] c.e.o.repository.CustomerRepository      : Optional[com.example.order_exercise.domain.Item@ca99f97] error with findbyID
 2023-03-29T14:38:10.627+02:00  WARN 12972 --- [http-nio-8080-exec-6] c.e.o.repository.CustomerRepository      : Optional[Optional.empty]
@@ -556,8 +556,8 @@ com.example.order_exercise.exceptions.StockNotCorrectException: You are ordering
 2023-03-29T14:38:32.531+02:00 ERROR 12972 --- [http-nio-8080-exec-5] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: com.example.order_exercise.exceptions.StockNotCorrectException: You are ordering to much, make your wanted total smaller.] with root cause
 
 com.example.order_exercise.exceptions.StockNotCorrectException: You are ordering to much, make your wanted total smaller.
-	at com.example.order_exercise.service.OrderService.create(OrderService.java:51) ~[classes/:na]
-	at com.example.order_exercise.controller.OrderController.findbyId(OrderController.java:32) ~[classes/:na]
+	at com.example.order_exercise.service.ItemGroupService.create(OrderService.java:51) ~[classes/:na]
+	at com.example.order_exercise.controller.ItemGroupController.findbyId(OrderController.java:32) ~[classes/:na]
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578) ~[na:na]
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207) ~[spring-web-6.0.7.jar:6.0.7]
@@ -629,8 +629,8 @@ com.example.order_exercise.exceptions.StockNotCorrectException: You are ordering
 2023-03-29T14:42:12.690+02:00  INFO 13152 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2023-03-29T14:42:12.690+02:00  INFO 13152 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
 2023-03-29T14:42:12.872+02:00  WARN 13152 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.ItemController
-2023-03-29T14:42:13.001+02:00  WARN 13152 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.CustomerController
-2023-03-29T14:42:13.015+02:00  WARN 13152 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.OrderController
+2023-03-29T14:42:13.001+02:00  WARN 13152 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.UserController
+2023-03-29T14:42:13.015+02:00  WARN 13152 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.ItemGroupController
 2023-03-29T14:42:13.060+02:00  INFO 13152 --- [http-nio-8080-exec-4] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 237 ms
 2023-03-29T14:42:53.821+02:00  WARN 13152 --- [http-nio-8080-exec-6] c.e.o.repository.CustomerRepository      : Optional[com.example.order_exercise.domain.Item@22dd9c4d] error with findbyID
 2023-03-29T14:42:53.822+02:00  WARN 13152 --- [http-nio-8080-exec-6] c.e.o.repository.CustomerRepository      : Optional[Optional.empty]
@@ -639,10 +639,10 @@ com.example.order_exercise.exceptions.StockNotCorrectException: You are ordering
 2023-03-29T14:45:24.968+02:00 ERROR 13152 --- [http-nio-8080-exec-10] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: com.example.order_exercise.exceptions.MemberNotUniqueException: Email not unique. Member already exists.] with root cause
 
 com.example.order_exercise.exceptions.MemberNotUniqueException: Email not unique. Member already exists.
-	at com.example.order_exercise.repository.CustomerRepository.checkIfEmailIsUnique(CustomerRepository.java:52) ~[classes/:na]
-	at com.example.order_exercise.repository.CustomerRepository.create(CustomerRepository.java:42) ~[classes/:na]
-	at com.example.order_exercise.service.CustomerService.create(CustomerService.java:37) ~[classes/:na]
-	at com.example.order_exercise.controller.CustomerController.create(CustomerController.java:33) ~[classes/:na]
+	at com.example.order_exercise.repository.UserRepository.checkIfEmailIsUnique(CustomerRepository.java:52) ~[classes/:na]
+	at com.example.order_exercise.repository.UserRepository.create(CustomerRepository.java:42) ~[classes/:na]
+	at com.example.order_exercise.service.UserService.create(CustomerService.java:37) ~[classes/:na]
+	at com.example.order_exercise.controller.UserController.create(CustomerController.java:33) ~[classes/:na]
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578) ~[na:na]
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207) ~[spring-web-6.0.7.jar:6.0.7]
@@ -710,8 +710,8 @@ com.example.order_exercise.exceptions.MemberNotUniqueException: Email not unique
 2023-03-29T14:53:55.218+02:00  INFO 18364 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2023-03-29T14:53:55.219+02:00  INFO 18364 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
 2023-03-29T14:53:55.407+02:00  WARN 18364 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.ItemController
-2023-03-29T14:53:55.534+02:00  WARN 18364 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.CustomerController
-2023-03-29T14:53:55.547+02:00  WARN 18364 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.OrderController
+2023-03-29T14:53:55.534+02:00  WARN 18364 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.UserController
+2023-03-29T14:53:55.547+02:00  WARN 18364 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.ItemGroupController
 2023-03-29T14:53:55.588+02:00  INFO 18364 --- [http-nio-8080-exec-4] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 236 ms
 2023-03-29T14:55:15.589+02:00  WARN 18364 --- [http-nio-8080-exec-8] c.e.o.repository.CustomerRepository      : Optional[com.example.order_exercise.domain.Item@ca99f97] error with findbyID
 2023-03-29T14:55:15.590+02:00  WARN 18364 --- [http-nio-8080-exec-8] c.e.o.repository.CustomerRepository      : Optional[Optional.empty]
@@ -747,8 +747,8 @@ com.example.order_exercise.exceptions.MemberNotUniqueException: Email not unique
 2023-03-29T15:06:25.153+02:00  INFO 18364 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2023-03-29T15:06:25.154+02:00  INFO 18364 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
 2023-03-29T15:06:25.519+02:00  WARN 18364 --- [http-nio-8080-exec-6] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.ItemController
-2023-03-29T15:06:25.639+02:00  WARN 18364 --- [http-nio-8080-exec-6] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.CustomerController
-2023-03-29T15:06:25.653+02:00  WARN 18364 --- [http-nio-8080-exec-6] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.OrderController
+2023-03-29T15:06:25.639+02:00  WARN 18364 --- [http-nio-8080-exec-6] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.UserController
+2023-03-29T15:06:25.653+02:00  WARN 18364 --- [http-nio-8080-exec-6] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.ItemGroupController
 2023-03-29T15:06:25.704+02:00  INFO 18364 --- [http-nio-8080-exec-6] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 243 ms
 2023-03-29T15:07:27.953+02:00  INFO 16084 --- [main] c.e.o.OrderExerciseApplication           : Starting OrderExerciseApplication using Java 19.0.2 with PID 16084 (C:\Users\ppauwelb\IdeaProjects\Order_Exercise\target\classes started by ppauwelb in C:\Users\ppauwelb\IdeaProjects\Order_Exercise)
 2023-03-29T15:07:27.955+02:00  INFO 16084 --- [main] c.e.o.OrderExerciseApplication           : No active profile set, falling back to 1 default profile: "default"
@@ -768,8 +768,8 @@ com.example.order_exercise.exceptions.MemberNotUniqueException: Email not unique
 2023-03-29T15:07:33.198+02:00  INFO 16084 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2023-03-29T15:07:33.199+02:00  INFO 16084 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
 2023-03-29T15:07:33.400+02:00  WARN 16084 --- [http-nio-8080-exec-5] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.ItemController
-2023-03-29T15:07:33.512+02:00  WARN 16084 --- [http-nio-8080-exec-5] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.CustomerController
-2023-03-29T15:07:33.524+02:00  WARN 16084 --- [http-nio-8080-exec-5] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.OrderController
+2023-03-29T15:07:33.512+02:00  WARN 16084 --- [http-nio-8080-exec-5] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.UserController
+2023-03-29T15:07:33.524+02:00  WARN 16084 --- [http-nio-8080-exec-5] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.ItemGroupController
 2023-03-29T15:07:33.559+02:00  INFO 16084 --- [http-nio-8080-exec-5] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 212 ms
 2023-03-29T15:13:51.866+02:00  INFO 14752 --- [main] c.e.o.OrderExerciseApplication           : Starting OrderExerciseApplication using Java 19.0.2 with PID 14752 (C:\Users\ppauwelb\IdeaProjects\Order_Exercise\target\classes started by ppauwelb in C:\Users\ppauwelb\IdeaProjects\Order_Exercise)
 2023-03-29T15:13:51.868+02:00  INFO 14752 --- [main] c.e.o.OrderExerciseApplication           : No active profile set, falling back to 1 default profile: "default"
@@ -789,8 +789,8 @@ com.example.order_exercise.exceptions.MemberNotUniqueException: Email not unique
 2023-03-29T15:13:57.573+02:00  INFO 14752 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2023-03-29T15:13:57.574+02:00  INFO 14752 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
 2023-03-29T15:13:57.751+02:00  WARN 14752 --- [http-nio-8080-exec-2] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.ItemController
-2023-03-29T15:13:57.878+02:00  WARN 14752 --- [http-nio-8080-exec-2] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.CustomerController
-2023-03-29T15:13:57.888+02:00  WARN 14752 --- [http-nio-8080-exec-2] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.OrderController
+2023-03-29T15:13:57.878+02:00  WARN 14752 --- [http-nio-8080-exec-2] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.UserController
+2023-03-29T15:13:57.888+02:00  WARN 14752 --- [http-nio-8080-exec-2] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.ItemGroupController
 2023-03-29T15:13:57.923+02:00  INFO 14752 --- [http-nio-8080-exec-2] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 224 ms
 2023-03-29T15:15:39.744+02:00  INFO 2604 --- [main] c.e.o.OrderExerciseApplication           : Starting OrderExerciseApplication using Java 19.0.2 with PID 2604 (C:\Users\ppauwelb\IdeaProjects\Order_Exercise\target\classes started by ppauwelb in C:\Users\ppauwelb\IdeaProjects\Order_Exercise)
 2023-03-29T15:15:39.747+02:00  INFO 2604 --- [main] c.e.o.OrderExerciseApplication           : No active profile set, falling back to 1 default profile: "default"
@@ -810,8 +810,8 @@ com.example.order_exercise.exceptions.MemberNotUniqueException: Email not unique
 2023-03-29T15:15:46.225+02:00  INFO 2604 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2023-03-29T15:15:46.226+02:00  INFO 2604 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
 2023-03-29T15:15:46.391+02:00  WARN 2604 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.ItemController
-2023-03-29T15:15:46.516+02:00  WARN 2604 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.CustomerController
-2023-03-29T15:15:46.526+02:00  WARN 2604 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.OrderController
+2023-03-29T15:15:46.516+02:00  WARN 2604 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.UserController
+2023-03-29T15:15:46.526+02:00  WARN 2604 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.ItemGroupController
 2023-03-29T15:15:46.561+02:00  INFO 2604 --- [http-nio-8080-exec-4] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 223 ms
 2023-03-29T15:16:29.094+02:00  INFO 6236 --- [main] c.e.o.OrderExerciseApplication           : Starting OrderExerciseApplication using Java 19.0.2 with PID 6236 (C:\Users\ppauwelb\IdeaProjects\Order_Exercise\target\classes started by ppauwelb in C:\Users\ppauwelb\IdeaProjects\Order_Exercise)
 2023-03-29T15:16:29.096+02:00  INFO 6236 --- [main] c.e.o.OrderExerciseApplication           : No active profile set, falling back to 1 default profile: "default"
@@ -831,8 +831,8 @@ com.example.order_exercise.exceptions.MemberNotUniqueException: Email not unique
 2023-03-29T15:16:33.609+02:00  INFO 6236 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2023-03-29T15:16:33.610+02:00  INFO 6236 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
 2023-03-29T15:16:33.771+02:00  WARN 6236 --- [http-nio-8080-exec-5] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.ItemController
-2023-03-29T15:16:33.902+02:00  WARN 6236 --- [http-nio-8080-exec-5] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.CustomerController
-2023-03-29T15:16:33.915+02:00  WARN 6236 --- [http-nio-8080-exec-5] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.OrderController
+2023-03-29T15:16:33.902+02:00  WARN 6236 --- [http-nio-8080-exec-5] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.UserController
+2023-03-29T15:16:33.915+02:00  WARN 6236 --- [http-nio-8080-exec-5] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.ItemGroupController
 2023-03-29T15:16:33.957+02:00  INFO 6236 --- [http-nio-8080-exec-5] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 239 ms
 2023-03-29T15:16:41.243+02:00  INFO 16088 --- [main] c.e.o.OrderExerciseApplication           : Starting OrderExerciseApplication using Java 19.0.2 with PID 16088 (C:\Users\ppauwelb\IdeaProjects\Order_Exercise\target\classes started by ppauwelb in C:\Users\ppauwelb\IdeaProjects\Order_Exercise)
 2023-03-29T15:16:41.244+02:00  INFO 16088 --- [main] c.e.o.OrderExerciseApplication           : No active profile set, falling back to 1 default profile: "default"
@@ -852,8 +852,8 @@ com.example.order_exercise.exceptions.MemberNotUniqueException: Email not unique
 2023-03-29T15:16:44.863+02:00  INFO 16088 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2023-03-29T15:16:44.864+02:00  INFO 16088 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
 2023-03-29T15:16:45.015+02:00  WARN 16088 --- [http-nio-8080-exec-5] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.ItemController
-2023-03-29T15:16:45.168+02:00  WARN 16088 --- [http-nio-8080-exec-5] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.CustomerController
-2023-03-29T15:16:45.183+02:00  WARN 16088 --- [http-nio-8080-exec-5] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.OrderController
+2023-03-29T15:16:45.168+02:00  WARN 16088 --- [http-nio-8080-exec-5] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.UserController
+2023-03-29T15:16:45.183+02:00  WARN 16088 --- [http-nio-8080-exec-5] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.ItemGroupController
 2023-03-29T15:16:45.228+02:00  INFO 16088 --- [http-nio-8080-exec-5] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 259 ms
 2023-03-29T15:17:08.907+02:00  INFO 14596 --- [main] c.e.o.OrderExerciseApplicationTests      : Starting OrderExerciseApplicationTests using Java 19.0.2 with PID 14596 (started by ppauwelb in C:\Users\ppauwelb\IdeaProjects\Order_Exercise)
 2023-03-29T15:17:08.909+02:00  INFO 14596 --- [main] c.e.o.OrderExerciseApplicationTests      : No active profile set, falling back to 1 default profile: "default"
@@ -931,15 +931,15 @@ com.example.order_exercise.exceptions.MemberNotUniqueException: Email not unique
 2023-03-29T16:38:44.014+02:00  INFO 2084 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2023-03-29T16:38:44.015+02:00  INFO 2084 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
 2023-03-29T16:38:44.278+02:00  WARN 2084 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.ItemController
-2023-03-29T16:38:44.386+02:00  WARN 2084 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.CustomerController
-2023-03-29T16:38:44.396+02:00  WARN 2084 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.OrderController
+2023-03-29T16:38:44.386+02:00  WARN 2084 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.UserController
+2023-03-29T16:38:44.396+02:00  WARN 2084 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.ItemGroupController
 2023-03-29T16:38:44.414+02:00  WARN 2084 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.LoginController
 2023-03-29T16:38:44.432+02:00  INFO 2084 --- [http-nio-8080-exec-4] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 206 ms
 2023-03-29T16:39:07.311+02:00 ERROR 2084 --- [http-nio-8080-exec-5] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "com.example.order_exercise.domain.Customer.getFirstname()" because "customer" is null] with root cause
 
 java.lang.NullPointerException: Cannot invoke "com.example.order_exercise.domain.Customer.getFirstname()" because "customer" is null
-	at com.example.order_exercise.mapper.CustomerMapper.toDTO(CustomerMapper.java:11) ~[classes/:na]
-	at com.example.order_exercise.service.CustomerService.findById(CustomerService.java:32) ~[classes/:na]
+	at com.example.order_exercise.mapper.UserMapper.toDTO(CustomerMapper.java:11) ~[classes/:na]
+	at com.example.order_exercise.service.UserService.findById(CustomerService.java:32) ~[classes/:na]
 	at com.example.order_exercise.controller.LoginController.findbyId(LoginController.java:27) ~[classes/:na]
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578) ~[na:na]
@@ -1011,10 +1011,131 @@ java.lang.NullPointerException: Cannot invoke "com.example.order_exercise.domain
 2023-03-29T16:43:21.576+02:00  INFO 5400 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2023-03-29T16:43:21.577+02:00  INFO 5400 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
 2023-03-29T16:43:21.901+02:00  WARN 5400 --- [http-nio-8080-exec-6] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.ItemController
-2023-03-29T16:43:22.013+02:00  WARN 5400 --- [http-nio-8080-exec-6] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.CustomerController
-2023-03-29T16:43:22.024+02:00  WARN 5400 --- [http-nio-8080-exec-6] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.OrderController
+2023-03-29T16:43:22.013+02:00  WARN 5400 --- [http-nio-8080-exec-6] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.UserController
+2023-03-29T16:43:22.024+02:00  WARN 5400 --- [http-nio-8080-exec-6] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.ItemGroupController
 2023-03-29T16:43:22.053+02:00  WARN 5400 --- [http-nio-8080-exec-6] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.LoginController
 2023-03-29T16:43:22.100+02:00  INFO 5400 --- [http-nio-8080-exec-6] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 265 ms
 2023-03-29T16:44:34.202+02:00  INFO 5400 --- [http-nio-8080-exec-4] c.e.o.repository.CustomerRepository      : Valid command
 2023-03-29T16:44:34.202+02:00  WARN 5400 --- [http-nio-8080-exec-4] c.e.o.repository.CustomerRepository      : Optional[com.example.order_exercise.domain.Item@299ac2e3] error with findbyID
 2023-03-29T16:44:34.203+02:00  WARN 5400 --- [http-nio-8080-exec-4] c.e.o.repository.CustomerRepository      : Optional[Optional.empty]
+2023-03-30T08:42:43.476+02:00  INFO 6648 --- [main] c.e.o.OrderExerciseApplication           : Starting OrderExerciseApplication using Java 19.0.2 with PID 6648 (C:\Users\ppauwelb\IdeaProjects\Order_Exercise\target\classes started by ppauwelb in C:\Users\ppauwelb\IdeaProjects\Order_Exercise)
+2023-03-30T08:42:43.478+02:00  INFO 6648 --- [main] c.e.o.OrderExerciseApplication           : No active profile set, falling back to 1 default profile: "default"
+2023-03-30T08:42:44.321+02:00  INFO 6648 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-03-30T08:42:44.330+02:00  INFO 6648 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-30T08:42:44.330+02:00  INFO 6648 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-03-30T08:42:44.410+02:00  INFO 6648 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-30T08:42:44.410+02:00  INFO 6648 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 891 ms
+2023-03-30T08:42:44.464+02:00  WARN 6648 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-30T08:42:44.465+02:00  WARN 6648 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Batman: The Long Halloween
+2023-03-30T08:42:44.483+02:00  WARN 6648 --- [main] c.e.o.repository.UserRepository          : Admin mail - only for debugging purposes pieter.pauwels13@gmail.com
+2023-03-30T08:42:44.484+02:00  WARN 6648 --- [main] c.e.o.repository.UserRepository          : Dummy00 mail - only for debugging purposes dummy00@mail.com
+2023-03-30T08:42:44.484+02:00  WARN 6648 --- [main] c.e.o.repository.UserRepository          : Dummy00 mail - only for debugging purposes dummy01@mail.com
+2023-03-30T08:42:45.113+02:00  INFO 6648 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-30T08:42:45.120+02:00  INFO 6648 --- [main] c.e.o.OrderExerciseApplication           : Started OrderExerciseApplication in 1.987 seconds (process running for 2.54)
+2023-03-30T08:46:05.097+02:00  INFO 7480 --- [main] c.e.o.OrderExerciseApplication           : Starting OrderExerciseApplication using Java 19.0.2 with PID 7480 (C:\Users\ppauwelb\IdeaProjects\Order_Exercise\target\classes started by ppauwelb in C:\Users\ppauwelb\IdeaProjects\Order_Exercise)
+2023-03-30T08:46:05.100+02:00  INFO 7480 --- [main] c.e.o.OrderExerciseApplication           : No active profile set, falling back to 1 default profile: "default"
+2023-03-30T08:46:05.998+02:00  INFO 7480 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-03-30T08:46:06.005+02:00  INFO 7480 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-30T08:46:06.005+02:00  INFO 7480 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-03-30T08:46:06.078+02:00  INFO 7480 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-30T08:46:06.078+02:00  INFO 7480 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 939 ms
+2023-03-30T08:46:06.124+02:00  WARN 7480 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-30T08:46:06.124+02:00  WARN 7480 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Batman: The Long Halloween
+2023-03-30T08:46:06.143+02:00  WARN 7480 --- [main] c.e.o.repository.UserRepository          : Admin mail - only for debugging purposes pieter.pauwels13@gmail.com
+2023-03-30T08:46:06.143+02:00  WARN 7480 --- [main] c.e.o.repository.UserRepository          : Dummy00 mail - only for debugging purposes dummy00@mail.com
+2023-03-30T08:46:06.143+02:00  WARN 7480 --- [main] c.e.o.repository.UserRepository          : Dummy00 mail - only for debugging purposes dummy01@mail.com
+2023-03-30T08:46:06.832+02:00  INFO 7480 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-30T08:46:06.838+02:00  INFO 7480 --- [main] c.e.o.OrderExerciseApplication           : Started OrderExerciseApplication in 2.083 seconds (process running for 2.634)
+2023-03-30T08:48:03.696+02:00  INFO 7480 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-30T08:48:03.698+02:00  INFO 7480 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-30T08:48:03.699+02:00  INFO 7480 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-03-30T08:48:04.096+02:00  WARN 7480 --- [http-nio-8080-exec-3] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.UserController
+2023-03-30T08:48:04.275+02:00  WARN 7480 --- [http-nio-8080-exec-3] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.ItemController
+2023-03-30T08:48:04.365+02:00  WARN 7480 --- [http-nio-8080-exec-3] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.ItemGroupController
+2023-03-30T08:48:04.404+02:00  WARN 7480 --- [http-nio-8080-exec-3] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.LoginController
+2023-03-30T08:48:04.438+02:00  INFO 7480 --- [http-nio-8080-exec-3] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 435 ms
+2023-03-30T08:48:21.215+02:00 ERROR 7480 --- [http-nio-8080-exec-4] c.e.o.repository.UserRepository          : Not a valid command
+2023-03-30T08:48:21.218+02:00 ERROR 7480 --- [http-nio-8080-exec-4] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: com.example.order_exercise.exceptions.UnknownUserException: Unknown user, abort.] with root cause
+
+com.example.order_exercise.exceptions.UnknownUserException: Unknown user, abort.
+	at com.example.order_exercise.service.LoginService.validateAction(LoginService.java:29) ~[classes/:na]
+	at com.example.order_exercise.controller.ItemGroupController.findbyId(ItemGroupController.java:35) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:537) ~[tomcat-embed-core-10.1.7.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.0.7.jar:6.0.7]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:631) ~[tomcat-embed-core-10.1.7.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.7.jar:6.0.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-10.1.7.jar:10.1.7]
+	at java.base/java.lang.Thread.run(Thread.java:1589) ~[na:na]
+
+2023-03-30T08:48:59.829+02:00  INFO 7480 --- [http-nio-8080-exec-6] c.e.o.repository.UserRepository          : Valid command
+2023-03-30T08:48:59.829+02:00  WARN 7480 --- [http-nio-8080-exec-6] c.e.o.repository.UserRepository          : Optional[com.example.order_exercise.domain.Item@660d8bf7] error with findbyID
+2023-03-30T08:48:59.830+02:00  WARN 7480 --- [http-nio-8080-exec-6] c.e.o.repository.UserRepository          : Optional[Optional.empty]
+2023-03-30T09:28:01.588+02:00  INFO 2816 --- [main] c.e.o.OrderExerciseApplication           : Starting OrderExerciseApplication using Java 19.0.2 with PID 2816 (C:\Users\ppauwelb\IdeaProjects\Order_Exercise\target\classes started by ppauwelb in C:\Users\ppauwelb\IdeaProjects\Order_Exercise)
+2023-03-30T09:28:01.591+02:00  INFO 2816 --- [main] c.e.o.OrderExerciseApplication           : No active profile set, falling back to 1 default profile: "default"
+2023-03-30T09:28:02.565+02:00  INFO 2816 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-03-30T09:28:02.573+02:00  INFO 2816 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-30T09:28:02.573+02:00  INFO 2816 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-03-30T09:28:02.650+02:00  INFO 2816 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-30T09:28:02.650+02:00  INFO 2816 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 995 ms
+2023-03-30T09:28:02.701+02:00  WARN 2816 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-30T09:28:02.701+02:00  WARN 2816 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Batman: The Long Halloween
+2023-03-30T09:28:02.719+02:00  WARN 2816 --- [main] c.e.o.repository.UserRepository          : Admin mail - only for debugging purposes pieter.pauwels13@gmail.com
+2023-03-30T09:28:02.719+02:00  WARN 2816 --- [main] c.e.o.repository.UserRepository          : Dummy00 mail - only for debugging purposes dummy00@mail.com
+2023-03-30T09:28:02.719+02:00  WARN 2816 --- [main] c.e.o.repository.UserRepository          : Dummy00 mail - only for debugging purposes dummy01@mail.com
+2023-03-30T09:28:03.432+02:00  INFO 2816 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-30T09:28:03.441+02:00  INFO 2816 --- [main] c.e.o.OrderExerciseApplication           : Started OrderExerciseApplication in 2.301 seconds (process running for 2.879)
+2023-03-30T09:28:09.661+02:00  INFO 2816 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-30T09:28:09.661+02:00  INFO 2816 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-30T09:28:09.662+02:00  INFO 2816 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-03-30T09:28:10.196+02:00  WARN 2816 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.UserController
+2023-03-30T09:28:10.355+02:00  WARN 2816 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.ItemController
+2023-03-30T09:28:10.411+02:00  WARN 2816 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.ItemGroupController
+2023-03-30T09:28:10.433+02:00  WARN 2816 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.LoginController
+2023-03-30T09:28:10.451+02:00  INFO 2816 --- [http-nio-8080-exec-4] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 417 ms
+2023-03-30T09:28:30.367+02:00 ERROR 2816 --- [http-nio-8080-exec-5] c.e.o.repository.UserRepository          : No such user in database.
+2023-03-30T09:31:26.138+02:00 ERROR 2816 --- [http-nio-8080-exec-7] c.e.o.repository.UserRepository          : No such user in database.
+2023-03-30T09:31:31.177+02:00 ERROR 2816 --- [http-nio-8080-exec-8] c.e.o.repository.UserRepository          : No such user in database.
+2023-03-30T09:33:29.194+02:00 ERROR 2816 --- [http-nio-8080-exec-5] c.e.o.repository.UserRepository          : No such user in database.
+2023-03-30T09:45:07.710+02:00 ERROR 2816 --- [http-nio-8080-exec-7] c.e.o.repository.UserRepository          : No such user in database.

@@ -1,8 +1,7 @@
 package com.example.order_exercise.service;
 
-import com.example.order_exercise.domain.Customer;
 import com.example.order_exercise.exceptions.UnknownUserException;
-import com.example.order_exercise.repository.CustomerRepository;
+import com.example.order_exercise.repository.UserRepository;
 import com.example.order_exercise.repository.LoginRepository;
 import com.example.order_exercise.security.Feature;
 import com.example.order_exercise.security.Role;
@@ -12,7 +11,7 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class LoginService {
-    private static final Logger logger = LoggerFactory.getLogger(CustomerRepository.class);
+    private static final Logger logger = LoggerFactory.getLogger(UserRepository.class);
 
     private final LoginRepository loginRepository;
 

@@ -14,7 +14,7 @@ import java.util.stream.Collectors;
 @Repository
 public class ItemRepository {
 
-    private static final Logger logger = LoggerFactory.getLogger(CustomerRepository.class);
+    private static final Logger logger = LoggerFactory.getLogger(UserRepository.class);
     private static final HashMap<Integer, Item> repository = new HashMap<>();
     private static ArrayList<Integer> listOfId = new ArrayList<>();
 

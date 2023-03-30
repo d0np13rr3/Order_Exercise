@@ -1,35 +1,34 @@
 package com.example.order_exercise.domain;
 
-import com.example.order_exercise.dto.ItemDTO;
-
-import java.time.LocalDate;
-
 public class Order {
-    private ItemDTO item;
-    private int amountInOrder;
-    private LocalDate shippingDate = LocalDate.now();
 
-    public ItemDTO getItem() {
-        return item;
+    private ItemGroup[] itemGroupList;
+    private Double totalPrice = 0.0;
+    private Double price;
+    private String customerName;
+
+    public Order(ItemGroup... itemGroupList){
+        this.price = calculateTotalPrice(itemGroupList);
+        this.customerName = "";
+
     }
 
-    public int getAmountInOrder() {
-        return amountInOrder;
-    }
-
-    public LocalDate getShippingDate() {
-        return shippingDate;
-    }
-
-    public Order(ItemDTO item, int amountInOrder) {
-        this.item = item;
-        this.amountInOrder = amountInOrder;
-        if(item.getAmount().isInStock()){
-            this.shippingDate = shippingDate.plusDays(1);
-        } else {
-            this.shippingDate = shippingDate.plusDays(7);
+    private Double calculateTotalPrice(ItemGroup[] itemGroupList){
+        for(ItemGroup o: itemGroupList){
+            totalPrice = totalPrice + o.getItem().getPrice() * o.getAmountInOrder();
         }
+        return totalPrice;
+    }
 
+    public void setCustomerName(String customerName) {
+        this.customerName = customerName;
+    }
 
+    public Double getPrice() {
+        return price;
+    }
+
+    public String getCustomerName() {
+        return customerName;
     }
 }

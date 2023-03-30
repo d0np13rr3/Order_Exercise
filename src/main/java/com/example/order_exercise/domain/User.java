@@ -6,24 +6,25 @@ import com.example.order_exercise.security.Role;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class Customer {
+public class User {
     //Variables
     private String firstname;
     private String lastname;
     private String mail;
     private String phone;
     private String number;
+
     private String street;
     private String city;
     private String postcode;
     private Role role;
     //Constructor
-    public Customer(String firstname, String lastname, String mail, String phone, String number, String street, String city, String postcode) {
+    public User(String firstname, String lastname, String mail, String phone, String number, String street, String city, String postcode) {
         this(firstname, lastname, mail, phone, number, street, city, postcode, Role.CUSTOMER);
     }
-    public Customer(){
+    public User(){
     }
-    public Customer(String firstname, String lastname, String mail, String phone, String number, String street, String city, String postcode, Role role){
+    public User(String firstname, String lastname, String mail, String phone, String number, String street, String city, String postcode, Role role){
         checkEmail(mail);
         this.firstname = firstname;
         this.lastname = lastname;
@@ -80,7 +81,7 @@ public class Customer {
     public Role getRole() {
         return role;
     }
-    public Customer setRole(Role role) {
+    public User setRole(Role role) {
         this.role = role;
         return this;
     }

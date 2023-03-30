@@ -2,7 +2,9 @@ package com.example.order_exercise.dto;
 
 import com.example.order_exercise.security.Role;
 
-public class CreateCustomerDTO {
+import java.util.Objects;
+
+public class UserDTO {
     //Variables
     private final String firstname;
     private final String lastname;
@@ -14,7 +16,8 @@ public class CreateCustomerDTO {
     private final String postcode;
     private final Role role;
     //Constructor
-    public CreateCustomerDTO(String firstname, String lastname, String mail, String phone, String number, String street, String city, String postcode, Role role) {
+    public UserDTO(String firstname, String lastname, String mail, String phone, String number, String street, String city, String postcode, Role role) {
+
         this.firstname = firstname;
         this.lastname = lastname;
         this.mail = mail;
@@ -26,6 +29,10 @@ public class CreateCustomerDTO {
         this.role = role;
     }
     //Methods
+    public String getFirstname() {
+        return firstname;
+    }
+
     public String getLastname() {
         return lastname;
     }
@@ -58,7 +65,16 @@ public class CreateCustomerDTO {
         return role;
     }
 
-    public String getFirstname() {
-        return firstname;
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        UserDTO that = (UserDTO) o;
+        return mail.equals(that.mail);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(mail);
     }
 }

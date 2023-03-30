@@ -4,7 +4,9 @@ import com.example.order_exercise.dto.ItemDTO;
 import com.example.order_exercise.exceptions.IdNotFoundException;
 import com.example.order_exercise.mapper.ItemMapper;
 import com.example.order_exercise.repository.ItemRepository;
+import com.example.order_exercise.repository.LoginRepository;
 import com.example.order_exercise.service.ItemService;
+import com.example.order_exercise.service.LoginService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -21,7 +23,7 @@ class ItemControllerTest {
     private ItemController controller;
     @BeforeEach
     void setUp(){
-        controller = new ItemController(new ItemService(new ItemMapper(), new ItemRepository()));
+        controller = new ItemController(new ItemService(new ItemMapper(), new ItemRepository()), new LoginService(new LoginRepository()));
     }
 
     @Test

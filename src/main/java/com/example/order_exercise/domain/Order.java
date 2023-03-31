@@ -7,7 +7,7 @@ public class Order {
     private ItemGroup[] itemGroupList;
     private Double totalPrice = 0.0;
     private Double price;
-    private String customerName;
+//    private String customerName;
     //definitions to add
     private Integer idOfOrder;
     private String allItemGroups;
@@ -15,7 +15,7 @@ public class Order {
 
     public Order(ItemGroup... itemGroupList){
         this.price = calculateTotalPrice(itemGroupList);
-        this.customerName = "";
+//        this.customerName = "";
         this.idOfOrder = getNextIDOrder();
         this.allItemGroups = defineItemGroupsStatement(itemGroupList);
 
@@ -36,17 +36,17 @@ public class Order {
 
     }
 
-    public void setCustomerName(String customerName) {
-        this.customerName = customerName;
-    }
+//    public void setCustomerName(String customerName) {
+//        this.customerName = customerName;
+//    }
 
     public Double getPrice() {
         return price;
     }
 
-    public String getCustomerName() {
-        return customerName;
-    }
+//    public String getCustomerName() {
+//        return customerName;
+//    }
 
     public Integer getIdOfOrder() {
         return idOfOrder;

@@ -43,20 +43,20 @@ public class OrderController {
         return itemGroupService.findAll();
     }
 
-    @GetMapping("/orderoverview")
-    public Order orderOverview(){
-        loginService.validateAction(loginService.getRole(), ORDER_OVERVIEW);
-        List<ItemGroup> itemGroups = itemGroupService.findAll();
-        ItemGroup[] itemGroupArray = new ItemGroup[itemGroups.size()];
-        int itr_Order = 0;
-        for(ItemGroup o : itemGroups){
-            Array.set(itemGroupArray, itr_Order, o);
-            itr_Order ++;
-        }
-        Order order = orderService.create(itemGroupArray);
-        order.setCustomerName("Pierre");
-        return order;
-    }
+//    @GetMapping("/orderoverview")
+//    public Order orderOverview(){
+//        loginService.validateAction(loginService.getRole(), ORDER_OVERVIEW);
+//        List<ItemGroup> itemGroups = itemGroupService.findAll();
+//        ItemGroup[] itemGroupArray = new ItemGroup[itemGroups.size()];
+//        int itr_Order = 0;
+//        for(ItemGroup o : itemGroups){
+//            Array.set(itemGroupArray, itr_Order, o);
+//            itr_Order ++;
+//        }
+//        Order order = orderService.create(itemGroupArray);
+//        order.setCustomerName("Pierre");
+//        return order;
+//    }
 
     @GetMapping("/userorderssave")
     public Order saveOrderToUserOrders(){
@@ -69,7 +69,7 @@ public class OrderController {
             itr_Order ++;
         }
         Order order = orderService.create(itemGroupArray);
-        order.setCustomerName("Pierre");
+//        order.setCustomerName("Pierre");
         userOrdersService.create(order);
         itemGroupService.delete();
 

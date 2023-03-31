@@ -757,3 +757,168 @@ java.lang.NullPointerException: Cannot invoke "java.lang.Double.doubleValue()" b
 2023-03-31T09:37:55.991+02:00  INFO 14640 --- [http-nio-auto-2-exec-1] c.e.o.repository.UserRepository          : Valid command
 2023-03-31T09:37:56.115+02:00  INFO 14640 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
 2023-03-31T09:37:56.115+02:00  INFO 14640 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-03-31T09:38:55.728+02:00  INFO 14324 --- [http-nio-8080-exec-2] c.e.o.repository.UserRepository          : Valid command
+2023-03-31T09:38:55.728+02:00  WARN 14324 --- [http-nio-8080-exec-2] c.e.o.repository.UserRepository          : Optional[com.example.order_exercise.domain.Item@1ec6d302] error with findbyID
+2023-03-31T09:38:55.728+02:00  WARN 14324 --- [http-nio-8080-exec-2] c.e.o.repository.UserRepository          : Optional[Optional.empty]
+2023-03-31T09:38:59.858+02:00  INFO 14324 --- [http-nio-8080-exec-3] c.e.o.repository.UserRepository          : Valid command
+2023-03-31T09:38:59.859+02:00  WARN 14324 --- [http-nio-8080-exec-3] c.e.o.repository.UserRepository          : Optional[com.example.order_exercise.domain.Item@9829917] error with findbyID
+2023-03-31T09:38:59.859+02:00  WARN 14324 --- [http-nio-8080-exec-3] c.e.o.repository.UserRepository          : Optional[Optional.empty]
+2023-03-31T09:39:05.153+02:00  INFO 14324 --- [http-nio-8080-exec-5] c.e.o.repository.UserRepository          : Valid command
+2023-03-31T09:39:13.144+02:00  INFO 14324 --- [http-nio-8080-exec-4] c.e.o.repository.UserRepository          : Valid command
+2023-03-31T09:39:13.144+02:00  WARN 14324 --- [http-nio-8080-exec-4] c.e.o.repository.UserRepository          : OrderPrice 01 - in Calculator before for 0.0
+2023-03-31T09:39:13.144+02:00  WARN 14324 --- [http-nio-8080-exec-4] c.e.o.repository.UserRepository          : OrderPrice 02 - in Calculator in for 20.0
+2023-03-31T09:39:13.144+02:00  WARN 14324 --- [http-nio-8080-exec-4] c.e.o.repository.UserRepository          : OrderPrice 02 - in Calculator in for 35.0
+2023-03-31T09:39:13.144+02:00  WARN 14324 --- [http-nio-8080-exec-4] c.e.o.repository.UserRepository          : OrderPrice 02 - in Calculator in for 60.0
+2023-03-31T09:39:13.145+02:00  WARN 14324 --- [http-nio-8080-exec-4] c.e.o.repository.UserRepository          : OrderPrice 03 - in Calculator after for 60.0
+2023-03-31T09:39:13.145+02:00  WARN 14324 --- [http-nio-8080-exec-4] c.e.o.repository.UserRepository          : OrderPrice 00 - in Constructor 60.0
+2023-03-31T09:42:40.255+02:00  INFO 14680 --- [main] c.e.o.ItemGroupExerciseApplicationTests  : Starting ItemGroupExerciseApplicationTests using Java 19.0.2 with PID 14680 (started by ppauwelb in C:\Users\ppauwelb\IdeaProjects\Order_Exercise)
+2023-03-31T09:42:40.257+02:00  INFO 14680 --- [main] c.e.o.ItemGroupExerciseApplicationTests  : No active profile set, falling back to 1 default profile: "default"
+2023-03-31T09:42:41.377+02:00  WARN 14680 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-31T09:42:41.377+02:00  WARN 14680 --- [main] c.e.o.repository.UserRepository          : Dummy01 item - only for debugging purposes Batman: The Long Halloween
+2023-03-31T09:42:41.377+02:00  WARN 14680 --- [main] c.e.o.repository.UserRepository          : Dummy02 item - only for debugging purposes The Dwarves: Triumph
+2023-03-31T09:42:41.390+02:00  WARN 14680 --- [main] c.e.o.repository.UserRepository          : Admin mail - only for debugging purposes pieter@mail.com
+2023-03-31T09:42:41.390+02:00  WARN 14680 --- [main] c.e.o.repository.UserRepository          : Dummy00 mail - only for debugging purposes dummy00@mail.com
+2023-03-31T09:42:41.390+02:00  WARN 14680 --- [main] c.e.o.repository.UserRepository          : Dummy00 mail - only for debugging purposes dummy01@mail.com
+2023-03-31T09:42:42.758+02:00  INFO 14680 --- [main] c.e.o.ItemGroupExerciseApplicationTests  : Started ItemGroupExerciseApplicationTests in 2.818 seconds (process running for 3.983)
+2023-03-31T09:42:43.257+02:00  WARN 14680 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-31T09:42:43.257+02:00  WARN 14680 --- [main] c.e.o.repository.UserRepository          : Dummy01 item - only for debugging purposes Batman: The Long Halloween
+2023-03-31T09:42:43.257+02:00  WARN 14680 --- [main] c.e.o.repository.UserRepository          : Dummy02 item - only for debugging purposes The Dwarves: Triumph
+2023-03-31T09:42:43.258+02:00  INFO 14680 --- [main] c.e.o.repository.UserRepository          : Valid command
+2023-03-31T09:42:43.315+02:00  WARN 14680 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-31T09:42:43.315+02:00  WARN 14680 --- [main] c.e.o.repository.UserRepository          : Dummy01 item - only for debugging purposes Batman: The Long Halloween
+2023-03-31T09:42:43.315+02:00  WARN 14680 --- [main] c.e.o.repository.UserRepository          : Dummy02 item - only for debugging purposes The Dwarves: Triumph
+2023-03-31T09:42:43.320+02:00  INFO 14680 --- [main] c.e.o.repository.UserRepository          : Valid command
+2023-03-31T09:42:43.320+02:00  WARN 14680 --- [main] c.e.o.repository.UserRepository          : Optional.empty error with findbyID
+2023-03-31T09:42:43.325+02:00  WARN 14680 --- [main] c.e.o.repository.UserRepository          : Admin mail - only for debugging purposes pieter@mail.com
+2023-03-31T09:42:43.325+02:00  WARN 14680 --- [main] c.e.o.repository.UserRepository          : Dummy00 mail - only for debugging purposes dummy00@mail.com
+2023-03-31T09:42:43.326+02:00  WARN 14680 --- [main] c.e.o.repository.UserRepository          : Dummy00 mail - only for debugging purposes dummy01@mail.com
+2023-03-31T09:42:43.326+02:00  INFO 14680 --- [main] c.e.o.repository.UserRepository          : Valid command
+2023-03-31T09:42:43.333+02:00  WARN 14680 --- [main] c.e.o.repository.UserRepository          : Admin mail - only for debugging purposes pieter@mail.com
+2023-03-31T09:42:43.333+02:00  WARN 14680 --- [main] c.e.o.repository.UserRepository          : Dummy00 mail - only for debugging purposes dummy00@mail.com
+2023-03-31T09:42:43.333+02:00  WARN 14680 --- [main] c.e.o.repository.UserRepository          : Dummy00 mail - only for debugging purposes dummy01@mail.com
+2023-03-31T09:42:43.334+02:00  INFO 14680 --- [main] c.e.o.repository.UserRepository          : Valid command
+2023-03-31T09:42:43.336+02:00  WARN 14680 --- [main] c.e.o.repository.UserRepository          : Admin mail - only for debugging purposes pieter@mail.com
+2023-03-31T09:42:43.336+02:00  WARN 14680 --- [main] c.e.o.repository.UserRepository          : Dummy00 mail - only for debugging purposes dummy00@mail.com
+2023-03-31T09:42:43.336+02:00  WARN 14680 --- [main] c.e.o.repository.UserRepository          : Dummy00 mail - only for debugging purposes dummy01@mail.com
+2023-03-31T09:42:43.337+02:00  INFO 14680 --- [main] c.e.o.repository.UserRepository          : Valid command
+2023-03-31T09:42:43.344+02:00  INFO 14680 --- [main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.example.order_exercise.repository.ItemRepositoryTest]: ItemRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-03-31T09:42:43.357+02:00  INFO 14680 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.example.order_exercise.OrderExerciseApplication for test class com.example.order_exercise.repository.ItemRepositoryTest
+2023-03-31T09:42:43.393+02:00  INFO 14680 --- [main] c.e.o.repository.ItemRepositoryTest      : Starting ItemRepositoryTest using Java 19.0.2 with PID 14680 (started by ppauwelb in C:\Users\ppauwelb\IdeaProjects\Order_Exercise)
+2023-03-31T09:42:43.394+02:00  INFO 14680 --- [main] c.e.o.repository.ItemRepositoryTest      : No active profile set, falling back to 1 default profile: "default"
+2023-03-31T09:42:43.858+02:00  INFO 14680 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-03-31T09:42:43.869+02:00  INFO 14680 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-31T09:42:43.869+02:00  INFO 14680 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-03-31T09:42:43.961+02:00  INFO 14680 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-31T09:42:43.962+02:00  INFO 14680 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 566 ms
+2023-03-31T09:42:44.018+02:00  WARN 14680 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-31T09:42:44.019+02:00  WARN 14680 --- [main] c.e.o.repository.UserRepository          : Dummy01 item - only for debugging purposes Batman: The Long Halloween
+2023-03-31T09:42:44.019+02:00  WARN 14680 --- [main] c.e.o.repository.UserRepository          : Dummy02 item - only for debugging purposes The Dwarves: Triumph
+2023-03-31T09:42:44.022+02:00  WARN 14680 --- [main] c.e.o.repository.UserRepository          : Admin mail - only for debugging purposes pieter@mail.com
+2023-03-31T09:42:44.022+02:00  WARN 14680 --- [main] c.e.o.repository.UserRepository          : Dummy00 mail - only for debugging purposes dummy00@mail.com
+2023-03-31T09:42:44.022+02:00  WARN 14680 --- [main] c.e.o.repository.UserRepository          : Dummy00 mail - only for debugging purposes dummy01@mail.com
+2023-03-31T09:42:44.619+02:00  INFO 14680 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 51094 (http) with context path ''
+2023-03-31T09:42:44.623+02:00  INFO 14680 --- [main] c.e.o.repository.ItemRepositoryTest      : Started ItemRepositoryTest in 1.261 seconds (process running for 5.847)
+2023-03-31T09:42:45.564+02:00  INFO 14680 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-31T09:42:45.564+02:00  INFO 14680 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-31T09:42:45.565+02:00  INFO 14680 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-03-31T09:42:45.601+02:00  INFO 14680 --- [http-nio-auto-1-exec-1] c.e.o.repository.UserRepository          : Valid command
+2023-03-31T09:42:45.602+02:00  WARN 14680 --- [http-nio-auto-1-exec-1] c.e.o.repository.UserRepository          : Optional.empty error with findbyID
+2023-03-31T09:42:45.719+02:00  INFO 14680 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-03-31T09:42:45.720+02:00  INFO 14680 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-03-31T09:42:45.729+02:00  WARN 14680 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-31T09:42:45.730+02:00  WARN 14680 --- [main] c.e.o.repository.UserRepository          : Dummy01 item - only for debugging purposes Batman: The Long Halloween
+2023-03-31T09:42:45.730+02:00  WARN 14680 --- [main] c.e.o.repository.UserRepository          : Dummy02 item - only for debugging purposes The Dwarves: Triumph
+2023-03-31T09:42:45.731+02:00  WARN 14680 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-31T09:42:45.731+02:00  WARN 14680 --- [main] c.e.o.repository.UserRepository          : Dummy01 item - only for debugging purposes Batman: The Long Halloween
+2023-03-31T09:42:45.731+02:00  WARN 14680 --- [main] c.e.o.repository.UserRepository          : Dummy02 item - only for debugging purposes The Dwarves: Triumph
+2023-03-31T09:42:45.732+02:00  WARN 14680 --- [main] c.e.o.repository.UserRepository          : Optional[Optional.empty]
+2023-03-31T09:42:45.733+02:00  WARN 14680 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-31T09:42:45.734+02:00  WARN 14680 --- [main] c.e.o.repository.UserRepository          : Dummy01 item - only for debugging purposes Batman: The Long Halloween
+2023-03-31T09:42:45.734+02:00  WARN 14680 --- [main] c.e.o.repository.UserRepository          : Dummy02 item - only for debugging purposes The Dwarves: Triumph
+2023-03-31T09:42:45.735+02:00  WARN 14680 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-31T09:42:45.735+02:00  WARN 14680 --- [main] c.e.o.repository.UserRepository          : Dummy01 item - only for debugging purposes Batman: The Long Halloween
+2023-03-31T09:42:45.735+02:00  WARN 14680 --- [main] c.e.o.repository.UserRepository          : Dummy02 item - only for debugging purposes The Dwarves: Triumph
+2023-03-31T09:42:45.735+02:00  INFO 14680 --- [main] c.e.o.repository.UserRepository          : Valid command
+2023-03-31T09:42:45.736+02:00  WARN 14680 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-31T09:42:45.736+02:00  WARN 14680 --- [main] c.e.o.repository.UserRepository          : Dummy01 item - only for debugging purposes Batman: The Long Halloween
+2023-03-31T09:42:45.736+02:00  WARN 14680 --- [main] c.e.o.repository.UserRepository          : Dummy02 item - only for debugging purposes The Dwarves: Triumph
+2023-03-31T09:42:45.737+02:00  WARN 14680 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-31T09:42:45.737+02:00  WARN 14680 --- [main] c.e.o.repository.UserRepository          : Dummy01 item - only for debugging purposes Batman: The Long Halloween
+2023-03-31T09:42:45.737+02:00  WARN 14680 --- [main] c.e.o.repository.UserRepository          : Dummy02 item - only for debugging purposes The Dwarves: Triumph
+2023-03-31T09:42:45.738+02:00  WARN 14680 --- [main] c.e.o.repository.UserRepository          : Optional[Optional.empty]
+2023-03-31T09:42:45.741+02:00  INFO 14680 --- [main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.example.order_exercise.repository.UserRepositoryTest]: UserRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-03-31T09:42:45.744+02:00  INFO 14680 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.example.order_exercise.OrderExerciseApplication for test class com.example.order_exercise.repository.UserRepositoryTest
+2023-03-31T09:42:45.780+02:00  INFO 14680 --- [main] c.e.o.repository.UserRepositoryTest      : Starting UserRepositoryTest using Java 19.0.2 with PID 14680 (started by ppauwelb in C:\Users\ppauwelb\IdeaProjects\Order_Exercise)
+2023-03-31T09:42:45.781+02:00  INFO 14680 --- [main] c.e.o.repository.UserRepositoryTest      : No active profile set, falling back to 1 default profile: "default"
+2023-03-31T09:42:46.004+02:00  INFO 14680 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-03-31T09:42:46.004+02:00  INFO 14680 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-31T09:42:46.005+02:00  INFO 14680 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-03-31T09:42:46.034+02:00  INFO 14680 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-31T09:42:46.034+02:00  INFO 14680 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 251 ms
+2023-03-31T09:42:46.040+02:00  WARN 14680 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-31T09:42:46.041+02:00  WARN 14680 --- [main] c.e.o.repository.UserRepository          : Dummy01 item - only for debugging purposes Batman: The Long Halloween
+2023-03-31T09:42:46.041+02:00  WARN 14680 --- [main] c.e.o.repository.UserRepository          : Dummy02 item - only for debugging purposes The Dwarves: Triumph
+2023-03-31T09:42:46.044+02:00  WARN 14680 --- [main] c.e.o.repository.UserRepository          : Admin mail - only for debugging purposes pieter@mail.com
+2023-03-31T09:42:46.044+02:00  WARN 14680 --- [main] c.e.o.repository.UserRepository          : Dummy00 mail - only for debugging purposes dummy00@mail.com
+2023-03-31T09:42:46.045+02:00  WARN 14680 --- [main] c.e.o.repository.UserRepository          : Dummy00 mail - only for debugging purposes dummy01@mail.com
+2023-03-31T09:42:46.519+02:00  INFO 14680 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 51098 (http) with context path ''
+2023-03-31T09:42:46.521+02:00  INFO 14680 --- [main] c.e.o.repository.UserRepositoryTest      : Started UserRepositoryTest in 0.773 seconds (process running for 7.746)
+2023-03-31T09:42:46.568+02:00  INFO 14680 --- [http-nio-auto-2-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-31T09:42:46.568+02:00  INFO 14680 --- [http-nio-auto-2-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-31T09:42:46.569+02:00  INFO 14680 --- [http-nio-auto-2-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-03-31T09:42:46.571+02:00  INFO 14680 --- [http-nio-auto-2-exec-1] c.e.o.repository.UserRepository          : Valid command
+2023-03-31T09:42:46.706+02:00  INFO 14680 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-03-31T09:42:46.706+02:00  INFO 14680 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-03-31T09:43:22.025+02:00  INFO 14324 --- [http-nio-8080-exec-2] c.e.o.repository.UserRepository          : Valid command
+2023-03-31T09:43:41.505+02:00  INFO 14324 --- [http-nio-8080-exec-3] c.e.o.repository.UserRepository          : Valid command
+2023-03-31T09:43:41.505+02:00  WARN 14324 --- [http-nio-8080-exec-3] c.e.o.repository.UserRepository          : OrderPrice 01 - in Calculator before for 0.0
+2023-03-31T09:43:41.505+02:00  WARN 14324 --- [http-nio-8080-exec-3] c.e.o.repository.UserRepository          : OrderPrice 02 - in Calculator in for 20.0
+2023-03-31T09:43:41.505+02:00  WARN 14324 --- [http-nio-8080-exec-3] c.e.o.repository.UserRepository          : OrderPrice 02 - in Calculator in for 35.0
+2023-03-31T09:43:41.506+02:00  WARN 14324 --- [http-nio-8080-exec-3] c.e.o.repository.UserRepository          : OrderPrice 02 - in Calculator in for 60.0
+2023-03-31T09:43:41.506+02:00  WARN 14324 --- [http-nio-8080-exec-3] c.e.o.repository.UserRepository          : OrderPrice 02 - in Calculator in for 60.0
+2023-03-31T09:43:41.506+02:00  WARN 14324 --- [http-nio-8080-exec-3] c.e.o.repository.UserRepository          : OrderPrice 03 - in Calculator after for 60.0
+2023-03-31T09:43:41.506+02:00  WARN 14324 --- [http-nio-8080-exec-3] c.e.o.repository.UserRepository          : OrderPrice 00 - in Constructor 60.0
+2023-03-31T09:43:57.386+02:00  INFO 14752 --- [main] c.e.o.OrderExerciseApplication           : Starting OrderExerciseApplication using Java 19.0.2 with PID 14752 (C:\Users\ppauwelb\IdeaProjects\Order_Exercise\target\classes started by ppauwelb in C:\Users\ppauwelb\IdeaProjects\Order_Exercise)
+2023-03-31T09:43:57.389+02:00  INFO 14752 --- [main] c.e.o.OrderExerciseApplication           : No active profile set, falling back to 1 default profile: "default"
+2023-03-31T09:43:58.283+02:00  INFO 14752 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-03-31T09:43:58.291+02:00  INFO 14752 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-31T09:43:58.292+02:00  INFO 14752 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-03-31T09:43:58.364+02:00  INFO 14752 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-31T09:43:58.364+02:00  INFO 14752 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 933 ms
+2023-03-31T09:43:58.409+02:00  WARN 14752 --- [main] c.e.o.repository.UserRepository          : Dummy00 item - only for debugging purposes Warhammer: Crimson Fists
+2023-03-31T09:43:58.409+02:00  WARN 14752 --- [main] c.e.o.repository.UserRepository          : Dummy01 item - only for debugging purposes Batman: The Long Halloween
+2023-03-31T09:43:58.409+02:00  WARN 14752 --- [main] c.e.o.repository.UserRepository          : Dummy02 item - only for debugging purposes The Dwarves: Triumph
+2023-03-31T09:43:58.423+02:00  WARN 14752 --- [main] c.e.o.repository.UserRepository          : Admin mail - only for debugging purposes pieter@mail.com
+2023-03-31T09:43:58.424+02:00  WARN 14752 --- [main] c.e.o.repository.UserRepository          : Dummy00 mail - only for debugging purposes dummy00@mail.com
+2023-03-31T09:43:58.424+02:00  WARN 14752 --- [main] c.e.o.repository.UserRepository          : Dummy00 mail - only for debugging purposes dummy01@mail.com
+2023-03-31T09:43:59.076+02:00  INFO 14752 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-31T09:43:59.084+02:00  INFO 14752 --- [main] c.e.o.OrderExerciseApplication           : Started OrderExerciseApplication in 2.094 seconds (process running for 2.635)
+2023-03-31T09:44:03.450+02:00  INFO 14752 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-31T09:44:03.451+02:00  INFO 14752 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-31T09:44:03.452+02:00  INFO 14752 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-03-31T09:44:03.774+02:00  WARN 14752 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.UserController
+2023-03-31T09:44:03.933+02:00  WARN 14752 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.ItemController
+2023-03-31T09:44:03.994+02:00  WARN 14752 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.OrderController
+2023-03-31T09:44:04.038+02:00  WARN 14752 --- [http-nio-8080-exec-4] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.example.order_exercise.controller.LoginController
+2023-03-31T09:44:04.059+02:00  INFO 14752 --- [http-nio-8080-exec-4] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 459 ms
+2023-03-31T09:44:23.881+02:00  INFO 14752 --- [http-nio-8080-exec-6] c.e.o.repository.UserRepository          : Valid command
+2023-03-31T09:44:33.428+02:00  INFO 14752 --- [http-nio-8080-exec-7] c.e.o.repository.UserRepository          : Valid command
+2023-03-31T09:44:33.428+02:00  WARN 14752 --- [http-nio-8080-exec-7] c.e.o.repository.UserRepository          : OrderPrice 01 - in Calculator before for 0.0
+2023-03-31T09:44:33.428+02:00  WARN 14752 --- [http-nio-8080-exec-7] c.e.o.repository.UserRepository          : OrderPrice 02 - in Calculator in for 20.0
+2023-03-31T09:44:33.429+02:00  WARN 14752 --- [http-nio-8080-exec-7] c.e.o.repository.UserRepository          : OrderPrice 03 - in Calculator after for 20.0
+2023-03-31T09:44:33.429+02:00  WARN 14752 --- [http-nio-8080-exec-7] c.e.o.repository.UserRepository          : OrderPrice 00 - in Constructor 20.0
+2023-03-31T09:44:46.431+02:00  INFO 14752 --- [http-nio-8080-exec-8] c.e.o.repository.UserRepository          : Valid command
+2023-03-31T09:44:46.431+02:00  WARN 14752 --- [http-nio-8080-exec-8] c.e.o.repository.UserRepository          : Optional[com.example.order_exercise.domain.Item@73bae4f6] error with findbyID
+2023-03-31T09:44:46.432+02:00  WARN 14752 --- [http-nio-8080-exec-8] c.e.o.repository.UserRepository          : Optional[Optional.empty]
+2023-03-31T09:45:04.061+02:00  INFO 14752 --- [http-nio-8080-exec-9] c.e.o.repository.UserRepository          : Valid command
+2023-03-31T09:45:04.062+02:00  WARN 14752 --- [http-nio-8080-exec-9] c.e.o.repository.UserRepository          : OrderPrice 01 - in Calculator before for 0.0
+2023-03-31T09:45:04.062+02:00  WARN 14752 --- [http-nio-8080-exec-9] c.e.o.repository.UserRepository          : OrderPrice 02 - in Calculator in for 20.0
+2023-03-31T09:45:04.062+02:00  WARN 14752 --- [http-nio-8080-exec-9] c.e.o.repository.UserRepository          : OrderPrice 03 - in Calculator after for 20.0
+2023-03-31T09:45:04.062+02:00  WARN 14752 --- [http-nio-8080-exec-9] c.e.o.repository.UserRepository          : OrderPrice 00 - in Constructor 20.0
+2023-03-31T09:45:17.285+02:00  INFO 14752 --- [http-nio-8080-exec-10] c.e.o.repository.UserRepository          : Valid command
+2023-03-31T09:45:23.625+02:00  INFO 14752 --- [http-nio-8080-exec-1] c.e.o.repository.UserRepository          : Valid command
+2023-03-31T09:45:23.625+02:00  WARN 14752 --- [http-nio-8080-exec-1] c.e.o.repository.UserRepository          : OrderPrice 01 - in Calculator before for 0.0
+2023-03-31T09:45:23.625+02:00  WARN 14752 --- [http-nio-8080-exec-1] c.e.o.repository.UserRepository          : OrderPrice 02 - in Calculator in for 20.0
+2023-03-31T09:45:23.625+02:00  WARN 14752 --- [http-nio-8080-exec-1] c.e.o.repository.UserRepository          : OrderPrice 02 - in Calculator in for 35.0
+2023-03-31T09:45:23.625+02:00  WARN 14752 --- [http-nio-8080-exec-1] c.e.o.repository.UserRepository          : OrderPrice 03 - in Calculator after for 35.0
+2023-03-31T09:45:23.625+02:00  WARN 14752 --- [http-nio-8080-exec-1] c.e.o.repository.UserRepository          : OrderPrice 00 - in Constructor 35.0

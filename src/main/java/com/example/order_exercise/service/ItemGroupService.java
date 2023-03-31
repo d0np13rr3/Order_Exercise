@@ -60,4 +60,8 @@ public class ItemGroupService {
             return repository.create(item, newItemGroup);
         }
     }
+
+    public void delete() {
+        repository.deleteItemgroupsInItemGroupRepository();
+    }
 }

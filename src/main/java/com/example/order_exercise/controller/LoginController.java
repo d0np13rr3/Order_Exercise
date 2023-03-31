@@ -31,7 +31,9 @@ public class LoginController {
     @GetMapping("/{id}")
     public Role findbyId(@PathVariable("id") String id){
         Role roleUser = userService.findById(id).getRole();
+        String nameUser = (String) userService.findById(id).getFirstname() + " " + (String) userService.findById(id).getLastname();
         loginService.setRole(roleUser);
+        loginService.setName(nameUser);
         return roleUser;
     }
 

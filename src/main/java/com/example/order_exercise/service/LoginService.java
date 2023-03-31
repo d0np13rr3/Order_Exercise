@@ -42,4 +42,8 @@ public class LoginService {
     public Role getRole() {
         return loginRepository.getRole();
     }
+
+    public void setName(String nameUser) {
+        loginRepository.setName(nameUser);
+    }
 }

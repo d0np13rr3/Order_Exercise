@@ -30,6 +30,10 @@ public class ItemGroupRepository {
         repository.put(item.getName(), itemGroup);
         return itemGroup;
     }
+    public void deleteItemgroupsInItemGroupRepository(){
+        repository.clear();
+    }
+
     }
 
 

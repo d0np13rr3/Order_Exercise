@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class ItemIDGenerator {
     private static ArrayList<Integer>OrderIdMap = new ArrayList<>();
 
-    private int generatedID;
+    private static int generatedID;
 
     public static int getNextID(){
         ArrayList<Integer> idPresentInRepo = ItemRepository.getIdOfRepository();
@@ -16,11 +16,12 @@ public class ItemIDGenerator {
     }
 
     public static int getNextIDOrder(){
-        int o;
-        for(o = 0; o < OrderIdMap.size(); o++){
+        int currentId = OrderIdMap.size();
+        for(int o = currentId; o < currentId + 1; o++){
             OrderIdMap.add(o);
+            generatedID = o;
         }
-        return o;
+        return generatedID;
     }
 
 }

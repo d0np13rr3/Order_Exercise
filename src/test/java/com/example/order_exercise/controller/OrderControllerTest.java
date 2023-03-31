@@ -9,11 +9,9 @@ import com.example.order_exercise.mapper.ItemMapper;
 import com.example.order_exercise.repository.ItemRepository;
 import com.example.order_exercise.repository.LoginRepository;
 import com.example.order_exercise.repository.ItemGroupRepository;
+import com.example.order_exercise.repository.OrderRepository;
 import com.example.order_exercise.security.Role;
-import com.example.order_exercise.service.ItemGroupService;
-import com.example.order_exercise.service.ItemService;
-import com.example.order_exercise.service.LoginService;
-import com.example.order_exercise.service.OrderService;
+import com.example.order_exercise.service.*;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -35,7 +33,7 @@ class OrderControllerTest {
 
     @BeforeEach
     void setup(){
-        controller = new OrderController(new ItemService(new ItemMapper(), new ItemRepository()), itemGroupService, new OrderService(), loginService);
+        controller = new OrderController(new ItemService(new ItemMapper(), new ItemRepository()), itemGroupService, new OrderService(), loginService, new UserOrdersService(new OrderRepository()));
     }
 
     @Test

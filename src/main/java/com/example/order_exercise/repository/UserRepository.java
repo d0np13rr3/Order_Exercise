@@ -29,7 +29,7 @@ public class UserRepository {
     //Methods
     private static User putAdminMain() {
         User admin = new User("Pieter", "Pauwels", "pieter@mail.com", "",
-                "", "", "", "Gent", Role.ADMIN); // cGlldGVyLnBhdXdlbHMxM0BnbWFpbC5jb206WFhY
+                "", "", "", "Gent", Role.ADMIN);
         admin.setRole(Role.ADMIN);
         logger.warn("Admin mail - only for debugging purposes " + admin.getMail());
         return admin;

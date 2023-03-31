@@ -10,9 +10,20 @@ import com.example.order_exercise.repository.LoginRepository;
 import com.example.order_exercise.security.Role;
 import com.example.order_exercise.service.ItemService;
 import com.example.order_exercise.service.LoginService;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.node.ObjectNode;
+import io.restassured.RestAssured;
+import io.restassured.http.ContentType;
+import org.json.JSONException;
+import org.json.JSONObject;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.boot.test.web.server.LocalServerPort;
+import org.springframework.http.HttpStatus;
+import org.springframework.test.annotation.DirtiesContext;
 
 import java.util.List;
 
@@ -21,7 +32,8 @@ import static org.junit.jupiter.api.Assertions.*;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.api.Assertions.*;
-
+@SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
+@DirtiesContext(classMode = DirtiesContext.ClassMode.AFTER_EACH_TEST_METHOD)
 class ItemControllerTest {
     private ItemController controller;
     private LoginRepository loginRepository = new LoginRepository();
@@ -49,6 +61,9 @@ class ItemControllerTest {
             controller.findItemByID(5));
         assertEquals("Id not found. Try an existing id.", exception.getMessage());
     }
+
+
+
 
 
 }

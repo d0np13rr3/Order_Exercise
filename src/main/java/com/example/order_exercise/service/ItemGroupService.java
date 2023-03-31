@@ -19,7 +19,7 @@ import java.util.Optional;
 
 @Service
 public class ItemGroupService {
-    private final ItemGroupRepository repository;
+    private ItemGroupRepository repository;
     private final ItemRepository itemRepository;
     private final ItemMapper itemMapper;
     private static final Logger logger = LoggerFactory.getLogger(UserRepository.class);
@@ -36,13 +36,13 @@ public class ItemGroupService {
 
     public ItemGroup create(ItemDTO item, int amountInOrder) {
         ItemGroup newItemGroup = new ItemGroup(item, amountInOrder);
+
         Optional<Item> optionalItem = itemRepository.findByName(item.getName());
 
         logger.warn(String.valueOf(Optional.ofNullable(itemRepository.findByName(item.getName() + " error with create order"))));
         if(!optionalItem.isPresent()) {
             throw new ItemNotFoundException();
         }
-
         int initialStock = optionalItem.get().getAmount().getAmount();
 
         int newStock = initialStock - amountInOrder;
@@ -57,7 +57,13 @@ public class ItemGroupService {
                 newAmount.setInStock(true);
             }
             itemRepository.changeAmountOfItemInRepository(optionalItem.get(), newAmount);
-            return repository.create(item, newItemGroup);
+
+            if(repository.checkIfItemIsInRepo(item) == true){
+                ItemGroup oldItemGroup = new ItemGroup(item, amountInOrder + repository.getAmountInOrder(item));
+                return repository.updateAmountInOrder(item, oldItemGroup);
+            }else {
+                return repository.create(item, newItemGroup);
+            }
         }
     }
 

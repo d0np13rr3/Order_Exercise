@@ -2,8 +2,8 @@ package com.example.order_exercise.domain;
 
 public class Item {
     private String name;
-    private final String description;
-    private final Double price;
+    private String description;
+    private Double price;
     private Amount amount;
     private int id;
 
@@ -20,6 +20,9 @@ public class Item {
         this.description = description;
         this.price = price;
         this.amount = amount;
+    }
+
+    public Item(){
     }
 
     public String getName() {
@@ -42,9 +45,7 @@ public class Item {
         this.amount = amount;
         return this;
     }
-    public void setName(String name){
-        this.name = name;
-    }
+
     public void setId(int id) {
         this.id = id;
     }

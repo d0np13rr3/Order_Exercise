@@ -11,6 +11,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.Optional;
 
 @Service
 public class ItemService {
@@ -31,15 +32,15 @@ public class ItemService {
     }
 
     public ItemDTO findById(Integer id) {
-
-
-
             return mapper.toDTO(repository.findById(id).get());
-
     }
     public ItemDTO create(CreateItemDTO newItem) {
         Item itemToSave = mapper.toDomain(newItem);
         return mapper.toDTO(repository.create(itemToSave));
+    }
+    public Item findItemById(Integer id){
+        Item item00 = repository.findById(id).get();
+        return item00;
     }
 
 }

@@ -33,7 +33,7 @@ class OrderControllerTest {
 
     @BeforeEach
     void setup(){
-        controller = new OrderController(new ItemService(new ItemMapper(), new ItemRepository()), itemGroupService, new OrderService(), loginService, new UserOrdersService(new OrderRepository()));
+        controller = new OrderController(new ItemService(new ItemMapper(), new ItemRepository()), itemGroupService, new OrderService(new ItemGroupService(new ItemGroupRepository(), new ItemRepository(), new ItemMapper())), loginService, new UserOrdersService(new OrderRepository()));
     }
 
     @Test

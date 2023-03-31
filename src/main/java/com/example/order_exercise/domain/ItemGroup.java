@@ -9,8 +9,17 @@ public class ItemGroup {
     private int amountInOrder;
     private LocalDate shippingDate = LocalDate.now();
 
-    public ItemDTO getItem() {
-        return item;
+    public ItemGroup(ItemDTO item, int amountInOrder) {
+        this.item = item;
+        this.amountInOrder = amountInOrder;
+        if(item.getAmount().isInStock()){
+            this.shippingDate = shippingDate.plusDays(1);
+        } else {
+            this.shippingDate = shippingDate.plusDays(7);
+        }
+    }
+    public void setAmountInOrder(int amountInOrder) {
+        this.amountInOrder = amountInOrder;
     }
 
     public int getAmountInOrder() {
@@ -21,15 +30,7 @@ public class ItemGroup {
         return shippingDate;
     }
 
-    public ItemGroup(ItemDTO item, int amountInOrder) {
-        this.item = item;
-        this.amountInOrder = amountInOrder;
-        if(item.getAmount().isInStock()){
-            this.shippingDate = shippingDate.plusDays(1);
-        } else {
-            this.shippingDate = shippingDate.plusDays(7);
-        }
-
-
+    public ItemDTO getItem() {
+        return item;
     }
 }

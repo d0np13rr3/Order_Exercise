@@ -1,6 +1,7 @@
 package com.example.order_exercise.domain;
 
 public class Item {
+
     private String name;
     private String description;
     private Double price;
@@ -52,6 +53,11 @@ public class Item {
 
     public int getId() {
         return id;
+    }
+
+    public String setDescription(String descr){
+        this.description = descr;
+        return descr;
     }
 
 

@@ -44,8 +44,7 @@ public class UserRepository {
         return user;
     }
     public Optional<User> findByEmail(String mail){
-        Optional<User> optionalUser = Optional.ofNullable(repository.get(mail));
-        return optionalUser;
+        return Optional.ofNullable(repository.get(mail));
     }
     private void checkIfEmailIsUnique(User newCustomer) {
         if (this.repository.values().stream().map(User::getMail).anyMatch(email -> email.equals(newCustomer.getMail()))){

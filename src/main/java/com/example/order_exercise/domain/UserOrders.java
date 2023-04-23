@@ -9,11 +9,6 @@ public class UserOrders {
 
     private Order[] orderGroupList;
     private Double orderGroupPrice = 0.0;
-
-    public String getUserName() {
-        return userName;
-    }
-
     private String userName = "";
 
     private static final Logger logger = LoggerFactory.getLogger(UserRepository.class);
@@ -23,7 +18,6 @@ public class UserOrders {
         this.orderGroupPrice = calculateTotalPrice(orderGroupList);
         this.userName = LoginRepository.getNameUser();
         logger.warn("OrderPrice 00 - in Constructor "+ orderGroupPrice);
-
     }
 
     private Double calculateTotalPrice(Order[] orderGroupList){
@@ -42,5 +36,8 @@ public class UserOrders {
 
     public Order[] getOrderGroupList() {
         return orderGroupList;
+    }
+    public String getUserName() {
+        return userName;
     }
 }

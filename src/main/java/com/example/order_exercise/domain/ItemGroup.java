@@ -18,9 +18,6 @@ public class ItemGroup {
             this.shippingDate = shippingDate.plusDays(7);
         }
     }
-    public void setAmountInOrder(int amountInOrder) {
-        this.amountInOrder = amountInOrder;
-    }
 
     public int getAmountInOrder() {
         return amountInOrder;

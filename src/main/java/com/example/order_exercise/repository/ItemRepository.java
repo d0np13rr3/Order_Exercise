@@ -47,15 +47,13 @@ public class ItemRepository {
     }
     public Item create(Item item) {
         checkIfNameIsUnique(item);
-        int id = ItemIDGenerator.getNextID();
-//        String itemName = "id: " + id + ". Name: " + item.getName();
-//        item.setName(itemName);
+        int id = IDGenerator.getNextID();
         item.setId(id);
         repository.put(id, item);
         return item;
     }
     public Optional<Item> findById(Integer id){
-        logger.warn(String.valueOf(Optional.ofNullable(repository.get(id)) + " error with findbyID"));
+        logger.warn((Optional.ofNullable(repository.get(id)) + " error with findbyID"));
         if(!Optional.ofNullable(repository.get(id)).isPresent()) {
             throw new IdNotFoundException();
         }else {
@@ -71,11 +69,10 @@ public class ItemRepository {
         }
     }
     public Optional<Item> findByName(String name){
-        Optional<Item> optionalItem = repository.entrySet().stream()
+        return repository.entrySet().stream()
                 .filter(e -> name.equals(e.getValue().getName()))
                 .map(Map.Entry::getValue)
                 .findFirst();
-        return optionalItem;
     }
     public void changeAmountOfItemInRepository(Item item, Amount amount){
         for (Item item00 : repository.values()){
@@ -86,6 +83,15 @@ public class ItemRepository {
     }
     public void deleteItemsInItemRepository(){
         repository.clear();
+    }
+
+    public void replaceValueOfExistingKey(Item item){
+        for (Map.Entry<Integer, Item> item00 : repository.entrySet()){
+            if(item00.getKey().equals(item.getId())){
+                item00.setValue(item);
+            }
+        }
+
     }
 
 

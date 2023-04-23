@@ -13,7 +13,6 @@ public class ItemMapper {
     }
 
     public Item toDomain(CreateItemDTO itemDTO){
-        //return new Item(itemDTO.getName(), itemDTO.getDescription(), itemDTO.getPrice(), itemDTO.getAmount(), (Integer) itemDTO.getId());
         return new Item(itemDTO.getName(), itemDTO.getDescription(), itemDTO.getPrice(), itemDTO.getAmount());
     }
 }

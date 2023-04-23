@@ -19,8 +19,7 @@ public class OrderService {
     }
 
     public Order create(ItemGroup... itemGroupList){
-        Order order = new Order(itemGroupList);
-        return order;
+        return new Order(itemGroupList);
     }
 
     public Order createArray(){
@@ -34,8 +33,7 @@ public class OrderService {
             Array.set(itemGroupArray, itr_Order, o);
             itr_Order ++;
         }
-        Order order = create(itemGroupArray);
-        return order;
+        return create(itemGroupArray);
 
     }
 }

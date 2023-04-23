@@ -3,6 +3,7 @@ package com.example.order_exercise.controller;
 import com.example.order_exercise.domain.Item;
 import com.example.order_exercise.dto.CreateItemDTO;
 import com.example.order_exercise.dto.ItemDTO;
+import com.example.order_exercise.repository.ItemRepository;
 import com.example.order_exercise.service.ItemService;
 import com.example.order_exercise.service.LoginService;
 import com.fasterxml.jackson.core.JsonProcessingException;
@@ -10,10 +11,10 @@ import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.github.fge.jsonpatch.JsonPatch;
 import com.github.fge.jsonpatch.JsonPatchException;
-import io.swagger.v3.core.util.Json;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+
 
 import java.util.List;
 
@@ -26,10 +27,12 @@ public class ItemController {
 
     private final ItemService service;
     private final LoginService loginService;
+    private final ItemRepository repository;
 
-    public ItemController(ItemService service, LoginService loginService) {
+    public ItemController(ItemService service, LoginService loginService, ItemRepository repository) {
         this.loginService = loginService;
         this.service = service;
+        this.repository = repository;
     }
 
     @PostMapping("/create")
@@ -54,6 +57,7 @@ public class ItemController {
         loginService.validateAction(loginService.getRole(), ITEM_PATCH);
         Item item = service.findItemById(Integer.valueOf(id));
         Item itemPatched = applyPatchToItem(patch, item);
+        repository.replaceValueOfExistingKey(itemPatched);
         return ResponseEntity.ok(itemPatched);
     }
     // Example of Patch[{"op":"replace","path":"/description","value":"Graphic Novel"}]
@@ -61,5 +65,19 @@ public class ItemController {
         ObjectMapper objectMapper = new ObjectMapper();
         JsonNode patched = patch.apply(objectMapper.convertValue(targetItem, JsonNode.class));
         return objectMapper.treeToValue(patched, Item.class);
+    }
+
+
+    @PutMapping(value = "/{id}/put")
+    public void updateItemWithPut(@RequestBody Item item, @PathVariable Integer id){
+        loginService.validateAction(loginService.getRole(), ITEM_PATCH);
+        repository.findById(id)
+                .map(e -> {
+                    e.setDescription(item.getDescription());
+                    return item;
+                });
+
+
+
     }
 }

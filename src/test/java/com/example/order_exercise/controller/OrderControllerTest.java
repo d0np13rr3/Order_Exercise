@@ -26,14 +26,14 @@ class OrderControllerTest {
     private OrderController controller;
     private ItemGroupRepository itemGroupRepository = new ItemGroupRepository();
     private ItemRepository itemRepository = new ItemRepository();
-    private ItemGroupService itemGroupService = new ItemGroupService(itemGroupRepository, itemRepository, new ItemMapper());
+    private ItemGroupService itemGroupService = new ItemGroupService(itemGroupRepository, itemRepository);
 
     private LoginRepository loginRepository = new LoginRepository();
     private LoginService loginService = new LoginService(loginRepository);
 
     @BeforeEach
     void setup(){
-        controller = new OrderController(new ItemService(new ItemMapper(), new ItemRepository()), itemGroupService, new OrderService(new ItemGroupService(new ItemGroupRepository(), new ItemRepository(), new ItemMapper())), loginService, new UserOrdersService(new OrderRepository()));
+        controller = new OrderController(new ItemService(new ItemMapper(), new ItemRepository()), itemGroupService, new OrderService(new ItemGroupService(new ItemGroupRepository(), new ItemRepository())), loginService, new UserOrdersService(new OrderRepository()));
     }
 
     @Test

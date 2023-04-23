@@ -1,8 +1,6 @@
 package com.example.order_exercise.domain;
 
-import java.time.LocalDate;
-
-import static com.example.order_exercise.repository.ItemIDGenerator.getNextIDOrder;
+import static com.example.order_exercise.repository.IDGenerator.getNextIDOrder;
 
 public class Order {
 

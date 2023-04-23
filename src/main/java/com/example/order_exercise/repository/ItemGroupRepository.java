@@ -8,6 +8,7 @@ import org.springframework.stereotype.Repository;
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Objects;
 
 @Repository
 public class ItemGroupRepository {
@@ -23,7 +24,6 @@ public class ItemGroupRepository {
     public Collection<ItemGroup> findAll(){
         return repository.values();
     }
-
     public ItemGroup create(ItemDTO item, ItemGroup itemGroup) {
         repository.put(item.getName(), itemGroup);
         return itemGroup;
@@ -38,7 +38,7 @@ public class ItemGroupRepository {
     public boolean checkIfItemIsInRepo(ItemDTO item){
         boolean booleanToReturn = false;
         for(String key : repository.keySet()){
-            if(key == item.getName()){
+            if(Objects.equals(key, item.getName())){
                 booleanToReturn = true;
             }
         }
@@ -47,7 +47,7 @@ public class ItemGroupRepository {
     public int getAmountInOrder(ItemDTO item){
         int inOrder = 0;
         for(Map.Entry<String, ItemGroup> item00 : repository.entrySet()){
-            if(item00.getKey() == item.getName()){
+            if(Objects.equals(item00.getKey(), item.getName())){
                 inOrder = item00.getValue().getAmountInOrder();
             }
 

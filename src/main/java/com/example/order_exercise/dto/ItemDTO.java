@@ -11,21 +11,6 @@ public class ItemDTO {
     private final Amount amount;
     private final Integer id;
 
-    public String getName() {
-        return name;
-    }
-    public String getDescription() {
-        return description;
-    }
-
-    public Double getPrice() {
-        return price;
-    }
-
-    public Amount getAmount() {
-        return amount;
-    }
-
     public ItemDTO(String name, String description, Double price, Amount amount, Integer id) {
         this.name = name;
         this.description = description;
@@ -33,7 +18,21 @@ public class ItemDTO {
         this.amount = amount;
         this.id = id;
     }
-
+    public Integer getId() {
+        return id;
+    }
+    public String getName() {
+        return name;
+    }
+    public String getDescription() {
+        return description;
+    }
+    public Double getPrice() {
+        return price;
+    }
+    public Amount getAmount() {
+        return amount;
+    }
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -41,13 +40,8 @@ public class ItemDTO {
         ItemDTO itemDTO = (ItemDTO) o;
         return name.equals(itemDTO.name);
     }
-
     @Override
     public int hashCode() {
         return Objects.hash(name);
-    }
-
-    public Integer getId() {
-        return id;
     }
 }

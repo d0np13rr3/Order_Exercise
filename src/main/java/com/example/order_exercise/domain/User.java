@@ -1,6 +1,7 @@
 package com.example.order_exercise.domain;
 
 import com.example.order_exercise.exceptions.EmailNotValidException;
+import com.example.order_exercise.exceptions.IncorrectAccountTypeException;
 import com.example.order_exercise.security.Role;
 
 import java.util.Objects;
@@ -14,7 +15,6 @@ public class User {
     private String mail;
     private String phone;
     private String number;
-
     private String street;
     private String city;
     private String postcode;
@@ -27,6 +27,9 @@ public class User {
     }
     public User(String firstname, String lastname, String mail, String phone, String number, String street, String city, String postcode, Role role){
         checkEmail(mail);
+        if(role == Role.DEFAULT){
+            throw new IncorrectAccountTypeException();
+        }
         this.firstname = firstname;
         this.lastname = lastname;
         this.mail = mail;

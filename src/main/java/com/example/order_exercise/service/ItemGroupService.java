@@ -21,12 +21,11 @@ import java.util.Optional;
 public class ItemGroupService {
     private ItemGroupRepository repository;
     private final ItemRepository itemRepository;
-    private final ItemMapper itemMapper;
     private static final Logger logger = LoggerFactory.getLogger(UserRepository.class);
-    public ItemGroupService(ItemGroupRepository repository, ItemRepository itemRepository, ItemMapper itemMapper) {
+    public ItemGroupService(ItemGroupRepository repository, ItemRepository itemRepository) {
         this.repository = repository;
         this.itemRepository = itemRepository;
-        this.itemMapper = itemMapper;
+
     }
     public List<ItemGroup> findAll() {
         return repository.findAll()
@@ -58,7 +57,7 @@ public class ItemGroupService {
             }
             itemRepository.changeAmountOfItemInRepository(optionalItem.get(), newAmount);
 
-            if(repository.checkIfItemIsInRepo(item) == true){
+            if(repository.checkIfItemIsInRepo(item)){
                 ItemGroup oldItemGroup = new ItemGroup(item, amountInOrder + repository.getAmountInOrder(item));
                 return repository.updateAmountInOrder(item, oldItemGroup);
             }else {

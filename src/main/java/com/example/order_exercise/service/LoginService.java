@@ -13,7 +13,6 @@ import org.springframework.stereotype.Service;
 @Service
 public class LoginService {
     private static final Logger logger = LoggerFactory.getLogger(UserRepository.class);
-
     private final LoginRepository loginRepository;
 
     public LoginService(LoginRepository loginRepository) {
@@ -31,12 +30,10 @@ public class LoginService {
         }else{
             logger.info("Valid command");
         }
-
     }
 
     public void setRole(Role roleUser) {
         loginRepository.setEnum(roleUser);
-
     }
 
     public Role getRole() {

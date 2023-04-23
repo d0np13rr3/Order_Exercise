@@ -2,9 +2,8 @@ package com.example.order_exercise.repository;
 
 import java.util.ArrayList;
 
-public class ItemIDGenerator {
+public class IDGenerator {
     private static ArrayList<Integer>OrderIdMap = new ArrayList<>();
-
     private static int generatedID;
 
     public static int getNextID(){
@@ -14,7 +13,6 @@ public class ItemIDGenerator {
         }
         return i;
     }
-
     public static int getNextIDOrder(){
         int currentId = OrderIdMap.size();
         for(int o = currentId; o < currentId + 1; o++){

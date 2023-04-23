@@ -34,8 +34,7 @@ public class UserOrdersService {
             Array.set(orderArray, itr_OrderArray, o);
             itr_OrderArray ++;
         }
-        UserOrders userOrders = new UserOrders(orderArray);
-        return userOrders;
+        return new UserOrders(orderArray);
 
     }
 }
